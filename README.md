@@ -1,6 +1,6 @@
 # Revisor de Proyectos PGP (pgp.coordinador.cl)
 
-Revisa automáticamente 3 veces al día el estado de los proyectos indicados en
+Revisa automáticamente 6 veces al día (cada 4 horas) el estado de los proyectos indicados en
 `projects.json`, detecta cambios de estado en las casillas del diagrama y en
 la tarea actualmente activa de cada una, envía un correo cuando hay cambios y
 publica un dashboard estático (con la marca Grenergy) con el historial de las
@@ -52,7 +52,7 @@ una corrida manual) usará la lista actualizada.
    - `MAIL_TO`: `oliveroscarlos19@gmail.com` (o varios separados por coma).
 
 5. El workflow `.github/workflows/check.yml` ya está programado para correr a
-   las 09:00, 14:00 y 19:00 hora de Chile. También puedes ejecutarlo manualmente
+   las 00:00, 04:00, 08:00, 12:00, 16:00 y 20:00 hora de Chile. También puedes ejecutarlo manualmente
    desde la pestaña "Actions" → "Revisar proyectos PGP" → "Run workflow".
 
 6. El workflow `.github/workflows/weekly_summary.yml` envía el resumen
