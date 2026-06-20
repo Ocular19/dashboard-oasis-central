@@ -1,0 +1,440 @@
+{
+  "fetched_at": "2026-06-20T14:57:12.396192+00:00",
+  "name": "PFV BESS Planchón",
+  "correlativo": 5442,
+  "completition_status": 18,
+  "completition_pes": 22,
+  "service_estimate_date": "2026-12-15T00:00:00",
+  "operative_estimate_date": "2027-03-03T00:00:00",
+  "reception_date": "2025-12-18T00:00:00",
+  "boxes": {
+    "req5a5ebdc901447e4bfc0aa6e3": {
+      "text": "CEM Definitiva",
+      "state": "completado"
+    },
+    "req6088396036d9ef6adef5612c": {
+      "text": "ANIT y PLANOS",
+      "state": "completado"
+    },
+    "req5d4c907f36d9ef7615bf7a08": {
+      "text": "DUF",
+      "state": "completado"
+    },
+    "req5ea9f8c136d9ef4be78ea70b": {
+      "text": "ANIT",
+      "state": "completado"
+    },
+    "req5d4d5ffe36d9ef7615c24383": {
+      "text": "RI",
+      "state": "completado"
+    },
+    "req69305a8936d9ef39241a3f4d": {
+      "text": "ATRS",
+      "state": "pendiente"
+    },
+    "req60ad0d0d36d9ef44f12350ef": {
+      "text": "Cronograma",
+      "state": "completado"
+    },
+    "req60ca060536d9ef1ee6b43b49": {
+      "text": "INFORMACIÓN TÉCNICA",
+      "state": "pendiente"
+    },
+    "req60ca075236d9ef2b9316e203": {
+      "text": "INFOTÉCNICA PARA ESTUDIOS",
+      "state": "en_curso"
+    },
+    "req5d4c9a0536d9ef7615c07b9a": {
+      "text": "IT E",
+      "state": "completado"
+    },
+    "req663e555536d9ef0e1713e378": {
+      "text": "RevITEInv",
+      "state": "pendiente"
+    },
+    "req5fb1bc5236d9ef6c9002c548": {
+      "text": "IT NO DISPONIBLE",
+      "state": "pendiente"
+    },
+    "req5fb1ba3336d9ef6c925390f1": {
+      "text": "PO no disponibles",
+      "state": "pendiente"
+    },
+    "req5fb1bb6936d9ef6c9002c1d7": {
+      "text": "IT no disponible",
+      "state": "pendiente"
+    },
+    "req60ca06b836d9ef38d7c4be4e": {
+      "text": "ESTUDIOS DE INTERCONEXIÓN",
+      "state": "en_curso"
+    },
+    "req5d4d62dd36d9ef761727f012": {
+      "text": "ECAP",
+      "state": "en_curso"
+    },
+    "req5d4d80b036d9ef7615c333ec": {
+      "text": "EFP",
+      "state": "en_curso"
+    },
+    "req5d4d80cc36d9ef76163c415e": {
+      "text": "ET",
+      "state": "en_curso"
+    },
+    "req5d4d815e36d9ef7615c337b6": {
+      "text": "ECB",
+      "state": "en_curso"
+    },
+    "req5d4d811736d9ef76163c4333": {
+      "text": "ECC",
+      "state": "en_curso"
+    },
+    "req5d4d828736d9ef7615c3571d": {
+      "text": "ECA",
+      "state": "en_curso"
+    },
+    "req5d4d81f636d9ef7617294770": {
+      "text": "ESM",
+      "state": "en_curso"
+    },
+    "req5d4d821236d9ef7615c3554c": {
+      "text": "EMT",
+      "state": "en_curso"
+    },
+    "req5d4d852636d9ef76183532d7": {
+      "text": "SCADA Y MEDIDAS",
+      "state": "en_curso"
+    },
+    "req5d4d8b9e36d9ef76163cb2cf": {
+      "text": "SITR",
+      "state": "completado"
+    },
+    "req607664e136d9ef3500287df3": {
+      "text": "Enlace",
+      "state": "completado"
+    },
+    "req606a6b8536d9ef1a2254fa09": {
+      "text": "DIR/TAG",
+      "state": "en_curso"
+    },
+    "req606a6bc436d9ef1a2254fc9b": {
+      "text": "Fecha Pruebas",
+      "state": "pendiente"
+    },
+    "req5d4d8e6c36d9ef7615c3ecd3": {
+      "text": "Pruebas",
+      "state": "pendiente"
+    },
+    "req5d4d8acf36d9ef761835aef5": {
+      "text": "EME",
+      "state": "en_curso"
+    },
+    "req6076676d36d9ef7d11ba2199": {
+      "text": "Enlace",
+      "state": "pendiente"
+    },
+    "req606a6c0436d9ef51933e5e93": {
+      "text": "Fecha Pruebas",
+      "state": "pendiente"
+    },
+    "req5e4d4b5a36d9ef2cd9aa1241": {
+      "text": "Pruebas",
+      "state": "pendiente"
+    },
+    "req5d4d985736d9ef76163d61b6": {
+      "text": "OTROS PES",
+      "state": "en_curso"
+    },
+    "req5d4da28736d9ef7615c57207": {
+      "text": "GM",
+      "state": "completado"
+    },
+    "req5d4da05136d9ef7615c4d9bd": {
+      "text": "Prot E",
+      "state": "en_curso"
+    },
+    "req5d4da0b036d9ef76163e2e6d": {
+      "text": "Prot P",
+      "state": "pendiente"
+    },
+    "req5d4da10d36d9ef7615c50d5d": {
+      "text": "PO N",
+      "state": "pendiente"
+    },
+    "req665604b236d9ef441648202b": {
+      "text": "Plan Ener Gx",
+      "state": "en_curso"
+    },
+    "req5d4da2bc36d9ef761836f1eb": {
+      "text": "Prog P",
+      "state": "en_curso"
+    },
+    "req5d4d9fe036d9ef7615c4a7d9": {
+      "text": "Carta SEC",
+      "state": "en_curso"
+    },
+    "req604792ec36d9ef3b4fd75707": {
+      "text": "PLATAFORMAS PES",
+      "state": "en_curso"
+    },
+    "req6047918036d9ef2de309723d": {
+      "text": "Opreal",
+      "state": "en_curso"
+    },
+    "req604791af36d9ef530b47bbd7": {
+      "text": "Pronósticos",
+      "state": "pendiente"
+    },
+    "req60612e2236d9ef1fc3814a92": {
+      "text": "Neomante",
+      "state": "pendiente"
+    },
+    "req60ca07ce36d9ef38d7c4e6bc": {
+      "text": "PLATAFORMAS EO",
+      "state": "pendiente"
+    },
+    "req60612d9936d9ef0e9752226b": {
+      "text": "REUC",
+      "state": "pendiente"
+    },
+    "req60612e0736d9ef1fc3814808": {
+      "text": "P. Pagos",
+      "state": "pendiente"
+    },
+    "req60478dea36d9ef42935ee7d1": {
+      "text": "OTROS EO",
+      "state": "pendiente"
+    },
+    "req5d4c9a3d36d9ef7615c07cfb": {
+      "text": "IT PES",
+      "state": "pendiente"
+    },
+    "req606a67e336d9ef1a2254f2f7": {
+      "text": "IT PES (inv)",
+      "state": "pendiente"
+    },
+    "req5d4da16b36d9ef76172b5bc4": {
+      "text": "PO E",
+      "state": "pendiente"
+    },
+    "req64e3afeb36d9ef23190ab0a4": {
+      "text": "Pruebas End to End",
+      "state": "pendiente"
+    },
+    "req5d4da9c336d9ef761837419c": {
+      "text": "CVNC",
+      "state": "pendiente"
+    },
+    "req5d4da87e36d9ef76183739c3": {
+      "text": "VMD",
+      "state": "pendiente"
+    },
+    "req600f044436d9ef327f0765cb": {
+      "text": "PARÁMETROS DE GENERACIÓN",
+      "state": "pendiente"
+    },
+    "req5d4da5d136d9ef761837315b": {
+      "text": "PMax",
+      "state": "pendiente"
+    },
+    "req5d4da62e36d9ef76172b6c08": {
+      "text": "PPyD",
+      "state": "pendiente"
+    },
+    "req5d4da56936d9ef7615c580e4": {
+      "text": "MT",
+      "state": "pendiente"
+    },
+    "req66aa9b6636d9ef2cbc857076": {
+      "text": "SERVICIOS COMPLEMENTARIOS",
+      "state": "pendiente"
+    },
+    "req66a1293a36d9ef1e87f16cb7": {
+      "text": "CPF",
+      "state": "pendiente"
+    },
+    "req66aa9e5b36d9ef1e1621a92d": {
+      "text": "CSF",
+      "state": "pendiente"
+    },
+    "req66aa9e7a36d9ef2cbc86bb1b": {
+      "text": "CTF",
+      "state": "pendiente"
+    },
+    "req66aa9eb736d9ef1e8786a646": {
+      "text": "CT",
+      "state": "pendiente"
+    },
+    "req6596ce4a36d9ef6d386a9702": {
+      "text": "SEO",
+      "state": "pendiente"
+    }
+  },
+  "active_tasks": {
+    "req60ca075236d9ef2b9316e203": {
+      "casilla": "INFOTÉCNICA PARA ESTUDIOS",
+      "parent_group": "INFORMACIÓN TÉCNICA",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n*INFOTÉCNICA PARA ESTUDIOS\nEncargado: Departamento Conexiones\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n21-12-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req60ca06b836d9ef38d7c4be4e": {
+      "casilla": "ESTUDIOS DE INTERCONEXIÓN",
+      "parent_group": "INFORMACIÓN TÉCNICA",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n*ESTUDIOS DE INTERCONEXIÓN\nEncargado: Departamento Conexiones\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n13-01-2027\n\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d62dd36d9ef761727f012": {
+      "casilla": "ECAP",
+      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecap-156-2026_nup_5442_pfv_bess_planchon_v1.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d80b036d9ef7615c333ec": {
+      "casilla": "EFP",
+      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-efp-20-2026_pfvbess_planchon_v1.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d80cc36d9ef76163c415e": {
+      "casilla": "ET",
+      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d815e36d9ef7615c337b6": {
+      "casilla": "ECB",
+      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d811736d9ef76163c4333": {
+      "casilla": "ECC",
+      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecc-037-2026_nup_5442_pfvbess_planchon_v1.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d828736d9ef7615c3571d": {
+      "casilla": "ECA",
+      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN DE AISLAMIENTO\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN DE AISLAMIENTO\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d81f636d9ef7617294770": {
+      "casilla": "ESM",
+      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE SATURACIÓN MAGNÉTICA DE TTCC\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE SATURACIÓN MAGNÉTICA DE TTCC\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d821236d9ef7615c3554c": {
+      "casilla": "EMT",
+      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d852636d9ef76183532d7": {
+      "casilla": "SCADA Y MEDIDAS",
+      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n*SCADA Y MEDIDAS\nEncargado: Departamento Conexiones\nI.1\nSCADA y MEDIDAS\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n21-12-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req606a6b8536d9ef1a2254fa09": {
+      "casilla": "DIR/TAG",
+      "parent_group": "SITR",
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'DEFINICIÓN DE PROTOCOLOS DE COMUNICACIONES\nEncargado: SCADA\nI.1\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nI.1\nEmisión o revisión de Tag ICCP o Direcciones IEC104/DNP\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n23-06-2026\n\nDepende de\n\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d8acf36d9ef761835aef5": {
+      "casilla": "EME",
+      "parent_group": "SCADA Y MEDIDAS",
+      "sub_panels": [
+        "Listado de Requerimientos\n91%\n'ESQUEMA DE MEDIDAS DE ENERGÍA\nEncargado: EME\nI.6\nSolicitud de revisión del Esquema de Medidas de Energía\nI.6\nObservaciones al Esquema de Medidas de Energía\n¿Qué estoy viendo?\n\nDescripción\n\nEmisión del Documento Único de Observaciones al Esquema de Medidas de Energía\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n13-07-2026\n\nDepende de\n\nSolicitud de revisión del Esquema de Medidas de Energía\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d985736d9ef76163d61b6": {
+      "casilla": "OTROS PES",
+      "parent_group": "SCADA Y MEDIDAS",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n*OTROS REQUERIMIENTOS PES\nEncargado: Departamento Conexiones\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n21-12-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req5d4da05136d9ef7615c4d9bd": {
+      "casilla": "Prot E",
+      "parent_group": "OTROS PES",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos SAT\nI.1\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nProtocolos de pruebas SAT a equipos primarios\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req665604b236d9ef441648202b": {
+      "casilla": "Plan Ener Gx",
+      "parent_group": "OTROS PES",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req5d4da2bc36d9ef761836f1eb": {
+      "casilla": "Prog P",
+      "parent_group": "OTROS PES",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'PROGRAMA DE PRUEBAS\nEncargado: Por definir\nI.1\nRecepción del Programa de Pruebas\nI.1\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante envía un Programa de Pruebas para revisión\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req5d4d9fe036d9ef7615c4a7d9": {
+      "casilla": "Carta SEC",
+      "parent_group": "OTROS PES",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'COMUNICACIÓN A LA SEC\nEncargado: Departamento Conexiones\nI.1\nCarta a la SEC\n¿Qué estoy viendo?\n\nDescripción\n\nComunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req604792ec36d9ef3b4fd75707": {
+      "casilla": "PLATAFORMAS PES",
+      "parent_group": "OTROS PES",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n*PLATAFORMAS PES\nEncargado: Por definir\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n21-12-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req6047918036d9ef2de309723d": {
+      "casilla": "Opreal",
+      "parent_group": "PLATAFORMAS PES",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'OPERACIÓN REAL\nEncargado: Departamento Conexiones\nI.1\nRecepción Antecedentes Opreal\nI.1\nCreación Usuario Opreal\n¿Qué estoy viendo?\n\nDescripción\n\nRecepción de Formulario para creación de la Central en la Plataforma Opreal\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
+      ]
+    }
+  },
+  "first_seen": {
+    "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778045+00:00",
+    "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778065+00:00",
+    "req5d4d80cc36d9ef76163c415e|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778082+00:00",
+    "req5d4d815e36d9ef7615c337b6|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778098+00:00",
+    "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778115+00:00",
+    "req5d4d828736d9ef7615c3571d|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778131+00:00",
+    "req5d4d81f636d9ef7617294770|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778147+00:00",
+    "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778163+00:00",
+    "req5d4d852636d9ef76183532d7|De acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-06-20T14:55:50.778184+00:00",
+    "req606a6b8536d9ef1a2254fa09|El Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.": "2026-06-20T14:55:50.778200+00:00",
+    "req5d4d8acf36d9ef761835aef5|Emisión del Documento Único de Observaciones al Esquema de Medidas de Energía": "2026-06-20T14:55:50.778213+00:00",
+    "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-06-20T14:55:50.778232+00:00",
+    "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-20T14:55:50.778242+00:00",
+    "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-20T14:55:50.778252+00:00",
+    "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
+    "req6047918036d9ef2de309723d|Recepción de Formulario para creación de la Central en la Plataforma Opreal": "2026-06-20T14:55:50.778288+00:00"
+  }
+}

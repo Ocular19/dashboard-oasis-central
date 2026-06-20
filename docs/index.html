@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Dashboard PGP &mdash; Grenergy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --dark: #04201f;
+    --mint: #00cf78;
+    --mint-light: #7be3ae;
+    --gray: #6b7777;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: 'Poppins', Arial, sans-serif; background:#eef3f1; margin:0; padding:0 0 32px 0; color:#1b2b29; }
+  header.brand {
+    background: var(--dark);
+    padding: 28px 32px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-bottom: 28px;
+  }
+  header.brand img { height: 32px; display:block; }
+  header.brand .tagline { color: var(--mint-light); font-size:0.85em; margin:0; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  h1 { color: var(--dark); font-weight:600; font-size:1.4em; margin:0 0 4px 0; }
+  .card { background:white; border-radius:14px; padding:20px 24px; margin-bottom:20px; box-shadow:0 2px 10px rgba(4,32,31,0.08); }
+  .card h2 { color: var(--dark); font-weight:600; margin-top:0; }
+  .nup { color:#8a9591; font-size:0.75em; font-weight:400; }
+  .resumen { margin:14px 0; }
+  .badge { display:inline-block; padding:4px 12px; border-radius:14px; color:white; font-size:0.8em; margin-right:6px; font-weight:500; }
+  .badge.verde { background: var(--mint); color:#04201f; }
+  .badge.gris { background: var(--gray); }
+  .badge.naranja { background:#faa900; }
+  .tasks { list-style:none; padding-left:0; }
+  .tasks > li { position:relative; margin-bottom:10px; padding:12px 14px; border-radius:10px; background:#f6f9f8; border-left:4px solid #faa900; }
+  .tasks > li.coordinador { border-left-color: var(--dark); }
+  .tasks > li.tu_empresa { border-left-color:#e67e22; }
+  .tasks > li.terceros { border-left-color:#8e44ad; }
+  .tasks .recent { display:inline-block; margin-left:8px; padding:2px 8px; border-radius:10px; background: var(--mint); color:#04201f; font-size:0.7em; font-weight:600; vertical-align:middle; }
+  .tasks .atrasado { display:inline-block; margin-left:8px; padding:2px 8px; border-radius:10px; background:#e0273a; color:white; font-size:0.7em; font-weight:600; vertical-align:middle; }
+  .tasks > li.atrasado-row { background:#fdeceb; }
+  .tasks .dias-activa { display:block; font-size:0.78em; color:#b35400; margin-top:2px; font-style:italic; }
+  .tasks .quien { display:block; font-weight:600; font-size:0.85em; margin:4px 0 2px 0; color: var(--dark); }
+  .tasks .desc { display:block; font-size:0.85em; color:#555; }
+  .tasks .fecha { display:block; font-size:0.8em; color:#777; margin-top:4px; }
+  .history { list-style:none; padding-left:0; }
+  .history > li { margin-bottom:10px; border-left:3px solid var(--mint); padding-left:10px; }
+  .ts { font-size:0.8em; color:#777; display:block; }
+  a { color: var(--dark); text-decoration:underline; }
+  .updated { color:#7c8c88; font-size:0.85em; }
+</style>
+</head>
+<body>
+<header class="brand">
+  <img src="assets/grenergy-logo.png" alt="Grenergy">
+  <div>
+    <p class="tagline" style="margin:0">Dashboard de seguimiento PGP</p>
+  </div>
+</header>
+<div class="wrap">
+<h1>Proyectos en el Coordinador Eléctrico Nacional</h1>
+<p class="updated">Última actualización: 2026-06-20T14:58:27.243654+00:00</p>
+
+            <section class="card">
+              <h2>PFV BESS Planchón <span class="nup">#5442</span></h2>
+              <p>Avance del proyecto: 18% &mdash; Avance requisitos PES: 22%</p>
+              <p>Puesta en servicio estimada: 2026-12-15 &mdash; Entrada en operación estimada: 2027-03-03</p>
+              <p class="resumen">
+                <span class="badge verde">10 completadas</span>
+                <span class="badge gris">35 no iniciadas</span>
+                <span class="badge naranja">20 en curso</span>
+              </p>
+              <p><a href="https://pgp.coordinador.cl/irequests/6949d5a236d9ef5f10f1a978" target="_blank">Ver proyecto en PGP &#8599;</a></p>
+              <h3>Casillas en curso (16)</h3><ul class='tasks'><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ECAP</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 09-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; EFP</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 09-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ET</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 09-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ECB</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 09-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ECC</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 09-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ECA</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 09-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ESM</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 09-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; EMT</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 09-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; SCADA Y MEDIDAS</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">De acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.</span>
+                        <span class="fecha">Fecha límite: 21-12-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>SITR &rsaquo; DIR/TAG</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.</span>
+                        <span class="fecha">Fecha límite: 23-06-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>SCADA Y MEDIDAS &rsaquo; EME</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">Emisión del Documento Único de Observaciones al Esquema de Medidas de Energía</span>
+                        <span class="fecha">Fecha límite: 13-07-2026</span>
+                        
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Prot E</strong><span class="atrasado">Atrasado 32 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">Protocolos de pruebas SAT a equipos primarios</span>
+                        <span class="fecha">Fecha límite: 19-05-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Plan Ener Gx</strong><span class="atrasado">Atrasado 32 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.</span>
+                        <span class="fecha">Fecha límite: 19-05-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Prog P</strong><span class="atrasado">Atrasado 32 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">La Empresa Solicitante envía un Programa de Pruebas para revisión</span>
+                        <span class="fecha">Fecha límite: 19-05-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Carta SEC</strong><span class="atrasado">Atrasado 32 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE</span>
+                        <span class="fecha">Fecha límite: 19-05-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>PLATAFORMAS PES &rsaquo; Opreal</strong><span class="atrasado">Atrasado 32 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">Recepción de Formulario para creación de la Central en la Plataforma Opreal</span>
+                        <span class="fecha">Fecha límite: 19-05-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li></ul>
+              
+            </section>
+            
+            <section class="card">
+              <h2>NI BESS Tamango  <span class="nup">#6092</span></h2>
+              <p>Avance del proyecto: 18% &mdash; Avance requisitos PES: 22%</p>
+              <p>Puesta en servicio estimada: 2026-12-06 &mdash; Entrada en operación estimada: 2027-02-22</p>
+              <p class="resumen">
+                <span class="badge verde">11 completadas</span>
+                <span class="badge gris">30 no iniciadas</span>
+                <span class="badge naranja">15 en curso</span>
+              </p>
+              <p><a href="https://pgp.coordinador.cl/irequests/699613c236d9ef1ec7570541" target="_blank">Ver proyecto en PGP &#8599;</a></p>
+              <h3>Casillas en curso (13)</h3><ul class='tasks'><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ECAP</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 15-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; EFP</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 15-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ET</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 15-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ECB</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 15-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ECC</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 15-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ECA</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 15-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; EMT</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 15-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; SCADA Y MEDIDAS</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">De acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.</span>
+                        <span class="fecha">Fecha límite: 05-01-2027</span>
+                        
+                    </li><li class="task tu_empresa">
+                        <strong>SITR &rsaquo; DIR/TAG</strong>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">La Empresa Solicitante deberá enviar una solicitud (tag ICCP o direcciones IEC104/DNP) asociado a las señales SITR. Debe incluir planilla de señales SITR aprobado por el Coordinador. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.</span>
+                        <span class="fecha">Fecha límite: 22-06-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task coordinador">
+                        <strong>SCADA Y MEDIDAS &rsaquo; EME</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">Emisión del Documento Único de Observaciones al Esquema de Medidas de Energía</span>
+                        <span class="fecha">Fecha límite: 10-07-2026</span>
+                        
+                    </li><li class="task coordinador">
+                        <strong>OTROS PES &rsaquo; GM</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación</span>
+                        <span class="fecha">Fecha límite: 07-07-2026</span>
+                        
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Plan Ener Gx</strong><span class="atrasado">Atrasado 17 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.</span>
+                        <span class="fecha">Fecha límite: 03-06-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Prog P</strong><span class="atrasado">Atrasado 17 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">La Empresa Solicitante envía un Programa de Pruebas para revisión</span>
+                        <span class="fecha">Fecha límite: 03-06-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li></ul>
+              
+            </section>
+            
+            <section class="card">
+              <h2>BESS Gran Teno <span class="nup">#5692</span></h2>
+              <p>Avance del proyecto: 47% &mdash; Avance requisitos PES: 59%</p>
+              <p>Puesta en servicio estimada: 2026-06-30 &mdash; Entrada en operación estimada: 2026-11-15</p>
+              <p class="resumen">
+                <span class="badge verde">23 completadas</span>
+                <span class="badge gris">39 no iniciadas</span>
+                <span class="badge naranja">9 en curso</span>
+              </p>
+              <p><a href="https://pgp.coordinador.cl/irequests/689bb18f36d9ef29c1ae6e5b" target="_blank">Ver proyecto en PGP &#8599;</a></p>
+              <h3>Casillas en curso (7)</h3><ul class='tasks'><li class="task coordinador">
+                        <strong>ESTUDIOS DE INTERCONEXIÓN &rsaquo; ECAP</strong>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).</span>
+                        <span class="fecha">Fecha límite: 01-07-2026</span>
+                        
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>SITR &rsaquo; Fecha Pruebas</strong><span class="atrasado">Atrasado 23 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.</span>
+                        <span class="fecha">Fecha límite: 28-05-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task coordinador atrasado-row">
+                        <strong>EME &rsaquo; Enlace</strong><span class="atrasado">CEN atrasado 17 día(s)</span>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.</span>
+                        <span class="fecha">Fecha límite: 03-06-2026</span>
+                        
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Prot E</strong><span class="atrasado">Atrasado 15 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">Protocolos de pruebas SAT a equipos primarios</span>
+                        <span class="fecha">Fecha límite: 05-06-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Plan Ener Gx</strong><span class="atrasado">Atrasado 204 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.</span>
+                        <span class="fecha">Fecha límite: 28-11-2025</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Prog P</strong><span class="atrasado">Atrasado 15 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">La Empresa Solicitante envía un Programa de Pruebas para revisión</span>
+                        <span class="fecha">Fecha límite: 05-06-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li><li class="task coordinador atrasado-row">
+                        <strong>PLATAFORMAS PES &rsaquo; Neomante</strong><span class="atrasado">CEN atrasado 148 día(s)</span>
+                        <span class="quien">Esperando respuesta/revisión del Coordinador (CEN)</span>
+                        <span class="desc">Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)</span>
+                        <span class="fecha">Fecha límite: 23-01-2026</span>
+                        
+                    </li></ul>
+              
+            </section>
+            
+            <section class="card">
+              <h2>MR Proyecto Ampliación Subestación Seccionadora Solís 154 kV (Art. 102)) <span class="nup">#5422</span></h2>
+              <p>Avance del proyecto: 95% &mdash; Avance requisitos PES: 97%</p>
+              <p>Puesta en servicio estimada: 2026-04-01 &mdash; Entrada en operación estimada: 2026-06-01</p>
+              <p class="resumen">
+                <span class="badge verde">22 completadas</span>
+                <span class="badge gris">1 no iniciadas</span>
+                <span class="badge naranja">2 en curso</span>
+              </p>
+              <p><a href="https://pgp.coordinador.cl/irequests/67d868b036d9ef0defbebf61" target="_blank">Ver proyecto en PGP &#8599;</a></p>
+              <h3>Casillas en curso (1)</h3><ul class='tasks'><li class="task tu_empresa atrasado-row">
+                        <strong>OTROS PES &rsaquo; Plan Ener Tx</strong><span class="atrasado">Atrasado 4 día(s)</span>
+                        <span class="quien">Esperando que Grenergy cargue un documento</span>
+                        <span class="desc">La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.</span>
+                        <span class="fecha">Fecha límite: 16-06-2026</span>
+                        <span class='dias-activa'>Lleva 0 día(s) sin la carga del documento</span>
+                    </li></ul>
+              
+            </section>
+            
+</div>
+</body>
+</html>
