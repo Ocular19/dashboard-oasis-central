@@ -291,10 +291,30 @@ def compute_first_seen(prev: dict, curr: dict) -> dict:
     return curr_first_seen
 
 
-def diff_snapshots(prev: dict, curr: dict) -> list:
+def diff_snapshots(prev: dict, curr: dict) -> tuple:
+    """Devuelve (changes, alerts):
+    - changes: lista de strings legibles, para el historial de 72h y el correo.
+    - alerts: lista de dicts estructurados {casilla, evento, quien, fecha_limite},
+      uno por cada cambio, para armar el correo de alerta con columnas claras."""
     changes = []
+    alerts = []
     if prev is None:
-        return changes  # primera corrida: no hay nada que comparar todavía
+        return changes, alerts  # primera corrida: no hay nada que comparar todavía
+
+    def quien_fecha_for(req_class: str, casilla: str):
+        """Busca, en el estado actual, la sub-tarea pendiente más relevante de
+        esta casilla para poder decir quién debe responder y para cuándo."""
+        task = curr.get("active_tasks", {}).get(req_class)
+        if not task:
+            return None, None
+        for sub_text in task.get("sub_panels", []):
+            parsed = parse_task_panel(sub_text)
+            if not parsed or parsed["completada"] or parsed["quien_actua"] == "terceros":
+                continue
+            if parsed["description"].strip() == "Grupo de Requerimientos":
+                continue
+            return parsed["quien_actua"], parsed["fecha_limite"]
+        return None, None
 
     prev_boxes = prev.get("boxes", {})
     curr_boxes = curr.get("boxes", {})
@@ -303,9 +323,18 @@ def diff_snapshots(prev: dict, curr: dict) -> list:
         if prev_box is None:
             continue
         if prev_box.get("state") != curr_box.get("state"):
+            quien, fecha = quien_fecha_for(req_class, curr_box["text"])
             changes.append(
                 f"Casilla '{curr_box['text']}' cambió de estado: "
                 f"{prev_box.get('state')} -> {curr_box.get('state')}"
+            )
+            alerts.append(
+                {
+                    "casilla": curr_box["text"],
+                    "evento": f"Cambió de estado ({prev_box.get('state')} → {curr_box.get('state')})",
+                    "quien": QUIEN_LABEL.get(quien) if quien else "Sin acción pendiente (completada)",
+                    "fecha_limite": fecha or "-",
+                }
             )
 
     def relevant_subs(task: dict) -> dict:
@@ -335,6 +364,14 @@ def diff_snapshots(prev: dict, curr: dict) -> list:
                     f"'{casilla}': nuevo pendiente — {QUIEN_LABEL[p['quien_actua']]} "
                     f"(fecha límite {p['fecha_limite']})."
                 )
+                alerts.append(
+                    {
+                        "casilla": casilla,
+                        "evento": "Nuevo pendiente",
+                        "quien": QUIEN_LABEL[p["quien_actua"]],
+                        "fecha_limite": p["fecha_limite"],
+                    }
+                )
             continue
 
         prev_by_desc = relevant_subs(prev_task)
@@ -349,14 +386,38 @@ def diff_snapshots(prev: dict, curr: dict) -> list:
                 f"'{casilla}': avanzó de etapa — ahora {QUIEN_LABEL[new_p['quien_actua']]} "
                 f"(fecha límite {new_p['fecha_limite']})."
             )
+            alerts.append(
+                {
+                    "casilla": casilla,
+                    "evento": "Avanzó de etapa",
+                    "quien": QUIEN_LABEL[new_p["quien_actua"]],
+                    "fecha_limite": new_p["fecha_limite"],
+                }
+            )
         else:
             for desc in resolved:
                 changes.append(f"'{casilla}': se resolvió el pendiente \"{desc}\".")
+                alerts.append(
+                    {
+                        "casilla": casilla,
+                        "evento": f'Se resolvió "{desc}"',
+                        "quien": "-",
+                        "fecha_limite": "-",
+                    }
+                )
             for desc in new:
                 p = curr_by_desc[desc]
                 changes.append(
                     f"'{casilla}': nuevo pendiente — {QUIEN_LABEL[p['quien_actua']]} "
                     f"(fecha límite {p['fecha_limite']})."
+                )
+                alerts.append(
+                    {
+                        "casilla": casilla,
+                        "evento": "Nuevo pendiente",
+                        "quien": QUIEN_LABEL[p["quien_actua"]],
+                        "fecha_limite": p["fecha_limite"],
+                    }
                 )
             for desc in common:
                 pp, cp = prev_by_desc[desc], curr_by_desc[desc]
@@ -365,12 +426,20 @@ def diff_snapshots(prev: dict, curr: dict) -> list:
                         f"'{casilla}': cambió la fecha límite o el responsable — ahora "
                         f"{QUIEN_LABEL[cp['quien_actua']]} (fecha límite {cp['fecha_limite']})."
                     )
+                    alerts.append(
+                        {
+                            "casilla": casilla,
+                            "evento": "Cambió fecha límite o responsable",
+                            "quien": QUIEN_LABEL[cp["quien_actua"]],
+                            "fecha_limite": cp["fecha_limite"],
+                        }
+                    )
 
     for key in ("completition_status", "completition_pes", "service_estimate_date", "operative_estimate_date"):
         if prev.get(key) != curr.get(key):
             changes.append(f"Campo '{key}' cambió: {prev.get(key)} -> {curr.get(key)}")
 
-    return changes
+    return changes, alerts
 
 
 def load_json(path: Path):
@@ -421,6 +490,67 @@ def send_email(subject: str, body: str) -> None:
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
         server.login(user, password)
         server.sendmail(user, [t.strip() for t in to.split(",")], msg.as_string())
+
+
+def render_alert_email(all_alerts: list) -> str:
+    """Correo de alerta inmediata: una fila por cada casilla que cambió, con
+    proyecto, casilla, quién debe responder (Grenergy o CEN) y fecha límite."""
+    sections = []
+    for name, alerts in all_alerts:
+        rows = "".join(
+            f"""<tr>
+                <td style="padding:10px 8px; border-bottom:1px solid #e3e9e7; font-size:13px; color:#1b2b29;">{a['casilla']}</td>
+                <td style="padding:10px 8px; border-bottom:1px solid #e3e9e7; font-size:13px; color:#1b2b29;">{a['evento']}</td>
+                <td style="padding:10px 8px; border-bottom:1px solid #e3e9e7; font-size:13px; color:#04201f; font-weight:600;">{a['quien']}</td>
+                <td style="padding:10px 8px; border-bottom:1px solid #e3e9e7; font-size:13px; color:#1b2b29;">{a['fecha_limite']}</td>
+            </tr>"""
+            for a in alerts
+        )
+        sections.append(
+            f"""
+            <tr><td style="padding:20px 0 6px 0;">
+              <div style="font-weight:600; color:#04201f; font-size:15px;">{name}</div>
+            </td></tr>
+            <tr><td>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <th align="left" style="font-size:11px; color:#8a9591; padding:4px 8px; text-transform:uppercase;">Casilla</th>
+                  <th align="left" style="font-size:11px; color:#8a9591; padding:4px 8px; text-transform:uppercase;">Evento</th>
+                  <th align="left" style="font-size:11px; color:#8a9591; padding:4px 8px; text-transform:uppercase;">Quién responde</th>
+                  <th align="left" style="font-size:11px; color:#8a9591; padding:4px 8px; text-transform:uppercase;">Fecha límite</th>
+                </tr>
+                {rows}
+              </table>
+            </td></tr>
+            """
+        )
+
+    return f"""<!DOCTYPE html>
+<html lang="es">
+<body style="margin:0; padding:0; background:#eef3f1; font-family:Arial, Helvetica, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef3f1; padding:24px 0;">
+    <tr><td align="center">
+      <table role="presentation" width="680" cellpadding="0" cellspacing="0" style="background:white; border-radius:14px; overflow:hidden;">
+        <tr><td style="background:#04201f; padding:24px 28px;">
+          <img src="cid:logo" alt="Grenergy" height="28">
+        </td></tr>
+        <tr><td style="padding:24px 28px 0 28px;">
+          <div style="font-size:18px; font-weight:600; color:#04201f;">Cambios detectados &mdash; PGP</div>
+          <div style="font-size:12px; color:#8a9591; margin-top:4px;">{now_iso()}</div>
+        </td></tr>
+        <tr><td style="padding:0 28px 10px 28px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+            {''.join(sections)}
+          </table>
+        </td></tr>
+        <tr><td style="padding:18px 28px 26px 28px; font-size:11px; color:#8a9591;">
+          Generado automáticamente desde el monitor de proyectos PGP.
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>"""
 
 
 def send_html_email(subject: str, html_body: str, logo_path: Path = None) -> None:
@@ -754,7 +884,7 @@ def render_dashboard(projects_summary: list) -> None:
 
 def main():
     projects = json.loads(PROJECTS_FILE.read_text(encoding="utf-8"))
-    all_changes_email = []
+    all_alerts = []  # [(nombre_proyecto, [alert_dict, ...]), ...]
     dashboard_summary = []
 
     with sync_playwright() as p:
@@ -770,13 +900,13 @@ def main():
                 print(f"Error en proyecto {project_id}: {e}")
                 continue
 
-            changes = diff_snapshots(prev, curr)
+            changes, alerts = diff_snapshots(prev, curr)
             curr["first_seen"] = compute_first_seen(prev, curr)
             save_json(state_path, curr)
             history = append_history(project_id, changes)
 
-            if changes:
-                all_changes_email.append((curr.get("name", project_id), changes))
+            if alerts:
+                all_alerts.append((curr.get("name", project_id), alerts))
 
             dashboard_summary.append(
                 {
@@ -797,15 +927,14 @@ def main():
 
     render_dashboard(dashboard_summary)
 
-    if all_changes_email:
-        lines = []
-        for name, changes in all_changes_email:
-            lines.append(f"== {name} ==")
-            lines.extend(f"  - {c}" for c in changes)
-            lines.append("")
-        body = "\n".join(lines)
-        send_email("PGP: cambios detectados en proyectos", body)
-        print(body)
+    if all_alerts:
+        html = render_alert_email(all_alerts)
+        logo_path = DOCS_DIR / "assets" / "grenergy-logo.png"
+        send_html_email("PGP: cambios detectados en proyectos", html, logo_path=logo_path)
+        for name, alerts in all_alerts:
+            print(f"== {name} ==")
+            for a in alerts:
+                print(f"  - {a['casilla']}: {a['evento']} — {a['quien']} (fecha límite {a['fecha_limite']})")
     else:
         print("Sin cambios detectados.")
 
