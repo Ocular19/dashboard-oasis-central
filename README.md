@@ -99,3 +99,22 @@ open docs/index.html
 La primera corrida nunca genera "cambios" (no hay estado previo con qué
 comparar) — es normal. Los cambios aparecerán desde la segunda corrida en
 adelante.
+
+## ⚠️ Importante: cómo subir cambios sin romper nada
+
+Después de probar `python scraper.py` en tu computador, **NO uses
+`git add -A`** ni `git add .` para subir tus cambios. Eso incluiría la
+versión local de `data/` y `docs/index.html`, que el robot de GitHub Actions
+ya está actualizando solo en cada corrida automática — subir ambas versiones
+a la vez provoca conflictos de merge (como ya pasó una vez).
+
+En vez de eso, usa el script incluido, que solo sube archivos de código:
+
+```bash
+./safe_push.sh "Descripción breve del cambio"
+```
+
+Esto hace `git add` solo de `scraper.py`, `weekly_summary.py`,
+`projects.json`, `requirements.txt`, `README.md`, `.gitignore` y los
+workflows — nunca de `data/` ni `docs/index.html` — y luego hace el
+`pull --rebase` + `push` por ti.
