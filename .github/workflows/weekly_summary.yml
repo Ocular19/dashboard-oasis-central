@@ -19,6 +19,12 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+        # No se necesita "playwright install chromium" aquí: este workflow no
+        # abre navegador, solo necesita que el paquete playwright exista para
+        # poder importar scraper.py sin que falle.
+
       - name: Enviar resumen semanal
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
