@@ -452,7 +452,8 @@ def save_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def append_history(project_id: str, changes: list) -> list:
+def append_history(project_id: str, changes: list, alerts: list = None) -> list:
+    alerts = alerts or []
     history_path = HISTORY_DIR / f"{project_id}.json"
     history = load_json(history_path) or []
     if changes:
@@ -462,11 +463,13 @@ def append_history(project_id: str, changes: list) -> list:
     save_json(history_path, history)
 
     # Bitácora de largo plazo (no se borra a las 72h) para poder armar el
-    # resumen ejecutivo semanal más adelante.
+    # resumen ejecutivo semanal más adelante. Guardamos también los "alerts"
+    # estructurados (casilla/evento/quién/fecha), no solo el texto, para que
+    # el resumen semanal pueda mostrar columnas en vez de solo frases.
     if changes:
         log_path = LOG_DIR / f"{project_id}.json"
         log = load_json(log_path) or []
-        log.append({"timestamp": now_iso(), "changes": changes})
+        log.append({"timestamp": now_iso(), "changes": changes, "alerts": alerts})
         log_cutoff = datetime.now(timezone.utc) - timedelta(days=LOG_RETENTION_DAYS)
         log = [h for h in log if datetime.fromisoformat(h["timestamp"]) >= log_cutoff]
         save_json(log_path, log)
@@ -778,7 +781,7 @@ def render_dashboard(projects_summary: list) -> None:
 
                 active_rows.append(
                     f"""<li class="task {row_class}">
-                        <strong>{label}</strong>{extra_badges}
+                        <div class="task-head"><strong>{label}</strong>{extra_badges}</div>
                         <span class="quien">{QUIEN_LABEL[parsed['quien_actua']]}</span>
                         <span class="desc">{parsed['description'] or '-'}</span>
                         <span class="fecha">Fecha límite: {parsed['fecha_limite']}</span>
@@ -856,11 +859,13 @@ def render_dashboard(projects_summary: list) -> None:
   .badge.naranja {{ background:#faa900; }}
   .tasks {{ list-style:none; padding-left:0; }}
   .tasks > li {{ position:relative; margin-bottom:10px; padding:12px 14px; border-radius:10px; background:#f6f9f8; border-left:4px solid #faa900; }}
+  .tasks .task-head {{ display:flex; flex-wrap:wrap; align-items:center; gap:6px; }}
+  .tasks .task-head strong {{ margin-right:0; }}
   .tasks > li.coordinador {{ border-left-color: var(--dark); }}
   .tasks > li.tu_empresa {{ border-left-color:#e67e22; }}
   .tasks > li.terceros {{ border-left-color:#8e44ad; }}
-  .tasks .recent {{ display:inline-block; margin-left:8px; padding:2px 8px; border-radius:10px; background: var(--mint); color:#04201f; font-size:0.7em; font-weight:600; vertical-align:middle; }}
-  .tasks .atrasado {{ display:inline-block; margin-left:8px; padding:2px 8px; border-radius:10px; background:#e0273a; color:white; font-size:0.7em; font-weight:600; vertical-align:middle; }}
+  .tasks .recent {{ display:inline-block; padding:2px 8px; border-radius:10px; background: var(--mint); color:#04201f; font-size:0.7em; font-weight:600; vertical-align:middle; }}
+  .tasks .atrasado {{ display:inline-block; padding:2px 8px; border-radius:10px; background:#e0273a; color:white; font-size:0.7em; font-weight:600; vertical-align:middle; }}
   .tasks > li.atrasado-row {{ background:#fdeceb; }}
   .tasks .dias-activa {{ display:block; font-size:0.78em; color:#b35400; margin-top:2px; font-style:italic; }}
   .tasks .quien {{ display:block; font-weight:600; font-size:0.85em; margin:4px 0 2px 0; color: var(--dark); }}
@@ -911,7 +916,7 @@ def main():
             changes, alerts = diff_snapshots(prev, curr)
             curr["first_seen"] = compute_first_seen(prev, curr)
             save_json(state_path, curr)
-            history = append_history(project_id, changes)
+            history = append_history(project_id, changes, alerts)
 
             if alerts:
                 all_alerts.append((curr.get("name", project_id), alerts))
@@ -938,7 +943,12 @@ def main():
     if all_alerts:
         html = render_alert_email(all_alerts)
         logo_path = DOCS_DIR / "assets" / "grenergy-logo.png"
-        send_html_email("PGP: cambios detectados en proyectos", html, logo_path=logo_path)
+        try:
+            send_html_email("PGP: cambios detectados en proyectos", html, logo_path=logo_path)
+        except Exception as e:  # noqa: BLE001
+            # Un error de email (p.ej. MAIL_TO mal escrito) no debe tumbar
+            # toda la corrida: los datos y el dashboard ya se guardaron bien.
+            print(f"No se pudo enviar el correo de alerta: {e}")
         for name, alerts in all_alerts:
             print(f"== {name} ==")
             for a in alerts:
