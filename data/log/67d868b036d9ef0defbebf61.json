@@ -1,14 +1,9 @@
 [
   {
-    "timestamp": "2026-06-22T13:42:56.182118+00:00",
-    "changes": [
-      "'Plan Ener Tx': se resolvió el pendiente \"La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\"."
-    ]
-  },
-  {
     "timestamp": "2026-06-22T16:58:41.837058+00:00",
     "changes": [
       "'Plan Ener Tx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 16-06-2026)."
-    ]
+    ],
+    "alerts": []
   }
 ]

@@ -1,16 +1,5 @@
 [
   {
-    "timestamp": "2026-06-22T13:41:25.424295+00:00",
-    "changes": [
-      "'ECAP': se resolvió el pendiente \"El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\".",
-      "'Fecha Pruebas': se resolvió el pendiente \"La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\".",
-      "'Prot E': se resolvió el pendiente \"Protocolos de pruebas SAT a equipos primarios\".",
-      "'Plan Ener Gx': se resolvió el pendiente \"La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\".",
-      "'Prog P': se resolvió el pendiente \"La Empresa Solicitante envía un Programa de Pruebas para revisión\".",
-      "'Neomante': se resolvió el pendiente \"Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)\"."
-    ]
-  },
-  {
     "timestamp": "2026-06-22T16:58:35.669207+00:00",
     "changes": [
       "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 01-07-2026).",
@@ -19,6 +8,7 @@
       "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-11-2025).",
       "'Prog P': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-06-2026).",
       "'Neomante': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 23-01-2026)."
-    ]
+    ],
+    "alerts": []
   }
 ]
