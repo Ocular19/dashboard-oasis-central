@@ -9,5 +9,16 @@
       "'Prog P': se resolvió el pendiente \"La Empresa Solicitante envía un Programa de Pruebas para revisión\".",
       "'Neomante': se resolvió el pendiente \"Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)\"."
     ]
+  },
+  {
+    "timestamp": "2026-06-22T16:58:35.669207+00:00",
+    "changes": [
+      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 01-07-2026).",
+      "'Fecha Pruebas': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-05-2026).",
+      "'Prot E': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-06-2026).",
+      "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-11-2025).",
+      "'Prog P': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-06-2026).",
+      "'Neomante': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 23-01-2026)."
+    ]
   }
 ]
