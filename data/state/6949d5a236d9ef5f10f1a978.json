@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-06-22T16:57:48.442403+00:00",
+  "fetched_at": "2026-06-22T19:19:18.120976+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
-  "completition_status": 18,
-  "completition_pes": 22,
+  "completition_status": 19,
+  "completition_pes": 23,
   "service_estimate_date": "2026-12-15T00:00:00",
   "operative_estimate_date": "2027-03-03T00:00:00",
   "reception_date": "2025-12-18T00:00:00",
@@ -114,11 +114,11 @@
     },
     "req606a6b8536d9ef1a2254fa09": {
       "text": "DIR/TAG",
-      "state": "en_curso"
+      "state": "completado"
     },
     "req606a6bc436d9ef1a2254fc9b": {
       "text": "Fecha Pruebas",
-      "state": "pendiente"
+      "state": "en_curso"
     },
     "req5d4d8e6c36d9ef7615c3ecd3": {
       "text": "Pruebas",
@@ -288,7 +288,7 @@
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecap-156-2026_nup_5442_pfv_bess_planchon_v1.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecap-156-2026_nup_5442_pfv_bess_planchon_v1.pdf\n\n\nrr-or-ecap-2026-139.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -296,7 +296,7 @@
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-efp-20-2026_pfvbess_planchon_v1.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-efp-20-2026_pfvbess_planchon_v1.pdf\n\n\nrr-or-efp-2026-043.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -304,7 +304,7 @@
       "casilla": "ET",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-or-ett-2026-032.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n50%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -320,7 +320,7 @@
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecc-037-2026_nup_5442_pfvbess_planchon_v1.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecc-037-2026_nup_5442_pfvbess_planchon_v1.pdf\n\n\nrr-or-ecc-2026-057.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n19-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -355,11 +355,11 @@
         "Listado de Requerimientos\n0%\n*SCADA Y MEDIDAS\nEncargado: Departamento Conexiones\nI.1\nSCADA y MEDIDAS\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n21-12-2026\n\nHistorial de movimientos"
       ]
     },
-    "req606a6b8536d9ef1a2254fa09": {
-      "casilla": "DIR/TAG",
+    "req606a6bc436d9ef1a2254fc9b": {
+      "casilla": "Fecha Pruebas",
       "parent_group": "SITR",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'DEFINICIÓN DE PROTOCOLOS DE COMUNICACIONES\nEncargado: SCADA\nI.1\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nI.1\nEmisión o revisión de Tag ICCP o Direcciones IEC104/DNP\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n23-06-2026\n\nDepende de\n\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n23-06-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4d8acf36d9ef761835aef5": {
@@ -429,7 +429,7 @@
     "req5d4d81f636d9ef7617294770|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778147+00:00",
     "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778163+00:00",
     "req5d4d852636d9ef76183532d7|De acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-06-20T14:55:50.778184+00:00",
-    "req606a6b8536d9ef1a2254fa09|El Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.": "2026-06-20T14:55:50.778200+00:00",
+    "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T19:19:18.121668+00:00",
     "req5d4d8acf36d9ef761835aef5|Emisión del Documento Único de Observaciones al Esquema de Medidas de Energía": "2026-06-20T14:55:50.778213+00:00",
     "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-06-20T14:55:50.778232+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-20T14:55:50.778242+00:00",
