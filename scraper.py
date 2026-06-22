@@ -748,9 +748,11 @@ def render_dashboard(projects_summary: list) -> None:
                 if is_recent:
                     extra_badges += '<span class="recent">Actualizado (últimas 72h)</span>'
 
+                esta_atrasada = False
                 fecha_dt = parse_fecha_limite(parsed["fecha_limite"])
                 if fecha_dt and fecha_dt < today:
                     dias_atraso = (today - fecha_dt).days
+                    esta_atrasada = True
                     if parsed["quien_actua"] == "coordinador":
                         extra_badges += f'<span class="atrasado">CEN atrasado {dias_atraso} día(s)</span>'
                         row_class += " atrasado-row"
@@ -758,8 +760,14 @@ def render_dashboard(projects_summary: list) -> None:
                         extra_badges += f'<span class="atrasado">Atrasado {dias_atraso} día(s)</span>'
                         row_class += " atrasado-row"
 
+                # Si ya está marcada como atrasada, "Atrasado X días" (viene de
+                # la fecha límite real) ya es la señal confiable; no mostramos
+                # también "lleva N días" porque ese contador solo cuenta desde
+                # que ESTE sistema empezó a vigilar la tarea y puede no
+                # coincidir con el atraso real (p. ej. justo después de
+                # reiniciar los datos).
                 dias_activa_html = ""
-                if parsed["quien_actua"] == "tu_empresa":
+                if parsed["quien_actua"] == "tu_empresa" and not esta_atrasada:
                     key = f"{req_class}|{parsed['description']}"
                     seen = first_seen_map.get(key)
                     if seen:
