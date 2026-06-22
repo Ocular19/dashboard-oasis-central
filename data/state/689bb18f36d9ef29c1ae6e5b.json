@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T09:50:45.384764+00:00",
+  "fetched_at": "2026-06-22T13:41:25.423250+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 47,
@@ -297,17 +297,14 @@
     "req5d4d62dd36d9ef761727f012": {
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n87%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.4\nRecepción de estudio\nI.4\nEnvío de estudio a Empresa Involucrada\nI.4\nObservaciones al estudio de la Empresa Involucrada\nI.4\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-or-ecap-2026-135.pdf\n\n\n\nResponsable\n\nTSSCECVSCTSGSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n24-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n87%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.4\nRecepción de estudio\nI.4\nEnvío de estudio a Empresa Involucrada\nI.4\nObservaciones al estudio de la Empresa Involucrada\nI.4\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n01-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req606a6bc436d9ef1a2254fc9b": {
       "casilla": "Fecha Pruebas",
       "parent_group": "SITR",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n28-05-2026\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req6076676d36d9ef7d11ba2199": {
       "casilla": "Enlace",
@@ -319,53 +316,41 @@
     "req5d4d985736d9ef76163d61b6": {
       "casilla": "OTROS PES",
       "parent_group": "SCADA Y MEDIDAS",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n*OTROS REQUERIMIENTOS PES\nEncargado: Departamento Conexiones\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n30-04-2026\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4da05136d9ef7615c4d9bd": {
       "casilla": "Prot E",
       "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos SAT\nI.1\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nProtocolos de pruebas SAT a equipos primarios\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n05-06-2026\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n28-11-2025\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4da2bc36d9ef761836f1eb": {
       "casilla": "Prog P",
       "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PROGRAMA DE PRUEBAS\nEncargado: Programacion\nI.1\nRecepción del Programa de Pruebas\nI.1\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante envía un Programa de Pruebas para revisión\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n05-06-2026\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req604792ec36d9ef3b4fd75707": {
       "casilla": "PLATAFORMAS PES",
       "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n*PLATAFORMAS PES\nEncargado: Por definir\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n20-08-2026\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req60612e2236d9ef1fc3814a92": {
       "casilla": "Neomante",
       "parent_group": "PLATAFORMAS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'NEOMANTE\nEncargado: Departamento Conexiones\nI.1\nGeneración de Usuario en Plataforma Neomante\n¿Qué estoy viendo?\n\nDescripción\n\nCreación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n23-01-2026\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     }
   },
   "first_seen": {
-    "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:56:31.690162+00:00",
-    "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-20T14:56:31.690189+00:00",
-    "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-06-20T14:56:31.690204+00:00",
-    "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-06-20T14:56:31.690220+00:00",
-    "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-20T14:56:31.690228+00:00",
-    "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-20T14:56:31.690237+00:00",
-    "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-20T14:56:31.690252+00:00"
+    "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-06-20T14:56:31.690204+00:00"
   }
 }

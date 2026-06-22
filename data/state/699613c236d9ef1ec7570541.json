@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T09:50:29.032129+00:00",
+  "fetched_at": "2026-06-22T13:39:11.017738+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 18,
@@ -244,122 +244,87 @@
     "req5d4d62dd36d9ef761727f012": {
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d80b036d9ef7615c333ec": {
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d80cc36d9ef76163c415e": {
       "casilla": "ET",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d815e36d9ef7615c337b6": {
       "casilla": "ECB",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d811736d9ef76163c4333": {
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d828736d9ef7615c3571d": {
       "casilla": "ECA",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN DE AISLAMIENTO\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN DE AISLAMIENTO\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d821236d9ef7615c3554c": {
       "casilla": "EMT",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d852636d9ef76183532d7": {
       "casilla": "SCADA Y MEDIDAS",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n*SCADA Y MEDIDAS\nEncargado: Departamento Conexiones\nI.1\nSCADA y MEDIDAS\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n05-01-2027\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req606a6b8536d9ef1a2254fa09": {
       "casilla": "DIR/TAG",
       "parent_group": "SITR",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'DEFINICIÓN DE PROTOCOLOS DE COMUNICACIONES\nEncargado: SCADA\nI.1\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nI.1\nEmisión o revisión de Tag ICCP o Direcciones IEC104/DNP\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante deberá enviar una solicitud (tag ICCP o direcciones IEC104/DNP) asociado a las señales SITR. Debe incluir planilla de señales SITR aprobado por el Coordinador. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n22-06-2026\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d8acf36d9ef761835aef5": {
       "casilla": "EME",
       "parent_group": "SCADA Y MEDIDAS",
-      "sub_panels": [
-        "Listado de Requerimientos\n87%\n'ESQUEMA DE MEDIDAS DE ENERGÍA\nEncargado: EME\nI.4\nSolicitud de revisión del Esquema de Medidas de Energía\nI.4\nObservaciones al Esquema de Medidas de Energía\n¿Qué estoy viendo?\n\nDescripción\n\nEmisión del Documento Único de Observaciones al Esquema de Medidas de Energía\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n10-07-2026\n\nDepende de\n\nSolicitud de revisión del Esquema de Medidas de Energía\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d985736d9ef76163d61b6": {
       "casilla": "OTROS PES",
       "parent_group": "SCADA Y MEDIDAS",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n*OTROS REQUERIMIENTOS PES\nEncargado: Departamento Conexiones\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n05-01-2027\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4da28736d9ef7615c57207": {
       "casilla": "GM",
       "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'GUÍA DE MANIOBRAS\nEncargado: CDC\nI.1\nRecepción de Guía de Maniobras\nI.1\nRevisión de Guía de Maniobras\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n07-07-2026\n\nDepende de\n\nRecepción de Guía de Maniobras\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n03-06-2026\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4da2bc36d9ef761836f1eb": {
       "casilla": "Prog P",
       "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PROGRAMA DE PRUEBAS\nEncargado: Programacion\nI.1\nRecepción del Programa de Pruebas\nI.1\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante envía un Programa de Pruebas para revisión\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n03-06-2026\n\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     }
   },
-  "first_seen": {
-    "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:56:14.491068+00:00",
-    "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:56:14.491086+00:00",
-    "req5d4d80cc36d9ef76163c415e|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:56:14.491101+00:00",
-    "req5d4d815e36d9ef7615c337b6|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:56:14.491116+00:00",
-    "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:56:14.491136+00:00",
-    "req5d4d828736d9ef7615c3571d|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:56:14.491150+00:00",
-    "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:56:14.491165+00:00",
-    "req5d4d852636d9ef76183532d7|De acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-06-20T14:56:14.491187+00:00",
-    "req606a6b8536d9ef1a2254fa09|La Empresa Solicitante deberá enviar una solicitud (tag ICCP o direcciones IEC104/DNP) asociado a las señales SITR. Debe incluir planilla de señales SITR aprobado por el Coordinador. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-20T14:56:14.491204+00:00",
-    "req5d4d8acf36d9ef761835aef5|Emisión del Documento Único de Observaciones al Esquema de Medidas de Energía": "2026-06-20T14:56:14.491217+00:00",
-    "req5d4da28736d9ef7615c57207|El Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación": "2026-06-20T14:56:14.491234+00:00",
-    "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-20T14:56:14.491248+00:00",
-    "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-20T14:56:14.491256+00:00"
-  }
+  "first_seen": {}
 }
