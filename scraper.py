@@ -395,16 +395,10 @@ def diff_snapshots(prev: dict, curr: dict) -> tuple:
                 }
             )
         else:
-            for desc in resolved:
-                changes.append(f"'{casilla}': se resolvió el pendiente \"{desc}\".")
-                alerts.append(
-                    {
-                        "casilla": casilla,
-                        "evento": f'Se resolvió "{desc}"',
-                        "quien": "-",
-                        "fecha_limite": "-",
-                    }
-                )
+            # No avisamos cuando un pendiente "se resuelve" solo: es un paso
+            # intermedio sin acción para nadie. Lo único relevante es cuando
+            # aparece un nuevo pendiente real (carga tuya o decisión del
+            # CEN) — eso sí se reporta más abajo.
             for desc in new:
                 p = curr_by_desc[desc]
                 changes.append(
