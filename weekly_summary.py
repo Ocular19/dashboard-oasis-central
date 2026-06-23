@@ -9,6 +9,7 @@ Mismas variables de entorno que scraper.py (GMAIL_USER, GMAIL_APP_PASSWORD,
 MAIL_TO).
 """
 import json
+import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -19,29 +20,68 @@ LOG_DIR = ROOT / "data" / "log"
 ASSETS_DIR = ROOT / "docs" / "assets"
 WEEK_DAYS = 7
 
+FECHA_RE = re.compile(r"fecha límite (\d{2}-\d{2}-\d{4})")
+CASILLA_RE = re.compile(r"'([^']+)'")
+QUIEN_PATTERNS = [
+    ("Esperando que Grenergy cargue un documento", "Esperando que Grenergy cargue un documento"),
+    ("Esperando respuesta/revisión del Coordinador (CEN)", "Esperando respuesta/revisión del Coordinador (CEN)"),
+]
 
-def week_alerts_for(project_id: str) -> list:
-    """Junta los 'alerts' estructurados (casilla/evento/quién/fecha) de los
-    últimos 7 días. Si una entrada vieja del log no tiene 'alerts' (formato
-    anterior), arma uno básico a partir del texto para no perder datos."""
+
+def _guess_fields(text: str) -> dict:
+    """Para entradas viejas del log que no guardaron el detalle estructurado,
+    intenta sacar casilla/quién/fecha del propio texto en vez de dejar todo
+    en blanco."""
+    casilla_m = CASILLA_RE.search(text)
+    fecha_m = FECHA_RE.search(text)
+    quien = "-"
+    for pattern, label in QUIEN_PATTERNS:
+        if pattern in text:
+            quien = label
+            break
+    return {
+        "casilla": casilla_m.group(1) if casilla_m else "Proyecto (general)",
+        "evento": text,
+        "quien": quien,
+        "fecha_limite": fecha_m.group(1) if fecha_m else "-",
+    }
+
+
+def alerts_in_window(project_id: str, days_back_start: int, days_back_end: int) -> list:
+    """Alerts entre hace `days_back_start` días y hace `days_back_end` días
+    (days_back_end < days_back_start, ej. (14, 7) = la semana anterior a esta)."""
     log = scraper.load_json(LOG_DIR / f"{project_id}.json") or []
-    cutoff = datetime.now(timezone.utc) - timedelta(days=WEEK_DAYS)
+    now = datetime.now(timezone.utc)
+    start = now - timedelta(days=days_back_start)
+    end = now - timedelta(days=days_back_end)
     out = []
     for entry in log:
-        if datetime.fromisoformat(entry["timestamp"]) < cutoff:
+        ts = datetime.fromisoformat(entry["timestamp"])
+        if not (start <= ts < end):
             continue
         alerts = entry.get("alerts")
         if alerts:
             out.extend(alerts)
-        else:
-            for c in entry.get("changes", []):
-                out.append({"casilla": "-", "evento": c, "quien": "-", "fecha_limite": "-"})
+        for c in entry.get("changes", []):
+            already_covered = alerts and any(a.get("evento") == c for a in alerts)
+            if not already_covered:
+                out.append(_guess_fields(c))
     return out
 
 
+def summarize(alerts: list) -> dict:
+    completadas = sum(1 for a in alerts if "completado" in a["evento"].lower() or "se completó" in a["evento"].lower())
+    esperando_grenergy = sum(1 for a in alerts if a["quien"] == "Esperando que Grenergy cargue un documento")
+    esperando_cen = sum(1 for a in alerts if a["quien"] == "Esperando respuesta/revisión del Coordinador (CEN)")
+    return {
+        "completadas": completadas,
+        "esperando_grenergy": esperando_grenergy,
+        "esperando_cen": esperando_cen,
+        "total": len(alerts),
+    }
+
+
 def render_bar_chart(boxes: dict) -> str:
-    """Barra horizontal simple (solo CSS, sin imágenes) con la proporción de
-    casillas completadas / en curso / no iniciadas del proyecto."""
     n_completado = sum(1 for b in boxes.values() if b["state"] == "completado")
     n_en_curso = sum(1 for b in boxes.values() if b["state"] in ("en_curso", "en_curso_destacado"))
     n_pendiente = sum(1 for b in boxes.values() if b["state"] == "pendiente")
@@ -62,22 +102,39 @@ def render_bar_chart(boxes: dict) -> str:
     """
 
 
+def delta_badge(curr: int, prev: int, label: str) -> str:
+    diff = curr - prev
+    if diff > 0:
+        arrow, color = f"↑{diff}", "#00cf78"
+    elif diff < 0:
+        arrow, color = f"↓{abs(diff)}", "#e0273a"
+    else:
+        arrow, color = "=", "#8a9591"
+    return (
+        f"<span style='font-size:11px; color:{color}; font-weight:600;'>{arrow} vs. semana anterior</span>"
+        if prev or curr
+        else ""
+    )
+
+
+def render_stat(value: int, label: str, color: str) -> str:
+    return f"""
+    <td align="center" style="padding:10px 6px;">
+      <div style="font-size:24px; font-weight:700; color:{color};">{value}</div>
+      <div style="font-size:11px; color:#6b7777; margin-top:2px;">{label}</div>
+    </td>
+    """
+
+
 def render_email_html(rows: list) -> str:
     period_start = (datetime.now(timezone.utc) - timedelta(days=WEEK_DAYS)).strftime("%d-%m-%Y")
     period_end = datetime.now(timezone.utc).strftime("%d-%m-%Y")
-    total_cambios = sum(len(r["alerts"]) for r in rows)
+    total_cambios = sum(r["stats"]["total"] for r in rows)
 
     sections = []
     for r in rows:
+        s, sp = r["stats"], r["stats_prev"]
         if r["alerts"]:
-            header_rows = (
-                "<tr>"
-                "<th align='left' style=\"font-size:11px; color:#8a9591; padding:4px 6px; text-transform:uppercase;\">Casilla</th>"
-                "<th align='left' style=\"font-size:11px; color:#8a9591; padding:4px 6px; text-transform:uppercase;\">Evento</th>"
-                "<th align='left' style=\"font-size:11px; color:#8a9591; padding:4px 6px; text-transform:uppercase;\">Quién responde</th>"
-                "<th align='left' style=\"font-size:11px; color:#8a9591; padding:4px 6px; text-transform:uppercase;\">Fecha límite</th>"
-                "</tr>"
-            )
             data_rows = "".join(
                 f"""<tr>
                     <td style="padding:8px 6px; border-bottom:1px solid #e3e9e7; font-size:12.5px; color:#1b2b29;">{a['casilla']}</td>
@@ -87,12 +144,36 @@ def render_email_html(rows: list) -> str:
                 </tr>"""
                 for a in r["alerts"]
             )
-            body = f"<table role='presentation' width='100%' cellpadding='0' cellspacing='0'>{header_rows}{data_rows}</table>"
+            header_rows = (
+                "<tr>"
+                "<th align='left' style=\"font-size:11px; color:#8a9591; padding:4px 6px; text-transform:uppercase;\">Casilla</th>"
+                "<th align='left' style=\"font-size:11px; color:#8a9591; padding:4px 6px; text-transform:uppercase;\">Evento</th>"
+                "<th align='left' style=\"font-size:11px; color:#8a9591; padding:4px 6px; text-transform:uppercase;\">Quién responde</th>"
+                "<th align='left' style=\"font-size:11px; color:#8a9591; padding:4px 6px; text-transform:uppercase;\">Fecha límite</th>"
+                "</tr>"
+            )
+            detail = f"<table role='presentation' width='100%' cellpadding='0' cellspacing='0'>{header_rows}{data_rows}</table>"
         else:
-            body = (
+            detail = (
                 "<p style='margin:8px 0 0 0; color:#6b7777; font-style:italic;'>"
                 "Sin cambios esta semana.</p>"
             )
+
+        stats_table = f"""
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:10px; background:#f6f9f8; border-radius:10px;">
+          <tr>
+            {render_stat(s['completadas'], 'Completadas esta semana', '#00cf78')}
+            {render_stat(s['esperando_grenergy'], 'Esperando carga de Grenergy', '#e67e22')}
+            {render_stat(s['esperando_cen'], 'Esperando respuesta del CEN', '#04201f')}
+          </tr>
+          <tr>
+            <td align="center" style="padding:0 6px 8px 6px;">{delta_badge(s['completadas'], sp['completadas'], 'completadas')}</td>
+            <td align="center" style="padding:0 6px 8px 6px;">{delta_badge(s['esperando_grenergy'], sp['esperando_grenergy'], 'pendientes')}</td>
+            <td align="center" style="padding:0 6px 8px 6px;">{delta_badge(s['esperando_cen'], sp['esperando_cen'], 'pendientes')}</td>
+          </tr>
+        </table>
+        """
+
         sections.append(
             f"""
             <tr><td style="padding:20px 0 4px 0; border-top:1px solid #e3e9e7;">
@@ -100,8 +181,9 @@ def render_email_html(rows: list) -> str:
                 {r['name']} <span style="color:#8a9591; font-weight:400; font-size:12px;">#{r['correlativo']}</span>
               </div>
               {r['bar_chart']}
+              {stats_table}
             </td></tr>
-            <tr><td style="padding:6px 0 4px 0;">{body}</td></tr>
+            <tr><td style="padding:10px 0 4px 0;">{detail}</td></tr>
             """
         )
 
@@ -110,7 +192,7 @@ def render_email_html(rows: list) -> str:
 <body style="margin:0; padding:0; background:#eef3f1; font-family:Arial, Helvetica, sans-serif;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef3f1; padding:24px 0;">
     <tr><td align="center">
-      <table role="presentation" width="660" cellpadding="0" cellspacing="0" style="background:white; border-radius:14px; overflow:hidden;">
+      <table role="presentation" width="680" cellpadding="0" cellspacing="0" style="background:white; border-radius:14px; overflow:hidden;">
         <tr><td style="background:#04201f; padding:24px 28px;">
           <img src="cid:logo" alt="Grenergy" height="28">
         </td></tr>
@@ -139,11 +221,15 @@ def main():
     for project in projects:
         project_id = project["id"]
         state = scraper.load_json(scraper.STATE_DIR / f"{project_id}.json") or {}
+        alerts = alerts_in_window(project_id, WEEK_DAYS, 0)
+        alerts_prev = alerts_in_window(project_id, WEEK_DAYS * 2, WEEK_DAYS)
         rows.append(
             {
                 "name": state.get("name") or project_id,
                 "correlativo": state.get("correlativo"),
-                "alerts": week_alerts_for(project_id),
+                "alerts": alerts,
+                "stats": summarize(alerts),
+                "stats_prev": summarize(alerts_prev),
                 "bar_chart": render_bar_chart(state.get("boxes", {})),
             }
         )

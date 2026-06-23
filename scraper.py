@@ -429,9 +429,16 @@ def diff_snapshots(prev: dict, curr: dict) -> tuple:
                         }
                     )
 
-    for key in ("completition_status", "completition_pes", "service_estimate_date", "operative_estimate_date"):
+    FIELD_LABELS = {
+        "completition_status": "Avance general del proyecto",
+        "completition_pes": "Avance de requisitos para inicio de PES",
+        "service_estimate_date": "Fecha estimada de Puesta en Servicio",
+        "operative_estimate_date": "Fecha estimada de Entrada en Operación",
+    }
+    for key, label in FIELD_LABELS.items():
         if prev.get(key) != curr.get(key):
-            changes.append(f"Campo '{key}' cambió: {prev.get(key)} -> {curr.get(key)}")
+            unidad = "%" if key in ("completition_status", "completition_pes") else ""
+            changes.append(f"{label}: {prev.get(key)}{unidad} → {curr.get(key)}{unidad}.")
 
     return changes, alerts
 
