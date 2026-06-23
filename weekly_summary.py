@@ -247,7 +247,12 @@ def render_email_html(rows: list) -> str:
     <tr><td align="center">
       <table role="presentation" width="680" cellpadding="0" cellspacing="0" style="background:white; border-radius:14px; overflow:hidden;">
         <tr><td style="background:#04201f; padding:24px 28px;">
-          <img src="cid:logo" alt="Grenergy" height="28">
+          <table role="presentation" cellpadding="0" cellspacing="0"><tr>
+            <td><img src="cid:logo" alt="Grenergy" height="28"></td>
+            <td style="padding-left:14px; border-left:1px solid #1d3b37;">
+              <span style="font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:600; color:#7be3ae; letter-spacing:0.5px; padding-left:14px;">{scraper.GROUP_NAME}</span>
+            </td>
+          </tr></table>
         </td></tr>
         <tr><td style="padding:24px 28px 4px 28px;">
           <div style="font-size:18px; font-weight:600; color:#04201f;">Resumen ejecutivo semanal &mdash; {scraper.GROUP_NAME}</div>
