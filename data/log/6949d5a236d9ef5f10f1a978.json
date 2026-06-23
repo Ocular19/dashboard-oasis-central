@@ -9,5 +9,19 @@
       "Avance de requisitos para inicio de PES: 22% → 23%."
     ],
     "alerts": []
+  },
+  {
+    "timestamp": "2026-06-23T01:56:05.017620+00:00",
+    "changes": [
+      "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 19-05-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Plan Ener Gx",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "19-05-2026"
+      }
+    ]
   }
 ]
