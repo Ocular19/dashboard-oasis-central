@@ -81,6 +81,41 @@ def summarize(alerts: list) -> dict:
     }
 
 
+def build_recommendations(state: dict) -> list:
+    """Mira el estado ACTUAL (no el historial) y arma recomendaciones para
+    lo que está atrasado en este momento, p.ej. 'Plan Ener Tx tiene 6 días
+    de atraso, se recomienda cargar el documento'."""
+    today = datetime.now(timezone.utc).date()
+    recs = []
+    for task in state.get("active_tasks", {}).values():
+        label = task["casilla"]
+        for sub_text in task.get("sub_panels", []):
+            parsed = scraper.parse_task_panel(sub_text)
+            if not parsed or parsed["completada"] or parsed["quien_actua"] == "terceros":
+                continue
+            fecha_dt = scraper.parse_fecha_limite(parsed["fecha_limite"])
+            if not (fecha_dt and fecha_dt < today):
+                continue
+            dias = (today - fecha_dt).days
+            if parsed["quien_actua"] == "tu_empresa":
+                recs.append(f"<strong>{label}</strong> tiene {dias} día(s) de atraso — se recomienda cargar el documento.")
+            elif parsed["quien_actua"] == "coordinador":
+                recs.append(f"<strong>{label}</strong> tiene {dias} día(s) de atraso esperando al CEN — se recomienda hacer seguimiento.")
+    return recs
+
+
+def render_recommendations(recs: list) -> str:
+    if not recs:
+        return ""
+    items = "".join(f"<li style='margin-bottom:6px; color:#7a1f12;'>{r}</li>" for r in recs)
+    return f"""
+    <div style="margin-top:10px; padding:10px 14px; background:#fdeceb; border-radius:10px;">
+      <div style="font-weight:600; font-size:12.5px; color:#7a1f12; margin-bottom:4px;">⚠️ Recomendaciones</div>
+      <ul style="margin:0; padding-left:18px; font-size:12.5px;">{items}</ul>
+    </div>
+    """
+
+
 def render_bar_chart(boxes: dict) -> str:
     leaf_boxes = [b for b in boxes.values() if not b.get("is_container")]
     n_completado = sum(1 for b in leaf_boxes if b["state"] == "completado")
@@ -183,6 +218,7 @@ def render_email_html(rows: list) -> str:
               </div>
               {r['bar_chart']}
               {stats_table}
+              {render_recommendations(r['recommendations'])}
             </td></tr>
             <tr><td style="padding:10px 0 4px 0;">{detail}</td></tr>
             """
@@ -232,6 +268,7 @@ def main():
                 "stats": summarize(alerts),
                 "stats_prev": summarize(alerts_prev),
                 "bar_chart": render_bar_chart(state.get("boxes", {})),
+                "recommendations": build_recommendations(state),
             }
         )
 
