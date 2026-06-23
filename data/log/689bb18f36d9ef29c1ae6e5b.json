@@ -31,5 +31,28 @@
         "fecha_limite": "05-06-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-23T21:47:26.474961+00:00",
+    "changes": [
+      "Casilla 'Cronograma' cambió de estado: completado -> en_curso",
+      "'Cronograma': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 24-06-2026).",
+      "Avance general del proyecto: 47% → 46%.",
+      "Avance de requisitos para inicio de PES: 59% → 58%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Cronograma",
+        "evento": "Cambió de estado (completado → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "24-06-2026"
+      },
+      {
+        "casilla": "Cronograma",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "24-06-2026"
+      }
+    ]
   }
 ]

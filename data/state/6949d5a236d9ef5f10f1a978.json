@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T17:48:21.320146+00:00",
+  "fetched_at": "2026-06-23T21:45:56.897486+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 19,
@@ -416,7 +416,7 @@
       "casilla": "Prog P",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PROGRAMA DE PRUEBAS\nEncargado: Por definir\nI.1\nRecepción del Programa de Pruebas\nI.1\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante envía un Programa de Pruebas para revisión\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'PROGRAMA DE PRUEBAS\nEncargado: Programacion\nI.1\nRecepción del Programa de Pruebas\nI.1\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante envía un Programa de Pruebas para revisión\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4d9fe036d9ef7615c4a7d9": {
@@ -430,7 +430,7 @@
       "casilla": "Opreal",
       "parent_group": "PLATAFORMAS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'OPERACIÓN REAL\nEncargado: Departamento Conexiones\nI.1\nRecepción Antecedentes Opreal\nI.1\nCreación Usuario Opreal\n¿Qué estoy viendo?\n\nDescripción\n\nRecepción de Formulario para creación de la Central en la Plataforma Opreal\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'OPERACIÓN REAL\nEncargado: OpReal\nI.1\nRecepción Antecedentes Opreal\nI.1\nCreación Usuario Opreal\n¿Qué estoy viendo?\n\nDescripción\n\nRecepción de Formulario para creación de la Central en la Plataforma Opreal\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
       ]
     }
   },

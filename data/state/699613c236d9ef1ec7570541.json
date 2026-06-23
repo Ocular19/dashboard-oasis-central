@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T17:48:40.096480+00:00",
+  "fetched_at": "2026-06-23T21:46:55.491072+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 18,
@@ -350,7 +350,7 @@
       "casilla": "DIR/TAG",
       "parent_group": "SITR",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'DEFINICIÓN DE PROTOCOLOS DE COMUNICACIONES\nEncargado: SCADA\nI.1\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nI.1\nEmisión o revisión de Tag ICCP o Direcciones IEC104/DNP\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante deberá enviar una solicitud (tag ICCP o direcciones IEC104/DNP) asociado a las señales SITR. Debe incluir planilla de señales SITR aprobado por el Coordinador. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n22-06-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'DEFINICIÓN DE PROTOCOLOS DE COMUNICACIONES\nEncargado: SCADA\nI.1\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nI.1\nEmisión o revisión de Tag ICCP o Direcciones IEC104/DNP\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n01-07-2026\n\nDepende de\n\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nHistorial de movimientos"
       ]
     },
     "req5d4da28736d9ef7615c57207": {
@@ -383,7 +383,7 @@
     "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593788+00:00",
     "req5d4d828736d9ef7615c3571d|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593799+00:00",
     "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593811+00:00",
-    "req606a6b8536d9ef1a2254fa09|La Empresa Solicitante deberá enviar una solicitud (tag ICCP o direcciones IEC104/DNP) asociado a las señales SITR. Debe incluir planilla de señales SITR aprobado por el Coordinador. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T16:58:19.593833+00:00",
+    "req606a6b8536d9ef1a2254fa09|El Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.": "2026-06-23T21:46:55.491653+00:00",
     "req5d4da28736d9ef7615c57207|El Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación": "2026-06-23T00:45:49.176200+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"

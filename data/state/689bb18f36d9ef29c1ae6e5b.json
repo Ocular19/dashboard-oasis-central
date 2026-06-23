@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-06-23T17:48:53.821140+00:00",
+  "fetched_at": "2026-06-23T21:47:26.473635+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
-  "completition_status": 47,
-  "completition_pes": 59,
+  "completition_status": 46,
+  "completition_pes": 58,
   "service_estimate_date": "2026-06-30T00:00:00",
   "operative_estimate_date": "2026-11-15T00:00:00",
   "reception_date": "2025-08-11T00:00:00",
@@ -35,7 +35,7 @@
     },
     "req60ad0d0d36d9ef44f12350ef": {
       "text": "Cronograma",
-      "state": "completado",
+      "state": "en_curso",
       "is_container": false
     },
     "req60ca060536d9ef1ee6b43b49": {
@@ -365,6 +365,13 @@
     }
   },
   "active_tasks": {
+    "req60ad0d0d36d9ef44f12350ef": {
+      "casilla": "Cronograma",
+      "parent_group": null,
+      "sub_panels": [
+        "Listado de Requerimientos\n66%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.3\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n24-06-2026\n\nHistorial de movimientos"
+      ]
+    },
     "req5d4d62dd36d9ef761727f012": {
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
@@ -417,6 +424,7 @@
     }
   },
   "first_seen": {
+    "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-06-23T21:47:26.473901+00:00",
     "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:35.668108+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T16:58:35.668120+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-06-20T14:56:31.690204+00:00",

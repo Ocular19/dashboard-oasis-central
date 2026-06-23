@@ -31,5 +31,19 @@
         "fecha_limite": "07-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-23T21:46:55.492699+00:00",
+    "changes": [
+      "'DIR/TAG': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 01-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "DIR/TAG",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "01-07-2026"
+      }
+    ]
   }
 ]
