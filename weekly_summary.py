@@ -82,9 +82,10 @@ def summarize(alerts: list) -> dict:
 
 
 def render_bar_chart(boxes: dict) -> str:
-    n_completado = sum(1 for b in boxes.values() if b["state"] == "completado")
-    n_en_curso = sum(1 for b in boxes.values() if b["state"] in ("en_curso", "en_curso_destacado"))
-    n_pendiente = sum(1 for b in boxes.values() if b["state"] == "pendiente")
+    leaf_boxes = [b for b in boxes.values() if not b.get("is_container")]
+    n_completado = sum(1 for b in leaf_boxes if b["state"] == "completado")
+    n_en_curso = sum(1 for b in leaf_boxes if b["state"] in ("en_curso", "en_curso_destacado"))
+    n_pendiente = sum(1 for b in leaf_boxes if b["state"] == "pendiente")
     total = max(n_completado + n_en_curso + n_pendiente, 1)
     pct = lambda n: round(n / total * 100, 1)  # noqa: E731
 

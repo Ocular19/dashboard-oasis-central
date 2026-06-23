@@ -92,8 +92,14 @@ EXTRACT_BOXES_JS = """
       if (cand === leaf) continue;
       const horizOverlap = cand.rect.x <= leaf.rect.x + 1 &&
         (cand.rect.x + cand.rect.width) >= (leaf.rect.x + leaf.rect.width - 1);
+      // Un contenedor real es notoriamente más ancho que su hijo (porque
+      // adentro caben varias casillas una al lado de la otra). Si tiene casi
+      // el mismo ancho, son cajas apiladas en una misma columna, no
+      // anidadas (p.ej. "CEM Definitiva" y "ANIT y PLANOS" no están
+      // relacionadas, solo una arriba de la otra).
+      const muchoMasAncho = cand.rect.width >= leaf.rect.width * 1.25;
       const above = cand.rect.y < leaf.rect.y;
-      if (horizOverlap && above) {
+      if (horizOverlap && muchoMasAncho && above) {
         const gap = leaf.rect.y - cand.rect.y;
         if (gap > 0 && gap < bestGap) { bestGap = gap; best = cand; }
       }
@@ -101,14 +107,22 @@ EXTRACT_BOXES_JS = """
     return best ? best.label : null;
   }
 
-  return items.map(it => {
+  const withParent = items.map(it => ({ it, parent_group: findParent(it) }));
+  // Una casilla es "contenedora" (agrupa documentos/estudios adentro, p.ej.
+  // OTROS PES, SCADA Y MEDIDAS, ESTUDIOS DE INTERCONEXIÓN) si aparece como
+  // el padre de al menos otra casilla. Esas no son una acción en sí misma,
+  // solo agrupan a las reales.
+  const containerLabels = new Set(withParent.map(w => w.parent_group).filter(Boolean));
+
+  return withParent.map(({ it, parent_group }) => {
     const inner = it.el.querySelector('div') || it.el;
     const cs = getComputedStyle(inner);
     return {
       req_class: it.el.className,
       text: it.label,
       bg: cs.backgroundColor,
-      parent_group: findParent(it),
+      parent_group,
+      is_container: containerLabels.has(it.label),
     };
   });
 }
@@ -196,8 +210,15 @@ def scrape_project(page, project: dict) -> dict:
     active_boxes = []
     for b in boxes_raw:
         state = label_for_color(b["bg"])
-        boxes[b["req_class"]] = {"text": b["text"], "state": state}
-        if state in ("en_curso", "en_curso_destacado"):
+        boxes[b["req_class"]] = {
+            "text": b["text"],
+            "state": state,
+            "is_container": b.get("is_container", False),
+        }
+        # Las casillas contenedoras (OTROS PES, SCADA Y MEDIDAS, etc.) solo
+        # agrupan a las reales — no tienen un panel de detalle propio que
+        # valga la pena abrir, así que no perdemos tiempo haciendo clic ahí.
+        if state in ("en_curso", "en_curso_destacado") and not b.get("is_container"):
             active_boxes.append(b)
 
     WAIT_READY_JS = "() => document.body.innerText.includes('Listado de Requerimientos') && document.body.innerText.includes('Estado:')"
@@ -320,7 +341,7 @@ def diff_snapshots(prev: dict, curr: dict) -> tuple:
     curr_boxes = curr.get("boxes", {})
     for req_class, curr_box in curr_boxes.items():
         prev_box = prev_boxes.get(req_class)
-        if prev_box is None:
+        if prev_box is None or curr_box.get("is_container"):
             continue
         if prev_box.get("state") != curr_box.get("state"):
             quien, fecha = quien_fecha_for(req_class, curr_box["text"])
@@ -710,9 +731,10 @@ def render_dashboard(projects_summary: list) -> None:
     cards = []
     for p in projects_summary:
         boxes = p["boxes"]
-        n_completado = sum(1 for b in boxes.values() if b["state"] == "completado")
-        n_pendiente = sum(1 for b in boxes.values() if b["state"] == "pendiente")
-        n_en_curso = sum(1 for b in boxes.values() if b["state"] in ("en_curso", "en_curso_destacado"))
+        leaf_boxes = [b for b in boxes.values() if not b.get("is_container")]
+        n_completado = sum(1 for b in leaf_boxes if b["state"] == "completado")
+        n_pendiente = sum(1 for b in leaf_boxes if b["state"] == "pendiente")
+        n_en_curso = sum(1 for b in leaf_boxes if b["state"] in ("en_curso", "en_curso_destacado"))
 
         # Genéricos cuyo grupo padre no aporta información extra (sería
         # redundante mostrar "REQUISITOS PES > OTROS PES", por ejemplo).
