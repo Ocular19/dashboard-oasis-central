@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T00:10:55.793549+00:00",
+  "fetched_at": "2026-06-23T00:46:08.331383+00:00",
   "name": "MR Proyecto Ampliación Subestación Seccionadora Solís 154 kV (Art. 102))",
   "correlativo": 5422,
   "completition_status": 95,
@@ -10,113 +10,131 @@
   "boxes": {
     "req5a5ebdc901447e4bfc0aa6e3": {
       "text": "CEM Definitiva",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req6088396036d9ef6adef5612c": {
       "text": "ANIT y PLANOS",
-      "state": "completado"
+      "state": "completado",
+      "is_container": true
     },
     "req5d4c907f36d9ef7615bf7a08": {
       "text": "DUF",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5ea9f8c136d9ef4be78ea70b": {
       "text": "ANIT",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4d5ffe36d9ef7615c24383": {
       "text": "RI",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req60ad0d0d36d9ef44f12350ef": {
       "text": "Cronograma",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req60ca060536d9ef1ee6b43b49": {
       "text": "INFORMACIÓN TÉCNICA",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req60ca075236d9ef2b9316e203": {
       "text": "INFOTÉCNICA PARA ESTUDIOS",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4c9a0536d9ef7615c07b9a": {
       "text": "IT E",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req60ca06b836d9ef38d7c4be4e": {
       "text": "ESTUDIOS DE INTERCONEXIÓN",
-      "state": "completado"
+      "state": "completado",
+      "is_container": true
     },
     "req5d4d811736d9ef76163c4333": {
       "text": "ECC",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4d821236d9ef7615c3554c": {
       "text": "EMT",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4d852636d9ef76183532d7": {
       "text": "SCADA Y MEDIDAS",
-      "state": "completado"
+      "state": "completado",
+      "is_container": true
     },
     "req5d4d8b9e36d9ef76163cb2cf": {
       "text": "SITR",
-      "state": "completado"
+      "state": "completado",
+      "is_container": true
     },
     "req607664e136d9ef3500287df3": {
       "text": "Enlace",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req606a6b8536d9ef1a2254fa09": {
       "text": "DIR/TAG",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req606a6bc436d9ef1a2254fc9b": {
       "text": "Fecha Pruebas",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4d8e6c36d9ef7615c3ecd3": {
       "text": "Pruebas",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4d8acf36d9ef761835aef5": {
       "text": "EME",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4d985736d9ef76163d61b6": {
       "text": "OTROS PES",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": true
     },
     "req5d4da28736d9ef7615c57207": {
       "text": "GM",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req6411e30136d9ef1cf5bda82c": {
       "text": "Plan Ener Tx",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req606a645736d9ef4c33bba1be": {
       "text": "Hitos",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4d9fe036d9ef7615c4a7d9": {
       "text": "Carta SEC",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4dab3f36d9ef7615c59207": {
       "text": "SEO",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     }
   },
   "active_tasks": {
-    "req5d4d985736d9ef76163d61b6": {
-      "casilla": "OTROS PES",
-      "parent_group": "SCADA Y MEDIDAS",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n*OTROS REQUERIMIENTOS PES\nEncargado: Por definir\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n18-01-2027\n\nHistorial de movimientos"
-      ]
-    },
     "req6411e30136d9ef1cf5bda82c": {
       "casilla": "Plan Ener Tx",
       "parent_group": "OTROS PES",

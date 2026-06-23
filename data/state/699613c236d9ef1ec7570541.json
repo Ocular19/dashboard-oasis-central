@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T00:10:28.431334+00:00",
+  "fetched_at": "2026-06-23T00:45:49.175785+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 18,
@@ -10,237 +10,286 @@
   "boxes": {
     "req5a5ebdc901447e4bfc0aa6e3": {
       "text": "CEM Definitiva",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req6088396036d9ef6adef5612c": {
       "text": "ANIT y PLANOS",
-      "state": "completado"
+      "state": "completado",
+      "is_container": true
     },
     "req5d4c907f36d9ef7615bf7a08": {
       "text": "DUF",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5ea9f8c136d9ef4be78ea70b": {
       "text": "ANIT",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4d5ffe36d9ef7615c24383": {
       "text": "RI",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req60ad0d0d36d9ef44f12350ef": {
       "text": "Cronograma",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req60ca060536d9ef1ee6b43b49": {
       "text": "INFORMACIÓN TÉCNICA",
-      "state": "completado"
+      "state": "completado",
+      "is_container": true
     },
     "req60ca075236d9ef2b9316e203": {
       "text": "INFOTÉCNICA PARA ESTUDIOS",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5d4c9a0536d9ef7615c07b9a": {
       "text": "IT E",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req5fb1bc5236d9ef6c9002c548": {
       "text": "IT NO DISPONIBLE",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": true
     },
     "req5fb1ba3336d9ef6c925390f1": {
       "text": "PO no disponibles",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5fb1bb6936d9ef6c9002c1d7": {
       "text": "IT no disponible",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req60ca06b836d9ef38d7c4be4e": {
       "text": "ESTUDIOS DE INTERCONEXIÓN",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": true
     },
     "req5d4d62dd36d9ef761727f012": {
       "text": "ECAP",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4d80b036d9ef7615c333ec": {
       "text": "EFP",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4d80cc36d9ef76163c415e": {
       "text": "ET",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4d815e36d9ef7615c337b6": {
       "text": "ECB",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4d811736d9ef76163c4333": {
       "text": "ECC",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4d828736d9ef7615c3571d": {
       "text": "ECA",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4d821236d9ef7615c3554c": {
       "text": "EMT",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4d852636d9ef76183532d7": {
       "text": "SCADA Y MEDIDAS",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": true
     },
     "req5d4d8b9e36d9ef76163cb2cf": {
       "text": "SITR",
-      "state": "completado"
+      "state": "completado",
+      "is_container": true
     },
     "req607664e136d9ef3500287df3": {
       "text": "Enlace",
-      "state": "completado"
+      "state": "completado",
+      "is_container": false
     },
     "req606a6b8536d9ef1a2254fa09": {
       "text": "DIR/TAG",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req606a6bc436d9ef1a2254fc9b": {
       "text": "Fecha Pruebas",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4d8e6c36d9ef7615c3ecd3": {
       "text": "Pruebas",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4d8acf36d9ef761835aef5": {
       "text": "EME",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": true
     },
     "req6076676d36d9ef7d11ba2199": {
       "text": "Enlace",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req606a6c0436d9ef51933e5e93": {
       "text": "Fecha Pruebas",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5e4d4b5a36d9ef2cd9aa1241": {
       "text": "Pruebas",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4d985736d9ef76163d61b6": {
       "text": "OTROS PES",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": true
     },
     "req5d4da28736d9ef7615c57207": {
       "text": "GM",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4da05136d9ef7615c4d9bd": {
       "text": "Prot E",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4da0b036d9ef76163e2e6d": {
       "text": "Prot P",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4da10d36d9ef7615c50d5d": {
       "text": "PO N",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req665604b236d9ef441648202b": {
       "text": "Plan Ener Gx",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4da2bc36d9ef761836f1eb": {
       "text": "Prog P",
-      "state": "en_curso"
+      "state": "en_curso",
+      "is_container": false
     },
     "req5d4d9fe036d9ef7615c4a7d9": {
       "text": "Carta SEC",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req604792ec36d9ef3b4fd75707": {
       "text": "PLATAFORMAS PES",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req6047918036d9ef2de309723d": {
       "text": "Opreal",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req60478dea36d9ef42935ee7d1": {
       "text": "OTROS EO",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": true
     },
     "req5d4c9a3d36d9ef7615c07cfb": {
       "text": "IT PES",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4da16b36d9ef76172b5bc4": {
       "text": "PO E",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req64e3afeb36d9ef23190ab0a4": {
       "text": "Pruebas End to End",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4da9c336d9ef761837419c": {
       "text": "CVNC",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4da87e36d9ef76183739c3": {
       "text": "VMD",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req600f044436d9ef327f0765cb": {
       "text": "PARÁMETROS DE GENERACIÓN",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": true
     },
     "req5d4da5d136d9ef761837315b": {
       "text": "PMax",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4da62e36d9ef76172b6c08": {
       "text": "PPyD",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req5d4da56936d9ef7615c580e4": {
       "text": "MT",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req66aa9b6636d9ef2cbc857076": {
       "text": "SERVICIOS COMPLEMENTARIOS",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": true
     },
     "req66a1293a36d9ef1e87f16cb7": {
       "text": "CPF",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req66aa9e5b36d9ef1e1621a92d": {
       "text": "CSF",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req66aa9e7a36d9ef2cbc86bb1b": {
       "text": "CTF",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req66aa9eb736d9ef1e8786a646": {
       "text": "CT",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     },
     "req6596ce4a36d9ef6d386a9702": {
       "text": "SEO",
-      "state": "pendiente"
+      "state": "pendiente",
+      "is_container": false
     }
   },
   "active_tasks": {
-    "req60ca06b836d9ef38d7c4be4e": {
-      "casilla": "ESTUDIOS DE INTERCONEXIÓN",
-      "parent_group": "INFORMACIÓN TÉCNICA",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n*ESTUDIOS DE INTERCONEXIÓN\nEncargado: Departamento Conexiones\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n19-01-2027\n\nHistorial de movimientos"
-      ]
-    },
     "req5d4d62dd36d9ef761727f012": {
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
@@ -297,13 +346,6 @@
         "Listado de Requerimientos\n50%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
-    "req5d4d852636d9ef76183532d7": {
-      "casilla": "SCADA Y MEDIDAS",
-      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n*SCADA Y MEDIDAS\nEncargado: Departamento Conexiones\nI.1\nSCADA y MEDIDAS\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n05-01-2027\n\nHistorial de movimientos"
-      ]
-    },
     "req606a6b8536d9ef1a2254fa09": {
       "casilla": "DIR/TAG",
       "parent_group": "SITR",
@@ -311,25 +353,12 @@
         "Listado de Requerimientos\n0%\n'DEFINICIÓN DE PROTOCOLOS DE COMUNICACIONES\nEncargado: SCADA\nI.1\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nI.1\nEmisión o revisión de Tag ICCP o Direcciones IEC104/DNP\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante deberá enviar una solicitud (tag ICCP o direcciones IEC104/DNP) asociado a las señales SITR. Debe incluir planilla de señales SITR aprobado por el Coordinador. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n22-06-2026\n\nHistorial de movimientos"
       ]
     },
-    "req5d4d8acf36d9ef761835aef5": {
-      "casilla": "EME",
-      "parent_group": "SCADA Y MEDIDAS",
-      "sub_panels": [
-        "Listado de Requerimientos\n87%\n'ESQUEMA DE MEDIDAS DE ENERGÍA\nEncargado: EME\nI.4\nSolicitud de revisión del Esquema de Medidas de Energía\nI.4\nObservaciones al Esquema de Medidas de Energía\n¿Qué estoy viendo?\n\nDescripción\n\nEmisión del Documento Único de Observaciones al Esquema de Medidas de Energía\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n10-07-2026\n\nDepende de\n\nSolicitud de revisión del Esquema de Medidas de Energía\nHistorial de movimientos"
-      ]
-    },
-    "req5d4d985736d9ef76163d61b6": {
-      "casilla": "OTROS PES",
-      "parent_group": "SCADA Y MEDIDAS",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n*OTROS REQUERIMIENTOS PES\nEncargado: Departamento Conexiones\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n05-01-2027\n\nHistorial de movimientos"
-      ]
-    },
     "req5d4da28736d9ef7615c57207": {
       "casilla": "GM",
       "parent_group": "OTROS PES",
-      "sub_panels": [],
-      "error": "no se pudo leer el panel de detalle"
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'GUÍA DE MANIOBRAS\nEncargado: CDC\nI.1\nRecepción de Guía de Maniobras\nI.1\nRevisión de Guía de Maniobras\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n07-07-2026\n\nDepende de\n\nRecepción de Guía de Maniobras\nHistorial de movimientos"
+      ]
     },
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
@@ -354,9 +383,8 @@
     "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593788+00:00",
     "req5d4d828736d9ef7615c3571d|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593799+00:00",
     "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593811+00:00",
-    "req5d4d852636d9ef76183532d7|De acuerdo al Artículo 10 del A.T, la incorporación a los Sistemas de Información y Comunicación del Coordinador de las instalaciones que se interconectan o modifican de manera relevante deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-06-22T16:58:19.593822+00:00",
     "req606a6b8536d9ef1a2254fa09|La Empresa Solicitante deberá enviar una solicitud (tag ICCP o direcciones IEC104/DNP) asociado a las señales SITR. Debe incluir planilla de señales SITR aprobado por el Coordinador. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T16:58:19.593833+00:00",
-    "req5d4d8acf36d9ef761835aef5|Emisión del Documento Único de Observaciones al Esquema de Medidas de Energía": "2026-06-22T16:58:19.593843+00:00",
+    "req5d4da28736d9ef7615c57207|El Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación": "2026-06-23T00:45:49.176200+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"
   }
