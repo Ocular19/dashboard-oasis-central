@@ -521,7 +521,7 @@ def render_alert_email(all_alerts: list) -> str:
     """Correo de alerta inmediata: una fila por cada casilla que cambió, con
     proyecto, casilla, quién debe responder (Grenergy o CEN) y fecha límite."""
     sections = []
-    for name, alerts in all_alerts:
+    for name, nup, alerts in all_alerts:
         rows = "".join(
             f"""<tr>
                 <td style="padding:10px 8px; border-bottom:1px solid #e3e9e7; font-size:13px; color:#1b2b29;">{a['casilla']}</td>
@@ -534,7 +534,9 @@ def render_alert_email(all_alerts: list) -> str:
         sections.append(
             f"""
             <tr><td style="padding:20px 0 6px 0;">
-              <div style="font-weight:600; color:#04201f; font-size:15px;">{name}</div>
+              <div style="font-weight:600; color:#04201f; font-size:15px;">
+                {name} <span style="color:#8a9591; font-weight:400; font-size:12px;">NUP {nup}</span>
+              </div>
             </td></tr>
             <tr><td>
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
@@ -920,7 +922,7 @@ def render_dashboard(projects_summary: list) -> None:
 
 def main():
     projects = json.loads(PROJECTS_FILE.read_text(encoding="utf-8"))
-    all_alerts = []  # [(nombre_proyecto, [alert_dict, ...]), ...]
+    all_alerts = []  # [(nombre_proyecto, nup, [alert_dict, ...]), ...]
     dashboard_summary = []
 
     with sync_playwright() as p:
@@ -942,7 +944,7 @@ def main():
             history = append_history(project_id, changes, alerts)
 
             if alerts:
-                all_alerts.append((curr.get("name", project_id), alerts))
+                all_alerts.append((curr.get("name", project_id), curr.get("correlativo"), alerts))
 
             dashboard_summary.append(
                 {
@@ -972,8 +974,8 @@ def main():
             # Un error de email (p.ej. MAIL_TO mal escrito) no debe tumbar
             # toda la corrida: los datos y el dashboard ya se guardaron bien.
             print(f"No se pudo enviar el correo de alerta: {e}")
-        for name, alerts in all_alerts:
-            print(f"== {name} ==")
+        for name, nup, alerts in all_alerts:
+            print(f"== {name} (NUP {nup}) ==")
             for a in alerts:
                 print(f"  - {a['casilla']}: {a['evento']} — {a['quien']} (fecha límite {a['fecha_limite']})")
     else:
