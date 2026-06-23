@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T14:50:15.160488+00:00",
+  "fetched_at": "2026-06-23T17:48:53.821140+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 47,
@@ -397,14 +397,16 @@
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
-      "sub_panels": [],
-      "error": "no se pudo leer el panel de detalle"
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n28-11-2025\n\nHistorial de movimientos"
+      ]
     },
     "req5d4da2bc36d9ef761836f1eb": {
       "casilla": "Prog P",
       "parent_group": "OTROS PES",
-      "sub_panels": [],
-      "error": "no se pudo leer el panel de detalle"
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'PROGRAMA DE PRUEBAS\nEncargado: Programacion\nI.1\nRecepción del Programa de Pruebas\nI.1\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante envía un Programa de Pruebas para revisión\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n05-06-2026\n\nHistorial de movimientos"
+      ]
     },
     "req60612e2236d9ef1fc3814a92": {
       "casilla": "Neomante",
@@ -419,6 +421,8 @@
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T16:58:35.668120+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-06-20T14:56:31.690204+00:00",
     "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-06-22T16:58:35.668146+00:00",
+    "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T17:48:53.821415+00:00",
+    "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-23T17:48:53.821423+00:00",
     "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-22T16:58:35.668174+00:00"
   }
 }

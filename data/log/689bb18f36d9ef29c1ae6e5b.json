@@ -10,5 +10,26 @@
       "'Neomante': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 23-01-2026)."
     ],
     "alerts": []
+  },
+  {
+    "timestamp": "2026-06-23T17:48:53.822454+00:00",
+    "changes": [
+      "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-11-2025).",
+      "'Prog P': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-06-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Plan Ener Gx",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "28-11-2025"
+      },
+      {
+        "casilla": "Prog P",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "05-06-2026"
+      }
+    ]
   }
 ]
