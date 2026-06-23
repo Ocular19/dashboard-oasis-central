@@ -70,15 +70,31 @@ def alerts_in_window(project_id: str, days_back_start: int, days_back_end: int) 
 
 
 def summarize(alerts: list) -> dict:
+    """Solo la parte que SÍ tiene sentido como variación semanal: cuántas se
+    completaron esta semana. 'Esperando Grenergy/CEN' se calculan aparte a
+    partir del estado actual (ver current_pending_counts), no del historial
+    — si no, en una semana sin cambios saldría '0' aunque en realidad haya
+    varias pendientes esperando hace tiempo."""
     completadas = sum(1 for a in alerts if "completado" in a["evento"].lower() or "se completó" in a["evento"].lower())
-    esperando_grenergy = sum(1 for a in alerts if a["quien"] == "Esperando que Grenergy cargue un documento")
-    esperando_cen = sum(1 for a in alerts if a["quien"] == "Esperando respuesta/revisión del Coordinador (CEN)")
-    return {
-        "completadas": completadas,
-        "esperando_grenergy": esperando_grenergy,
-        "esperando_cen": esperando_cen,
-        "total": len(alerts),
-    }
+    return {"completadas": completadas, "total": len(alerts)}
+
+
+def current_pending_counts(state: dict) -> dict:
+    """Cuenta, a partir del estado ACTUAL (no del historial), cuántas
+    casillas en curso están esperando a Grenergy y cuántas al CEN ahora
+    mismo — es una foto del momento, no una variación semanal."""
+    esperando_grenergy = 0
+    esperando_cen = 0
+    for task in state.get("active_tasks", {}).values():
+        for sub_text in task.get("sub_panels", []):
+            parsed = scraper.parse_task_panel(sub_text)
+            if not parsed or parsed["completada"]:
+                continue
+            if parsed["quien_actua"] == "tu_empresa":
+                esperando_grenergy += 1
+            elif parsed["quien_actua"] == "coordinador":
+                esperando_cen += 1
+    return {"esperando_grenergy": esperando_grenergy, "esperando_cen": esperando_cen}
 
 
 def build_recommendations(state: dict) -> list:
@@ -199,13 +215,13 @@ def render_email_html(rows: list) -> str:
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:10px; background:#f6f9f8; border-radius:10px;">
           <tr>
             {render_stat(s['completadas'], 'Completadas esta semana', '#00cf78')}
-            {render_stat(s['esperando_grenergy'], 'Esperando carga de Grenergy', '#e67e22')}
-            {render_stat(s['esperando_cen'], 'Esperando respuesta del CEN', '#04201f')}
+            {render_stat(s['esperando_grenergy'], 'Esperando carga de Grenergy (ahora)', '#e67e22')}
+            {render_stat(s['esperando_cen'], 'Esperando respuesta del CEN (ahora)', '#04201f')}
           </tr>
           <tr>
             <td align="center" style="padding:0 6px 8px 6px;">{delta_badge(s['completadas'], sp['completadas'], 'completadas')}</td>
-            <td align="center" style="padding:0 6px 8px 6px;">{delta_badge(s['esperando_grenergy'], sp['esperando_grenergy'], 'pendientes')}</td>
-            <td align="center" style="padding:0 6px 8px 6px;">{delta_badge(s['esperando_cen'], sp['esperando_cen'], 'pendientes')}</td>
+            <td align="center" style="padding:0 6px 8px 6px;"></td>
+            <td align="center" style="padding:0 6px 8px 6px;"></td>
           </tr>
         </table>
         """
@@ -260,13 +276,15 @@ def main():
         state = scraper.load_json(scraper.STATE_DIR / f"{project_id}.json") or {}
         alerts = alerts_in_window(project_id, WEEK_DAYS, 0)
         alerts_prev = alerts_in_window(project_id, WEEK_DAYS * 2, WEEK_DAYS)
+        stats = {**summarize(alerts), **current_pending_counts(state)}
+        stats_prev = {**summarize(alerts_prev), "esperando_grenergy": 0, "esperando_cen": 0}
         rows.append(
             {
                 "name": state.get("name") or project_id,
                 "correlativo": state.get("correlativo"),
                 "alerts": alerts,
-                "stats": summarize(alerts),
-                "stats_prev": summarize(alerts_prev),
+                "stats": stats,
+                "stats_prev": stats_prev,
                 "bar_chart": render_bar_chart(state.get("boxes", {})),
                 "recommendations": build_recommendations(state),
             }
