@@ -234,7 +234,7 @@ def render_email_html(rows: list) -> str:
           <img src="cid:logo" alt="Grenergy" height="28">
         </td></tr>
         <tr><td style="padding:24px 28px 4px 28px;">
-          <div style="font-size:18px; font-weight:600; color:#04201f;">Resumen ejecutivo semanal &mdash; PGP</div>
+          <div style="font-size:18px; font-weight:600; color:#04201f;">Resumen ejecutivo semanal &mdash; {scraper.GROUP_NAME}</div>
           <div style="font-size:12px; color:#8a9591; margin-top:4px;">Periodo {period_start} al {period_end} &middot; {total_cambios} cambio(s) en total</div>
         </td></tr>
         <tr><td style="padding:0 28px;">
@@ -275,7 +275,7 @@ def main():
     html = render_email_html(rows)
     logo_path = ASSETS_DIR / "grenergy-logo.png"
     try:
-        scraper.send_html_email("Resumen ejecutivo semanal PGP", html, logo_path=logo_path)
+        scraper.send_html_email(f"Resumen ejecutivo semanal {scraper.GROUP_NAME}", html, logo_path=logo_path)
     except Exception as e:  # noqa: BLE001
         print(f"No se pudo enviar el resumen semanal por correo: {e}")
     print(html)

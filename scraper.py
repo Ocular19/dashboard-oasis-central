@@ -21,6 +21,13 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).parent
+
+# Nombre del grupo de proyectos que monitorea esta copia (cambia por
+# repositorio: "Oasis_Central", "PMG_CHILE", etc.) — aparece junto al logo en
+# el dashboard, las alertas y el resumen semanal para identificar de cuál
+# grupo se trata.
+GROUP_NAME = "Oasis_Central"
+
 PROJECTS_FILE = ROOT / "projects.json"
 STATE_DIR = ROOT / "data" / "state"
 HISTORY_DIR = ROOT / "data" / "history"
@@ -562,7 +569,7 @@ def render_alert_email(all_alerts: list) -> str:
           <img src="cid:logo" alt="Grenergy" height="28">
         </td></tr>
         <tr><td style="padding:24px 28px 0 28px;">
-          <div style="font-size:18px; font-weight:600; color:#04201f;">Cambios detectados &mdash; PGP</div>
+          <div style="font-size:18px; font-weight:600; color:#04201f;">Cambios detectados &mdash; {GROUP_NAME}</div>
           <div style="font-size:12px; color:#8a9591; margin-top:4px;">{now_iso()}</div>
         </td></tr>
         <tr><td style="padding:0 28px 10px 28px;">
@@ -850,7 +857,7 @@ def render_dashboard(projects_summary: list) -> None:
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>Dashboard PGP &mdash; Grenergy</title>
+<title>Dashboard PGP &mdash; {GROUP_NAME}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -871,6 +878,7 @@ def render_dashboard(projects_summary: list) -> None:
     margin-bottom: 28px;
   }}
   header.brand img {{ height: 32px; display:block; }}
+  header.brand .group-name {{ color: white; font-size:1em; font-weight:600; margin:0; }}
   header.brand .tagline {{ color: var(--mint-light); font-size:0.85em; margin:0; }}
   .wrap {{ max-width: 980px; margin: 0 auto; padding: 0 20px; }}
   h1 {{ color: var(--dark); font-weight:600; font-size:1.4em; margin:0 0 4px 0; }}
@@ -907,6 +915,7 @@ def render_dashboard(projects_summary: list) -> None:
 <header class="brand">
   <img src="assets/grenergy-logo.png" alt="Grenergy">
   <div>
+    <p class="group-name" style="margin:0">{GROUP_NAME}</p>
     <p class="tagline" style="margin:0">Dashboard de seguimiento PGP</p>
   </div>
 </header>
