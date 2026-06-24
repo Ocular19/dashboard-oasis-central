@@ -524,6 +524,18 @@ def send_email(subject: str, body: str) -> None:
         server.sendmail(user, [t.strip() for t in to.split(",")], msg.as_string())
 
 
+def _mini_progress_bar(pct) -> str:
+    try:
+        pct = max(0, min(100, float(pct)))
+    except (TypeError, ValueError):
+        pct = 0
+    return f"""
+    <div style="display:inline-block; width:90px; height:6px; background:#e3e9e7; border-radius:4px; vertical-align:middle; margin-left:6px; overflow:hidden;">
+      <div style="width:{pct}%; height:6px; background:#00cf78;"></div>
+    </div>
+    """
+
+
 def project_info_html(state: dict) -> str:
     """Bloque con el contexto del proyecto (avances, fechas clave y conteo
     de casillas) para mostrar debajo del nombre en correos y resúmenes."""
@@ -531,11 +543,13 @@ def project_info_html(state: dict) -> str:
     n_completado = sum(1 for b in leaf_boxes if b["state"] == "completado")
     n_en_curso = sum(1 for b in leaf_boxes if b["state"] in ("en_curso", "en_curso_destacado"))
     n_pendiente = sum(1 for b in leaf_boxes if b["state"] == "pendiente")
+    pes = state.get("completition_pes", 0)
+    avance = state.get("completition_status", 0)
     return f"""
-    <div style="margin:4px 0 14px 0; font-size:12px; color:#4a5957; line-height:1.7;">
-      <div>Avance del proyecto: <strong>{state.get('completition_status', '-')}%</strong>
-        &middot; Avance de requisitos para inicio de PES: <strong>{state.get('completition_pes', '-')}%</strong></div>
-      <div>Puesta en Servicio estimada: <strong>{fmt_date(state.get('service_estimate_date'))}</strong>
+    <div style="margin:4px 0 14px 0; font-size:12px; color:#4a5957; line-height:1.9;">
+      <div>Avance de requisitos para inicio de PES: <strong>{pes}%</strong>{_mini_progress_bar(pes)}</div>
+      <div>Avance del proyecto: <strong>{avance}%</strong>{_mini_progress_bar(avance)}</div>
+      <div style="margin-top:6px;">Puesta en Servicio estimada: <strong>{fmt_date(state.get('service_estimate_date'))}</strong>
         &middot; Entrada en Operación estimada: <strong>{fmt_date(state.get('operative_estimate_date'))}</strong></div>
       <div style="margin-top:5px;">
         <span style="color:#00cf78; font-weight:600;">{n_completado} aprobadas</span> &middot;
