@@ -232,6 +232,7 @@ def render_email_html(rows: list) -> str:
               <div style="font-weight:600; color:#04201f; font-size:15px;">
                 {r['name']} <span style="color:#8a9591; font-weight:400; font-size:12px;">#{r['correlativo']}</span>
               </div>
+              {r['info_html']}
               {r['bar_chart']}
               {stats_table}
               {render_recommendations(r['recommendations'])}
@@ -291,6 +292,7 @@ def main():
                 "stats": stats,
                 "stats_prev": stats_prev,
                 "bar_chart": render_bar_chart(state.get("boxes", {})),
+                "info_html": scraper.project_info_html(state),
                 "recommendations": build_recommendations(state),
             }
         )

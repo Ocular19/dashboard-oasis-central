@@ -524,11 +524,33 @@ def send_email(subject: str, body: str) -> None:
         server.sendmail(user, [t.strip() for t in to.split(",")], msg.as_string())
 
 
+def project_info_html(state: dict) -> str:
+    """Bloque con el contexto del proyecto (avances, fechas clave y conteo
+    de casillas) para mostrar debajo del nombre en correos y resúmenes."""
+    leaf_boxes = [b for b in state.get("boxes", {}).values() if not b.get("is_container")]
+    n_completado = sum(1 for b in leaf_boxes if b["state"] == "completado")
+    n_en_curso = sum(1 for b in leaf_boxes if b["state"] in ("en_curso", "en_curso_destacado"))
+    n_pendiente = sum(1 for b in leaf_boxes if b["state"] == "pendiente")
+    return f"""
+    <div style="margin:4px 0 14px 0; font-size:12px; color:#4a5957; line-height:1.7;">
+      <div>Avance del proyecto: <strong>{state.get('completition_status', '-')}%</strong>
+        &middot; Avance de requisitos para inicio de PES: <strong>{state.get('completition_pes', '-')}%</strong></div>
+      <div>Puesta en Servicio estimada: <strong>{fmt_date(state.get('service_estimate_date'))}</strong>
+        &middot; Entrada en Operación estimada: <strong>{fmt_date(state.get('operative_estimate_date'))}</strong></div>
+      <div style="margin-top:5px;">
+        <span style="color:#00cf78; font-weight:600;">{n_completado} aprobadas</span> &middot;
+        <span style="color:#e67e22; font-weight:600;">{n_en_curso} en iteración</span> &middot;
+        <span style="color:#8a9591; font-weight:600;">{n_pendiente} no iniciadas</span>
+      </div>
+    </div>
+    """
+
+
 def render_alert_email(all_alerts: list) -> str:
     """Correo de alerta inmediata: una fila por cada casilla que cambió, con
     proyecto, casilla, quién debe responder (Grenergy o CEN) y fecha límite."""
     sections = []
-    for name, nup, alerts in all_alerts:
+    for name, nup, state, alerts in all_alerts:
         rows = "".join(
             f"""<tr>
                 <td style="padding:10px 8px; border-bottom:1px solid #e3e9e7; font-size:13px; color:#1b2b29;">{a['casilla']}</td>
@@ -544,6 +566,7 @@ def render_alert_email(all_alerts: list) -> str:
               <div style="font-weight:600; color:#04201f; font-size:15px;">
                 {name} <span style="color:#8a9591; font-weight:400; font-size:12px;">NUP {nup}</span>
               </div>
+              {project_info_html(state)}
             </td></tr>
             <tr><td>
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
@@ -936,7 +959,7 @@ def render_dashboard(projects_summary: list) -> None:
 
 def main():
     projects = json.loads(PROJECTS_FILE.read_text(encoding="utf-8"))
-    all_alerts = []  # [(nombre_proyecto, nup, [alert_dict, ...]), ...]
+    all_alerts = []  # [(nombre_proyecto, nup, state, [alert_dict, ...]), ...]
     dashboard_summary = []
 
     with sync_playwright() as p:
@@ -958,7 +981,7 @@ def main():
             history = append_history(project_id, changes, alerts)
 
             if alerts:
-                all_alerts.append((curr.get("name", project_id), curr.get("correlativo"), alerts))
+                all_alerts.append((curr.get("name", project_id), curr.get("correlativo"), curr, alerts))
 
             dashboard_summary.append(
                 {
@@ -988,7 +1011,7 @@ def main():
             # Un error de email (p.ej. MAIL_TO mal escrito) no debe tumbar
             # toda la corrida: los datos y el dashboard ya se guardaron bien.
             print(f"No se pudo enviar el correo de alerta: {e}")
-        for name, nup, alerts in all_alerts:
+        for name, nup, state, alerts in all_alerts:
             print(f"== {name} (NUP {nup}) ==")
             for a in alerts:
                 print(f"  - {a['casilla']}: {a['evento']} — {a['quien']} (fecha límite {a['fecha_limite']})")
