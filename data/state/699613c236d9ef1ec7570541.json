@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T14:34:07.925495+00:00",
+  "fetched_at": "2026-06-25T18:03:22.364425+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 18,
@@ -301,26 +301,20 @@
     "req5d4d80b036d9ef7615c333ec": {
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d80cc36d9ef76163c415e": {
       "casilla": "ET",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d815e36d9ef7615c337b6": {
       "casilla": "ECB",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
+      "sub_panels": [],
+      "error": "no se pudo leer el panel de detalle"
     },
     "req5d4d811736d9ef76163c4333": {
       "casilla": "ECC",
@@ -357,7 +351,7 @@
       "casilla": "GM",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'GUÍA DE MANIOBRAS\nEncargado: CDC\nI.1\nRecepción de Guía de Maniobras\nI.1\nRevisión de Guía de Maniobras\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n07-07-2026\n\nDepende de\n\nRecepción de Guía de Maniobras\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador envía estudio completo a las Empresas Involucradas\n\nEstado: Esta tarea ha sido completada.\n\nArchivo(s):\nrev_0_emt_-_bess_tamango-_nup_6092_.zip\n\n\n\n\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n18-06-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
     "req665604b236d9ef441648202b": {
@@ -377,14 +371,10 @@
   },
   "first_seen": {
     "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593737+00:00",
-    "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593752+00:00",
-    "req5d4d80cc36d9ef76163c415e|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593765+00:00",
-    "req5d4d815e36d9ef7615c337b6|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593777+00:00",
     "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593788+00:00",
     "req5d4d828736d9ef7615c3571d|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593799+00:00",
     "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593811+00:00",
     "req606a6b8536d9ef1a2254fa09|El Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.": "2026-06-23T21:46:55.491653+00:00",
-    "req5d4da28736d9ef7615c57207|El Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación": "2026-06-23T00:45:49.176200+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"
   }

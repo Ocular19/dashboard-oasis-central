@@ -1,23 +1,5 @@
 [
   {
-    "timestamp": "2026-06-22T16:58:19.594592+00:00",
-    "changes": [
-      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ET': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ECB': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ECC': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ECA': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'SCADA Y MEDIDAS': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 05-01-2027).",
-      "'DIR/TAG': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 22-06-2026).",
-      "'EME': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 10-07-2026).",
-      "'GM': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-07-2026).",
-      "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 03-06-2026).",
-      "'Prog P': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 03-06-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-06-23T00:45:49.176997+00:00",
     "changes": [
       "'GM': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-07-2026)."

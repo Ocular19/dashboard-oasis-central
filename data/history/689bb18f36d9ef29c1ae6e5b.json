@@ -1,16 +1,5 @@
 [
   {
-    "timestamp": "2026-06-22T16:58:35.668925+00:00",
-    "changes": [
-      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 01-07-2026).",
-      "'Fecha Pruebas': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-05-2026).",
-      "'Prot E': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-06-2026).",
-      "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-11-2025).",
-      "'Prog P': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-06-2026).",
-      "'Neomante': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 23-01-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-06-23T17:48:53.822207+00:00",
     "changes": [
       "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-11-2025).",
