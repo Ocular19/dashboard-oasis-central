@@ -5,5 +5,19 @@
       "'Plan Ener Tx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 16-06-2026)."
     ],
     "alerts": []
+  },
+  {
+    "timestamp": "2026-06-25T21:48:12.689403+00:00",
+    "changes": [
+      "'Plan Ener Tx': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 03-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Plan Ener Tx",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "03-07-2026"
+      }
+    ]
   }
 ]

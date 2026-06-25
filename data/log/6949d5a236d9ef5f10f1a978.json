@@ -23,5 +23,19 @@
         "fecha_limite": "19-05-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-25T21:47:15.959621+00:00",
+    "changes": [
+      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 09-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "EFP",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "09-07-2026"
+      }
+    ]
   }
 ]
