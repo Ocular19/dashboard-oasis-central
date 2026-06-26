@@ -84,5 +84,35 @@
         "fecha_limite": "01-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-26T14:25:44.141641+00:00",
+    "changes": [
+      "Casilla 'Fecha Pruebas' cambió de estado: en_curso -> completado",
+      "Casilla 'Pruebas' cambió de estado: pendiente -> en_curso",
+      "'Pruebas': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 13-07-2026).",
+      "Avance general del proyecto: 47% → 48%.",
+      "Avance de requisitos para inicio de PES: 59% → 60%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      },
+      {
+        "casilla": "Pruebas",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "13-07-2026"
+      },
+      {
+        "casilla": "Pruebas",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "13-07-2026"
+      }
+    ]
   }
 ]
