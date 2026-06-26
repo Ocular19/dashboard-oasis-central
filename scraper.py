@@ -319,6 +319,25 @@ def compute_first_seen(prev: dict, curr: dict) -> dict:
     return curr_first_seen
 
 
+def carry_forward_failed_reads(prev: dict, curr: dict) -> None:
+    """Si en esta corrida no se pudo leer el panel de una casilla (fallo
+    puntual del navegador, no del sitio), no lo guardamos como 'vacío' —
+    eso haría que la próxima corrida exitosa se vea como un falso 'nuevo
+    pendiente'. En vez de eso, mantenemos el último valor bueno conocido y
+    solo lo registramos en el log, sin generar ninguna alerta."""
+    if not prev:
+        return
+    prev_tasks = prev.get("active_tasks", {})
+    for req_class, task in curr.get("active_tasks", {}).items():
+        if not task.get("error"):
+            continue
+        prev_task = prev_tasks.get(req_class)
+        if prev_task and not prev_task.get("error"):
+            print(f"Aviso: no se pudo leer '{task['casilla']}' esta corrida, se mantiene el valor anterior")
+            task["sub_panels"] = prev_task.get("sub_panels", [])
+            task.pop("error", None)
+
+
 def diff_snapshots(prev: dict, curr: dict) -> tuple:
     """Devuelve (changes, alerts):
     - changes: lista de strings legibles, para el historial de 72h y el correo.
@@ -989,6 +1008,7 @@ def main():
                 print(f"Error en proyecto {project_id}: {e}")
                 continue
 
+            carry_forward_failed_reads(prev, curr)
             changes, alerts = diff_snapshots(prev, curr)
             curr["first_seen"] = compute_first_seen(prev, curr)
             save_json(state_path, curr)
