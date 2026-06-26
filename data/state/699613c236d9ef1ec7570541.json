@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T14:25:27.786477+00:00",
+  "fetched_at": "2026-06-26T17:29:43.361095+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 18,
@@ -294,7 +294,7 @@
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecap-161-2026_nup_6092_bess_tamango_v1.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -302,7 +302,7 @@
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-efp-021-2026_nup_6092_bess_tamango_v1.pdf\n\n\nrr-ei-2026-60-r1_efp.pdf\n\n\nrr-ei-2026-060-r1_efp_v1.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -326,7 +326,7 @@
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecc-038-2026_nup_6092_bess_tamango_v0.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
