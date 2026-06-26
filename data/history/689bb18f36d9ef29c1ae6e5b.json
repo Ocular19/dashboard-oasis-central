@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-06-23T17:48:53.822207+00:00",
-    "changes": [
-      "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-11-2025).",
-      "'Prog P': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-06-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-06-23T21:47:26.474728+00:00",
     "changes": [
       "Casilla 'Cronograma' cambió de estado: completado -> en_curso",

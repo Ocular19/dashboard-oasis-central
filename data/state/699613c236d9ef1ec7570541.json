@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-06-26T17:29:43.361095+00:00",
+  "fetched_at": "2026-06-26T21:23:07.743998+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 18,
-  "completition_pes": 22,
+  "completition_status": 20,
+  "completition_pes": 24,
   "service_estimate_date": "2026-12-06T00:00:00",
   "operative_estimate_date": "2027-02-22T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -165,7 +165,7 @@
     },
     "req5d4da28736d9ef7615c57207": {
       "text": "GM",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4da05136d9ef7615c4d9bd": {
@@ -318,7 +318,7 @@
       "casilla": "ECB",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ei-2026-061-r1_ecb.pdf\n\n\nrr-ei-2026-061-r1_ecb_v1.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n50%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -326,7 +326,7 @@
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecc-038-2026_nup_6092_bess_tamango_v0.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\nrr-ecc-038-2026_nup_6092_bess_tamango_v0.pdf\n\n\nrr-ei-2026-059-r1_ecc.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n26-06-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -353,13 +353,6 @@
         "Listado de Requerimientos\n50%\n'DEFINICIÓN DE PROTOCOLOS DE COMUNICACIONES\nEncargado: SCADA\nI.1\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nI.1\nEmisión o revisión de Tag ICCP o Direcciones IEC104/DNP\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n01-07-2026\n\nDepende de\n\nSolicitud de Tag ICCP o direcciones IEC104/DNP\nHistorial de movimientos"
       ]
     },
-    "req5d4da28736d9ef7615c57207": {
-      "casilla": "GM",
-      "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'GUÍA DE MANIOBRAS\nEncargado: CDC\nI.1\nRecepción de Guía de Maniobras\nI.1\nRevisión de Guía de Maniobras\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n07-07-2026\n\nDepende de\n\nRecepción de Guía de Maniobras\nHistorial de movimientos"
-      ]
-    },
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
@@ -384,7 +377,6 @@
     "req5d4d828736d9ef7615c3571d|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593799+00:00",
     "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593811+00:00",
     "req606a6b8536d9ef1a2254fa09|El Coordinador deberá emitir o revisar los tag ICCP o direcciones IEC104/DNP para el listado de señales SITR.": "2026-06-23T21:46:55.491653+00:00",
-    "req5d4da28736d9ef7615c57207|El Coordinador revisa la Guía de Maniobras y emite una revisión o aprobación": "2026-06-25T21:47:48.064502+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"
   }
