@@ -1,14 +1,5 @@
 [
   {
-    "timestamp": "2026-06-23T21:47:26.474728+00:00",
-    "changes": [
-      "Casilla 'Cronograma' cambió de estado: completado -> en_curso",
-      "'Cronograma': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 24-06-2026).",
-      "Avance general del proyecto: 47% → 46%.",
-      "Avance de requisitos para inicio de PES: 59% → 58%."
-    ]
-  },
-  {
     "timestamp": "2026-06-25T21:48:07.012798+00:00",
     "changes": [
       "Casilla 'Enlace' cambió de estado: en_curso -> completado",
