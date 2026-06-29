@@ -1,14 +1,5 @@
 [
   {
-    "timestamp": "2026-06-25T21:47:48.065231+00:00",
-    "changes": [
-      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ET': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ECB': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'GM': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-07-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-06-26T21:23:07.745151+00:00",
     "changes": [
       "Casilla 'GM' cambió de estado: en_curso -> completado",
