@@ -19,5 +19,21 @@
         "fecha_limite": "03-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-30T17:47:24.989030+00:00",
+    "changes": [
+      "Casilla 'Plan Ener Tx' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 95% → 97%.",
+      "Avance de requisitos para inicio de PES: 97% → 100%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Plan Ener Tx",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
   }
 ]

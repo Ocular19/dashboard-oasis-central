@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "timestamp": "2026-06-30T17:47:24.988852+00:00",
+    "changes": [
+      "Casilla 'Plan Ener Tx' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 95% → 97%.",
+      "Avance de requisitos para inicio de PES: 97% → 100%."
+    ]
+  }
+]

@@ -96,5 +96,35 @@
         "fecha_limite": "-"
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-30T17:47:02.001274+00:00",
+    "changes": [
+      "Casilla 'DIR/TAG' cambió de estado: en_curso -> completado",
+      "Casilla 'Fecha Pruebas' cambió de estado: pendiente -> en_curso",
+      "'Fecha Pruebas': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 01-07-2026).",
+      "Avance general del proyecto: 20% → 21%.",
+      "Avance de requisitos para inicio de PES: 24% → 26%."
+    ],
+    "alerts": [
+      {
+        "casilla": "DIR/TAG",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      },
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "01-07-2026"
+      },
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "01-07-2026"
+      }
+    ]
   }
 ]

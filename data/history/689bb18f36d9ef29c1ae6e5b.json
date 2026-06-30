@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "timestamp": "2026-06-30T17:47:19.962067+00:00",
+    "changes": [
+      "Casilla 'Pruebas' cambió de estado: en_curso -> completado"
+    ]
+  }
+]

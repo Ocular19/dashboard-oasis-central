@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-06-30T14:19:49.098119+00:00",
+  "fetched_at": "2026-06-30T17:47:24.988436+00:00",
   "name": "MR Proyecto Ampliación Subestación Seccionadora Solís 154 kV (Art. 102))",
   "correlativo": 5422,
-  "completition_status": 95,
-  "completition_pes": 97,
+  "completition_status": 97,
+  "completition_pes": 100,
   "service_estimate_date": "2026-04-01T00:00:00",
   "operative_estimate_date": "2026-06-01T00:00:00",
   "reception_date": "2025-03-13T00:00:00",
@@ -105,7 +105,7 @@
     },
     "req5d4d985736d9ef76163d61b6": {
       "text": "OTROS PES",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": true
     },
     "req5d4da28736d9ef7615c57207": {
@@ -115,7 +115,7 @@
     },
     "req6411e30136d9ef1cf5bda82c": {
       "text": "Plan Ener Tx",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req606a645736d9ef4c33bba1be": {
@@ -134,16 +134,6 @@
       "is_container": false
     }
   },
-  "active_tasks": {
-    "req6411e30136d9ef1cf5bda82c": {
-      "casilla": "Plan Ener Tx",
-      "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n83%\nPLAN DE ENERGIZACIÓN TRANSMISIÓN\nEncargado: Departamento Conexiones\nI.3\nRecepción plan de energización Transmisión\nI.3\nRevisión Plan de Energización Transmisión\n¿Qué estoy viendo?\n\nDescripción\n\nEl coordinador emitirá su aprobación u observaciones al documento\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n03-07-2026\n\nDepende de\n\nRecepción plan de energización Transmisión\nHistorial de movimientos"
-      ]
-    }
-  },
-  "first_seen": {
-    "req6411e30136d9ef1cf5bda82c|El coordinador emitirá su aprobación u observaciones al documento": "2026-06-25T21:48:12.688736+00:00"
-  }
+  "active_tasks": {},
+  "first_seen": {}
 }
