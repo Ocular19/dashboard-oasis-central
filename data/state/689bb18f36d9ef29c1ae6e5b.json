@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-01T21:41:48.890658+00:00",
+  "fetched_at": "2026-07-02T01:58:48.123309+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
-  "completition_status": 48,
-  "completition_pes": 60,
+  "completition_status": 64,
+  "completition_pes": 80,
   "service_estimate_date": "2026-06-30T00:00:00",
   "operative_estimate_date": "2026-11-15T00:00:00",
   "reception_date": "2025-08-11T00:00:00",
@@ -80,7 +80,7 @@
     },
     "req5d4d62dd36d9ef761727f012": {
       "text": "ECAP",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4d80b036d9ef7615c333ec": {
@@ -185,12 +185,12 @@
     },
     "req5d4da0b036d9ef76163e2e6d": {
       "text": "Prot P",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": false
     },
     "req5d4da10d36d9ef7615c50d5d": {
       "text": "PO N",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": false
     },
     "req604791cf36d9ef530b47c0b1": {
@@ -372,13 +372,6 @@
         "Listado de Requerimientos\n66%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.3\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n24-06-2026\n\nHistorial de movimientos"
       ]
     },
-    "req5d4d62dd36d9ef761727f012": {
-      "casilla": "ECAP",
-      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n93%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.4\nRecepción de estudio\nI.4\nEnvío de estudio a Empresa Involucrada\nI.4\nObservaciones al estudio de la Empresa Involucrada\nI.4\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n01-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
-    },
     "req606a6bc436d9ef1a2254fc9b": {
       "casilla": "Fecha Pruebas",
       "parent_group": "SITR",
@@ -391,6 +384,20 @@
       "parent_group": "OTROS PES",
       "sub_panels": [
         "Listado de Requerimientos\n0%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos SAT\nI.1\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nProtocolos de pruebas SAT a equipos primarios\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n05-06-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req5d4da0b036d9ef76163e2e6d": {
+      "casilla": "Prot P",
+      "parent_group": "OTROS PES",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'PROTOCOLOS SAT PROTECCIONES\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos de Protecciones\nI.1\nRevisión de Protocolos de Protecciones\n¿Qué estoy viendo?\n\nDescripción\n\nSolicitud de revisión de protocolos de prueba de inyección secundaria de los nuevos relés.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n02-07-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req5d4da10d36d9ef7615c50d5d": {
+      "casilla": "PO N",
+      "parent_group": "OTROS PES",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'PRINT OUT DE RELÉS NUEVOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Print Out nuevo\nI.1\nRevisión de Print Out nuevos\n¿Qué estoy viendo?\n\nDescripción\n\nSolicitud de revisión de Print Out de los nuevos Relés.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n02-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req665604b236d9ef441648202b": {
@@ -417,9 +424,10 @@
   },
   "first_seen": {
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-06-23T21:47:26.473901+00:00",
-    "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:35.668108+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T16:58:35.668120+00:00",
     "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-06-22T16:58:35.668146+00:00",
+    "req5d4da0b036d9ef76163e2e6d|Solicitud de revisión de protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-07-02T01:58:48.123634+00:00",
+    "req5d4da10d36d9ef7615c50d5d|Solicitud de revisión de Print Out de los nuevos Relés.": "2026-07-02T01:58:48.123644+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T17:48:53.821415+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-23T17:48:53.821423+00:00",
     "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-22T16:58:35.668174+00:00"
