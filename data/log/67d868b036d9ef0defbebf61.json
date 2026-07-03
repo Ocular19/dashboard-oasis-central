@@ -35,5 +35,26 @@
         "fecha_limite": "-"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-03T21:12:10.826492+00:00",
+    "changes": [
+      "Casilla 'SEO' cambió de estado: pendiente -> en_curso",
+      "'SEO': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 06-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "SEO",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "06-07-2026"
+      },
+      {
+        "casilla": "SEO",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "06-07-2026"
+      }
+    ]
   }
 ]
