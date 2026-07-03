@@ -172,5 +172,84 @@
         "fecha_limite": "02-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-03T07:23:24.442715+00:00",
+    "changes": [
+      "Casilla 'Carta SEC' cambió de estado: pendiente -> en_curso",
+      "'Cronograma': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 03-07-2026).",
+      "'Fecha Pruebas': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 03-07-2026).",
+      "'Prot E': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 03-07-2026).",
+      "'Prot P': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 03-07-2026).",
+      "'PO N': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 03-07-2026).",
+      "'Plan Ener Gx': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 03-07-2026).",
+      "'Prog P': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 03-07-2026).",
+      "'Carta SEC': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 03-07-2026).",
+      "'Neomante': cambió la fecha límite o el responsable — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 09-07-2026).",
+      "Avance general del proyecto: 64% → 68%.",
+      "Avance de requisitos para inicio de PES: 80% → 81%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Carta SEC",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "03-07-2026"
+      },
+      {
+        "casilla": "Cronograma",
+        "evento": "Cambió fecha límite o responsable",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "03-07-2026"
+      },
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Cambió fecha límite o responsable",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "03-07-2026"
+      },
+      {
+        "casilla": "Prot E",
+        "evento": "Cambió fecha límite o responsable",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "03-07-2026"
+      },
+      {
+        "casilla": "Prot P",
+        "evento": "Cambió fecha límite o responsable",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "03-07-2026"
+      },
+      {
+        "casilla": "PO N",
+        "evento": "Cambió fecha límite o responsable",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "03-07-2026"
+      },
+      {
+        "casilla": "Plan Ener Gx",
+        "evento": "Cambió fecha límite o responsable",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "03-07-2026"
+      },
+      {
+        "casilla": "Prog P",
+        "evento": "Cambió fecha límite o responsable",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "03-07-2026"
+      },
+      {
+        "casilla": "Carta SEC",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "03-07-2026"
+      },
+      {
+        "casilla": "Neomante",
+        "evento": "Cambió fecha límite o responsable",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "09-07-2026"
+      }
+    ]
   }
 ]
