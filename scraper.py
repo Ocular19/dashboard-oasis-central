@@ -238,10 +238,34 @@ def scrape_project(page, project: dict) -> dict:
         page.click(selector, timeout=5000)
         page.wait_for_function(WAIT_READY_JS, timeout=4000)
 
-    def read_sub_panels(b, attempts=2):
+    # Verdadero cuando el panel de abajo ya NO muestra el texto `prev`: se usa
+    # tras hacer clic en una casilla, porque React tarda un instante en
+    # refrescar el panel y una lectura demasiado rápida capturaría el
+    # contenido de la casilla ANTERIOR como si fuera de la actual (eso generó
+    # falsas alertas de "avanzó de etapa" que se revertían solas en la
+    # corrida siguiente).
+    PANEL_DIFFERS_JS = """
+    (prev) => {
+      const body = document.body.innerText;
+      const s = body.indexOf('Listado de Requerimientos');
+      if (s === -1) return false;
+      let e = body.indexOf('VOLVER', s);
+      if (e === -1) e = s + 3000;
+      const txt = body.slice(s, e).trim();
+      return txt.includes('Estado:') && txt !== prev;
+    }
+    """
+
+    def read_sub_panels(b, prev_panel_text, attempts=2):
         for _ in range(attempts):
             try:
                 select_box(b)
+                # Esperar a que el panel realmente cambie respecto a la
+                # casilla anterior. Si nunca cambia, el clic no se registró:
+                # reintentar, y en última instancia devolver error (el valor
+                # anterior se conserva vía carry_forward_failed_reads).
+                if prev_panel_text:
+                    page.wait_for_function(PANEL_DIFFERS_JS, arg=prev_panel_text, timeout=4000)
                 rows = page.evaluate(FIND_PENDING_ROWS_JS) or {}
                 pending_labels = rows.get("pending") or []
 
@@ -260,13 +284,24 @@ def scrape_project(page, project: dict) -> dict:
                             continue
                         page.mouse.click(point["x"], point["y"])
                         page.wait_for_function(WAIT_READY_JS, timeout=4000)
+                        if texts:
+                            # También el detalle de la fila tarda en refrescar:
+                            # esperar a que difiera de la última captura.
+                            try:
+                                page.wait_for_function(PANEL_DIFFERS_JS, arg=texts[-1], timeout=2500)
+                            except Exception:  # noqa: BLE001
+                                pass
                         panel = page.evaluate(EXTRACT_PANEL_JS)
                         text = (panel or {}).get("fullText") or ""
                         if "Estado:" in text:
                             texts.append(text)
                     except Exception:  # noqa: BLE001
                         continue
-                if texts:
+                # Solo aceptamos la lectura si capturamos TODAS las filas
+                # pendientes: una lectura parcial haría que la fila faltante
+                # pareciera "resuelta" (falso positivo) en esta corrida y
+                # "nueva" en la siguiente.
+                if len(texts) == len(pending_labels):
                     return texts, None
             except Exception as e:  # noqa: BLE001
                 last_err = str(e)
@@ -274,8 +309,13 @@ def scrape_project(page, project: dict) -> dict:
         return [], "no se pudo leer el panel de detalle"
 
     active_tasks = {}
+    last_panel_text = ""
     for b in active_boxes:
-        sub_panels, err = read_sub_panels(b)
+        sub_panels, err = read_sub_panels(b, last_panel_text)
+        if sub_panels:
+            # El último texto capturado es lo que quedó visible en pantalla;
+            # sirve de referencia para detectar el refresco de la siguiente.
+            last_panel_text = sub_panels[-1]
         entry = {
             "casilla": b["text"],
             "parent_group": b.get("parent_group"),
