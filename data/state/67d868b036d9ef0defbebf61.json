@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T12:05:55.146456+00:00",
+  "fetched_at": "2026-07-06T15:33:21.644786+00:00",
   "name": "MR Proyecto Ampliación Subestación Seccionadora Solís 154 kV (Art. 102))",
   "correlativo": 5422,
   "completition_status": 97,
@@ -139,11 +139,11 @@
       "casilla": "SEO",
       "parent_group": null,
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'SOLICITUD DE ENTRADA EN OPERACIÓN\nEncargado: Departamento Conexiones\nI.1\nSolicitud de Entrada en Operación\nI.1\nCarta de Entrada en Operación\n¿Qué estoy viendo?\n\nDescripción\n\nCarta de Solicitud de Entrada en Operación, incluyendo la Declaración Jurada del cumplimiento de las exigencias establecidas en la normativa vigente, de acuerdo al Artículo 28 del Anexo Técnico de Requisitos Técnicos Mínimos. La fecha de EO será la fecha de la entrega, por parte de la empresa, del último pendiente para revisión del Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n06-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'SOLICITUD DE ENTRADA EN OPERACIÓN\nEncargado: Departamento Conexiones\nI.1\nSolicitud de Entrada en Operación\nI.1\nCarta de Entrada en Operación\n¿Qué estoy viendo?\n\nDescripción\n\nCarta de Respuesta a la Solicitud de Entrada en Operación\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n8 días hábiles\n\nFecha límite\n\n17-07-2026\n\nDepende de\n\nSolicitud de Entrada en Operación\nHistorial de movimientos"
       ]
     }
   },
   "first_seen": {
-    "req5d4dab3f36d9ef7615c59207|Carta de Solicitud de Entrada en Operación, incluyendo la Declaración Jurada del cumplimiento de las exigencias establecidas en la normativa vigente, de acuerdo al Artículo 28 del Anexo Técnico de Requisitos Técnicos Mínimos. La fecha de EO será la fecha de la entrega, por parte de la empresa, del último pendiente para revisión del Coordinador.": "2026-07-03T21:12:10.825966+00:00"
+    "req5d4dab3f36d9ef7615c59207|Carta de Respuesta a la Solicitud de Entrada en Operación": "2026-07-06T15:33:21.644922+00:00"
   }
 }
