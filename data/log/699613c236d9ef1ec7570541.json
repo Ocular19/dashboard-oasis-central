@@ -126,5 +126,28 @@
         "fecha_limite": "01-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-07T21:28:02.864947+00:00",
+    "changes": [
+      "Casilla 'Enlace' cambió de estado: pendiente -> en_curso",
+      "'Enlace': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 14-07-2026).",
+      "Avance general del proyecto: 21% → 26%.",
+      "Avance de requisitos para inicio de PES: 26% → 31%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Enlace",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "14-07-2026"
+      },
+      {
+        "casilla": "Enlace",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "14-07-2026"
+      }
+    ]
   }
 ]
