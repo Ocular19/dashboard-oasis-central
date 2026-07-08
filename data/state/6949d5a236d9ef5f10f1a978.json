@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-08T14:06:39.390275+00:00",
+  "fetched_at": "2026-07-08T17:18:21.917710+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
-  "completition_status": 19,
-  "completition_pes": 23,
+  "completition_status": 23,
+  "completition_pes": 28,
   "service_estimate_date": "2026-12-15T00:00:00",
   "operative_estimate_date": "2027-03-03T00:00:00",
   "reception_date": "2025-12-18T00:00:00",
@@ -155,12 +155,12 @@
     },
     "req5d4d8acf36d9ef761835aef5": {
       "text": "EME",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": true
     },
     "req6076676d36d9ef7d11ba2199": {
       "text": "Enlace",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": false
     },
     "req606a6c0436d9ef51933e5e93": {
@@ -398,6 +398,13 @@
         "Listado de Requerimientos\n0%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n23-06-2026\n\nHistorial de movimientos"
       ]
     },
+    "req6076676d36d9ef7d11ba2199": {
+      "casilla": "Enlace",
+      "parent_group": "EME",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'PRUEBAS DEL ENLACE DE COMUNICACIONES EME\nEncargado: Departamento Conexiones\nI.1\nDefinición y Prueba del Enlace\n¿Qué estoy viendo?\n\nDescripción\n\nDefinición y Pruebas del enlace de comunicaciones para los medidores del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n15-07-2026\n\nHistorial de movimientos"
+      ]
+    },
     "req5d4da05136d9ef7615c4d9bd": {
       "casilla": "Prot E",
       "parent_group": "OTROS PES",
@@ -444,6 +451,7 @@
     "req5d4d81f636d9ef7617294770|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778147+00:00",
     "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778163+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T19:19:18.121668+00:00",
+    "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-08T17:18:21.918260+00:00",
     "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-06-20T14:55:50.778232+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-20T14:55:50.778252+00:00",

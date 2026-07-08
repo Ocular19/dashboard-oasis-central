@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "timestamp": "2026-07-08T17:18:21.918980+00:00",
+    "changes": [
+      "Casilla 'Enlace' cambió de estado: pendiente -> en_curso",
+      "'Enlace': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
+      "Avance general del proyecto: 19% → 23%.",
+      "Avance de requisitos para inicio de PES: 23% → 28%."
+    ]
+  }
+]
