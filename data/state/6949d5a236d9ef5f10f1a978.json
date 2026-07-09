@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-09T17:46:38.492268+00:00",
+  "fetched_at": "2026-07-09T21:26:23.099588+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
-  "completition_status": 23,
-  "completition_pes": 28,
+  "completition_status": 26,
+  "completition_pes": 32,
   "service_estimate_date": "2026-12-15T00:00:00",
   "operative_estimate_date": "2027-03-03T00:00:00",
   "reception_date": "2025-12-18T00:00:00",
@@ -100,7 +100,7 @@
     },
     "req5d4d815e36d9ef7615c337b6": {
       "text": "ECB",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4d811736d9ef76163c4333": {
@@ -356,13 +356,6 @@
         "Listado de Requerimientos\n75%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
-    "req5d4d815e36d9ef7615c337b6": {
-      "casilla": "ECB",
-      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n09-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
-    },
     "req5d4d811736d9ef76163c4333": {
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
@@ -445,7 +438,6 @@
     "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778045+00:00",
     "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-25T21:47:15.958498+00:00",
     "req5d4d80cc36d9ef76163c415e|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778082+00:00",
-    "req5d4d815e36d9ef7615c337b6|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778098+00:00",
     "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778115+00:00",
     "req5d4d828736d9ef7615c3571d|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778131+00:00",
     "req5d4d81f636d9ef7617294770|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-20T14:55:50.778147+00:00",

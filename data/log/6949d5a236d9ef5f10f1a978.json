@@ -60,5 +60,21 @@
         "fecha_limite": "15-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-09T21:26:23.100903+00:00",
+    "changes": [
+      "Casilla 'ECB' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 23% → 26%.",
+      "Avance de requisitos para inicio de PES: 28% → 32%."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECB",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
   }
 ]
