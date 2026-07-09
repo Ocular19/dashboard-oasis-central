@@ -149,5 +149,26 @@
         "fecha_limite": "14-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-09T17:46:58.580538+00:00",
+    "changes": [
+      "Casilla 'Prot E' cambió de estado: pendiente -> en_curso",
+      "'Prot E': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 10-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prot E",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "10-07-2026"
+      },
+      {
+        "casilla": "Prot E",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "10-07-2026"
+      }
+    ]
   }
 ]
