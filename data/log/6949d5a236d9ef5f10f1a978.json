@@ -127,5 +127,21 @@
         "fecha_limite": "10-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-10T07:38:07.626633+00:00",
+    "changes": [
+      "Casilla 'EMT' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 33% → 36%.",
+      "Avance de requisitos para inicio de PES: 40% → 44%."
+    ],
+    "alerts": [
+      {
+        "casilla": "EMT",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
   }
 ]
