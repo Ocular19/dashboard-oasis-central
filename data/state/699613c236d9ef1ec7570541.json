@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-07-10T14:26:47.963858+00:00",
+  "fetched_at": "2026-07-10T17:40:45.470065+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 26,
+  "completition_status": 25,
   "completition_pes": 31,
   "service_estimate_date": "2026-12-06T00:00:00",
   "operative_estimate_date": "2027-02-22T00:00:00",
@@ -238,6 +238,16 @@
       "state": "pendiente",
       "is_container": false
     },
+    "req6a173dcf36d9ef4dfd2e68fc": {
+      "text": "REQUERIMIENTOS DE CONVERTIDORES",
+      "state": "pendiente",
+      "is_container": false
+    },
+    "req6a15c8b636d9ef7d59878e93": {
+      "text": "Modelos EMT",
+      "state": "pendiente",
+      "is_container": false
+    },
     "req600f044436d9ef327f0765cb": {
       "text": "PARÁMETROS DE GENERACIÓN",
       "state": "pendiente",
@@ -343,35 +353,35 @@
       "casilla": "Fecha Pruebas",
       "parent_group": "SITR",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n01-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n13-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req6076676d36d9ef7d11ba2199": {
       "casilla": "Enlace",
       "parent_group": "EME",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PRUEBAS DEL ENLACE DE COMUNICACIONES EME\nEncargado: Departamento Conexiones\nI.1\nDefinición y Prueba del Enlace\n¿Qué estoy viendo?\n\nDescripción\n\nDefinición y Pruebas del enlace de comunicaciones para los medidores del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n14-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'PRUEBAS DEL ENLACE DE COMUNICACIONES EME\nEncargado: Departamento Conexiones\nI.1\nDefinición y Prueba del Enlace\n¿Qué estoy viendo?\n\nDescripción\n\nDefinición y Pruebas del enlace de comunicaciones para los medidores del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n20-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4da05136d9ef7615c4d9bd": {
       "casilla": "Prot E",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos SAT\nI.1\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nProtocolos de pruebas SAT a equipos primarios\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n10-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos SAT\nI.1\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nProtocolos de pruebas SAT a equipos primarios\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n13-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n03-06-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n13-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4da2bc36d9ef761836f1eb": {
       "casilla": "Prog P",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PROGRAMA DE PRUEBAS\nEncargado: Programacion\nI.1\nRecepción del Programa de Pruebas\nI.1\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante envía un Programa de Pruebas para revisión\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n03-06-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'PROGRAMA DE PRUEBAS\nEncargado: Programacion\nI.1\nRecepción del Programa de Pruebas\nI.1\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante envía un Programa de Pruebas para revisión\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n13-07-2026\n\nHistorial de movimientos"
       ]
     }
   },
