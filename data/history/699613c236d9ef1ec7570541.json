@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-07-09T17:46:58.580295+00:00",
-    "changes": [
-      "Casilla 'Prot E' cambió de estado: pendiente -> en_curso",
-      "'Prot E': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 10-07-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-07-10T17:40:45.471136+00:00",
     "changes": [
       "'Fecha Pruebas': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 13-07-2026).",
