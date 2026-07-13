@@ -1,18 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10T01:24:41.465828+00:00",
-    "changes": [
-      "Casilla 'ET' cambió de estado: en_curso -> completado",
-      "Casilla 'ECA' cambió de estado: en_curso -> completado",
-      "'ECAP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 10-07-2026).",
-      "'EFP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 10-07-2026).",
-      "'ECC': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 10-07-2026).",
-      "'ESM': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 10-07-2026).",
-      "Avance general del proyecto: 26% → 33%.",
-      "Avance de requisitos para inicio de PES: 32% → 40%."
-    ]
-  },
-  {
     "timestamp": "2026-07-10T07:38:07.626290+00:00",
     "changes": [
       "Casilla 'EMT' cambió de estado: en_curso -> completado",
