@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T13:43:30.900881+00:00",
+  "fetched_at": "2026-07-14T17:01:53.501462+00:00",
   "name": "MR Proyecto Ampliación Subestación Seccionadora Solís 154 kV (Art. 102))",
   "correlativo": 5422,
   "completition_status": 97,
@@ -145,5 +145,6 @@
   },
   "first_seen": {
     "req5d4dab3f36d9ef7615c59207|Carta de Respuesta a la Solicitud de Entrada en Operación": "2026-07-06T15:33:21.644922+00:00"
-  }
+  },
+  "avance_prev": {}
 }

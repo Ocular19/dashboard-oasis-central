@@ -12,5 +12,14 @@
       "'Carta SEC': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 14-07-2026).",
       "'Neomante': cambió la fecha límite o el responsable — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-07-2026)."
     ]
+  },
+  {
+    "timestamp": "2026-07-14T17:01:48.218831+00:00",
+    "changes": [
+      "Casilla 'Cronograma' cambió de estado: en_curso -> completado",
+      "'Prot P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-07-2026).",
+      "'PO N': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-07-2026).",
+      "Avance de requisitos para inicio de PES: 81% → 82%."
+    ]
   }
 ]

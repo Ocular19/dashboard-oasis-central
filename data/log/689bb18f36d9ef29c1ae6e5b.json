@@ -321,5 +321,34 @@
         "fecha_limite": "21-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-14T17:01:48.219130+00:00",
+    "changes": [
+      "Casilla 'Cronograma' cambió de estado: en_curso -> completado",
+      "'Prot P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-07-2026).",
+      "'PO N': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-07-2026).",
+      "Avance de requisitos para inicio de PES: 81% → 82%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Cronograma",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      },
+      {
+        "casilla": "Prot P",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "29-07-2026"
+      },
+      {
+        "casilla": "PO N",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "29-07-2026"
+      }
+    ]
   }
 ]
