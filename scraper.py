@@ -359,6 +359,64 @@ def compute_first_seen(prev: dict, curr: dict) -> dict:
     return curr_first_seen
 
 
+AVANCE_FIELDS = ("completition_status", "completition_pes")
+AVANCE_WINDOW_HOURS = 72
+
+
+def update_avance_prev(prev: dict, curr: dict) -> dict:
+    """Cuando un porcentaje de avance cambia, recuerda el valor anterior por
+    72h para poder mostrar 'antes X% → ahora Y%' en el dashboard y los
+    correos. Si hubo varios cambios seguidos dentro de la ventana, se
+    conserva el 'antes' más antiguo (así se ve el movimiento completo:
+    25% → 28%, no solo el último salto)."""
+    out = {}
+    prev_hist = (prev or {}).get("avance_prev", {})
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=AVANCE_WINDOW_HOURS)
+
+    def entry_vigente(field):
+        entry = prev_hist.get(field)
+        if not entry:
+            return None
+        try:
+            if datetime.fromisoformat(entry["changed_at"]) < cutoff:
+                return None
+        except (KeyError, ValueError, TypeError):
+            return None
+        return entry
+
+    for field in AVANCE_FIELDS:
+        vigente = entry_vigente(field)
+        if prev is not None and prev.get(field) != curr.get(field):
+            antes = vigente["antes"] if vigente else prev.get(field)
+            if antes != curr.get(field):
+                out[field] = {"antes": antes, "changed_at": now_iso()}
+        elif vigente and vigente.get("antes") != curr.get(field):
+            out[field] = vigente
+    return out
+
+
+def avance_badge(state: dict, field: str) -> str:
+    """Pastilla 'antes X% → ahora Y%' con círculo verde (o rojo si bajó),
+    visible mientras el cambio esté dentro de la ventana de 72h. Usa estilos
+    inline para que funcione igual en los correos y en el dashboard."""
+    entry = (state.get("avance_prev") or {}).get(field)
+    if not entry:
+        return ""
+    antes = entry.get("antes")
+    ahora = state.get(field)
+    subio = isinstance(antes, (int, float)) and isinstance(ahora, (int, float)) and ahora >= antes
+    dot_color = "#00cf78" if subio else "#e0273a"
+    bg = "#e6faf1" if subio else "#fdeceb"
+    fg = "#046b43" if subio else "#7a1f12"
+    return (
+        f"<span style=\"display:inline-block; margin-left:8px; padding:2px 9px; background:{bg}; "
+        f"border-radius:12px; font-size:11px; color:{fg}; font-weight:600; vertical-align:middle; white-space:nowrap;\">"
+        f"<span style=\"display:inline-block; width:7px; height:7px; background:{dot_color}; "
+        f"border-radius:50%; margin-right:5px;\"></span>"
+        f"antes {antes}% &rarr; ahora {ahora}%</span>"
+    )
+
+
 def carry_forward_failed_reads(prev: dict, curr: dict) -> None:
     """Si en esta corrida no se pudo leer el panel de una casilla (fallo
     puntual del navegador, no del sitio), no lo guardamos como 'vacío' —
@@ -613,8 +671,8 @@ def project_info_html(state: dict) -> str:
     avance = state.get("completition_status", 0)
     return f"""
     <div style="margin:4px 0 14px 0; font-size:12px; color:#4a5957; line-height:1.9;">
-      <div>Avance de requisitos para inicio de PES: <strong>{pes}%</strong>{_mini_progress_bar(pes)}</div>
-      <div>Avance del proyecto: <strong>{avance}%</strong>{_mini_progress_bar(avance)}</div>
+      <div>Avance de requisitos para inicio de PES: <strong>{pes}%</strong>{_mini_progress_bar(pes)}{avance_badge(state, 'completition_pes')}</div>
+      <div>Avance del proyecto: <strong>{avance}%</strong>{_mini_progress_bar(avance)}{avance_badge(state, 'completition_status')}</div>
       <div style="margin-top:6px;">Puesta en Servicio estimada: <strong>{fmt_date(state.get('service_estimate_date'))}</strong>
         &middot; Entrada en Operación estimada: <strong>{fmt_date(state.get('operative_estimate_date'))}</strong></div>
       <div style="margin-top:5px;">
@@ -948,7 +1006,7 @@ def render_dashboard(projects_summary: list) -> None:
             f"""
             <section class="card">
               <h2>{p['name']} <span class="nup">#{p['correlativo']}</span></h2>
-              <p>Avance del proyecto: {p['completition_status']}% &mdash; Avance requisitos PES: {p['completition_pes']}%</p>
+              <p>Avance del proyecto: {p['completition_status']}%{avance_badge(p, 'completition_status')} &mdash; Avance requisitos PES: {p['completition_pes']}%{avance_badge(p, 'completition_pes')}</p>
               <p>Puesta en servicio estimada: {fmt_date(p['service_estimate_date'])} &mdash; Entrada en operación estimada: {fmt_date(p['operative_estimate_date'])}</p>
               <p class="resumen">
                 <span class="badge verde">{n_completado} completadas</span>
@@ -1058,6 +1116,7 @@ def main():
             carry_forward_failed_reads(prev, curr)
             changes, alerts = diff_snapshots(prev, curr)
             curr["first_seen"] = compute_first_seen(prev, curr)
+            curr["avance_prev"] = update_avance_prev(prev, curr)
             save_json(state_path, curr)
             history = append_history(project_id, changes, alerts)
 
@@ -1073,6 +1132,7 @@ def main():
                     "service_estimate_date": curr.get("service_estimate_date"),
                     "operative_estimate_date": curr.get("operative_estimate_date"),
                     "url": project["url"],
+                    "avance_prev": curr.get("avance_prev", {}),
                     "history": history,
                     "boxes": curr.get("boxes", {}),
                     "active_tasks": curr.get("active_tasks", {}),
