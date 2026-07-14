@@ -502,15 +502,22 @@ def diff_snapshots(prev: dict, curr: dict) -> tuple:
                 )
             for desc in common:
                 pp, cp = prev_by_desc[desc], curr_by_desc[desc]
-                if pp["fecha_limite"] != cp["fecha_limite"] or pp["quien_actua"] != cp["quien_actua"]:
+                # Solo alertamos si cambió QUIÉN debe responder (eso sí es un
+                # avance real). Un cambio solo de fecha límite con la misma
+                # tarea y mismo responsable NO se reporta: la plataforma del
+                # CEN recalcula periódicamente las fechas de las tareas
+                # atrasadas (las "rueda" hacia adelante en masa), lo que
+                # generaba tandas de 8-9 alertas falsas recurrentes. La fecha
+                # vigente siempre se ve en el dashboard.
+                if pp["quien_actua"] != cp["quien_actua"]:
                     changes.append(
-                        f"'{casilla}': cambió la fecha límite o el responsable — ahora "
+                        f"'{casilla}': cambió el responsable — ahora "
                         f"{QUIEN_LABEL[cp['quien_actua']]} (fecha límite {cp['fecha_limite']})."
                     )
                     alerts.append(
                         {
                             "casilla": casilla,
-                            "evento": "Cambió fecha límite o responsable",
+                            "evento": "Cambió el responsable",
                             "quien": QUIEN_LABEL[cp["quien_actua"]],
                             "fecha_limite": cp["fecha_limite"],
                         }
