@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-16T01:17:26.936748+00:00",
+  "fetched_at": "2026-07-16T06:21:04.132988+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 28,
-  "completition_pes": 35,
+  "completition_status": 32,
+  "completition_pes": 39,
   "service_estimate_date": "2026-12-06T00:00:00",
   "operative_estimate_date": "2027-02-22T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -85,7 +85,7 @@
     },
     "req5d4d80cc36d9ef76163c415e": {
       "text": "ET",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4d815e36d9ef7615c337b6": {
@@ -304,21 +304,14 @@
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n17-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4d80b036d9ef7615c333ec": {
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
-    },
-    "req5d4d80cc36d9ef76163c415e": {
-      "casilla": "ET",
-      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE ESTABILIDAD TRANSITORIA\nEncargado: DAOP\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n17-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4d815e36d9ef7615c337b6": {
@@ -379,9 +372,8 @@
     }
   },
   "first_seen": {
-    "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593737+00:00",
-    "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-25T21:47:48.064425+00:00",
-    "req5d4d80cc36d9ef76163c415e|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-25T21:47:48.064437+00:00",
+    "req5d4d62dd36d9ef761727f012|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T06:21:04.133339+00:00",
+    "req5d4d80b036d9ef7615c333ec|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T06:21:04.133354+00:00",
     "req5d4d815e36d9ef7615c337b6|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-15T21:04:02.584774+00:00",
     "req5d4d811736d9ef76163c4333|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T01:17:26.937082+00:00",
     "req5d4d821236d9ef7615c3554c|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T01:17:26.937089+00:00",
@@ -391,5 +383,14 @@
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_status": {
+      "antes": 28,
+      "changed_at": "2026-07-16T06:21:04.133439+00:00"
+    },
+    "completition_pes": {
+      "antes": 35,
+      "changed_at": "2026-07-16T06:21:04.133442+00:00"
+    }
+  }
 }
