@@ -12,5 +12,12 @@
     "changes": [
       "'ECB': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 17-07-2026)."
     ]
+  },
+  {
+    "timestamp": "2026-07-16T01:17:26.937863+00:00",
+    "changes": [
+      "'ECC': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 17-07-2026).",
+      "'EMT': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 17-07-2026)."
+    ]
   }
 ]

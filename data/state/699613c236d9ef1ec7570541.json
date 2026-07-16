@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T21:04:02.584556+00:00",
+  "fetched_at": "2026-07-16T01:17:26.936748+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 28,
@@ -332,14 +332,14 @@
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n17-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4d821236d9ef7615c3554c": {
       "casilla": "EMT",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.1\nRecepción de estudio\nI.1\nEnvío de estudio a Empresa Involucrada\nI.1\nObservaciones al estudio de la Empresa Involucrada\nI.1\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n20 días hábiles\n\nFecha límite\n\n15-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n17-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req606a6bc436d9ef1a2254fc9b": {
@@ -383,8 +383,8 @@
     "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-25T21:47:48.064425+00:00",
     "req5d4d80cc36d9ef76163c415e|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-25T21:47:48.064437+00:00",
     "req5d4d815e36d9ef7615c337b6|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-15T21:04:02.584774+00:00",
-    "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593788+00:00",
-    "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-06-22T16:58:19.593811+00:00",
+    "req5d4d811736d9ef76163c4333|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T01:17:26.937082+00:00",
+    "req5d4d821236d9ef7615c3554c|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T01:17:26.937089+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-30T17:47:02.000131+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-07T21:28:02.863961+00:00",
     "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-07-09T17:46:58.579585+00:00",

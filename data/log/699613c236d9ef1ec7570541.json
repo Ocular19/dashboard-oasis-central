@@ -243,5 +243,26 @@
         "fecha_limite": "17-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-16T01:17:26.938114+00:00",
+    "changes": [
+      "'ECC': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 17-07-2026).",
+      "'EMT': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 17-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECC",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "17-07-2026"
+      },
+      {
+        "casilla": "EMT",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "17-07-2026"
+      }
+    ]
   }
 ]
