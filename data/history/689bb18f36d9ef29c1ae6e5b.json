@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-07-13T17:48:46.558636+00:00",
-    "changes": [
-      "'Cronograma': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 14-07-2026).",
-      "'Fecha Pruebas': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 14-07-2026).",
-      "'Prot E': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 14-07-2026).",
-      "'Prot P': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 14-07-2026).",
-      "'PO N': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 14-07-2026).",
-      "'Plan Ener Gx': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 14-07-2026).",
-      "'Prog P': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 14-07-2026).",
-      "'Carta SEC': cambió la fecha límite o el responsable — ahora Esperando que Grenergy cargue un documento (fecha límite 14-07-2026).",
-      "'Neomante': cambió la fecha límite o el responsable — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-07-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-07-14T17:01:48.218831+00:00",
     "changes": [
       "Casilla 'Cronograma' cambió de estado: en_curso -> completado",
