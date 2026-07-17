@@ -1,13 +1,5 @@
 [
   {
-    "timestamp": "2026-07-14T06:13:03.049311+00:00",
-    "changes": [
-      "Casilla 'ECA' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 25% → 28%.",
-      "Avance de requisitos para inicio de PES: 31% → 35%."
-    ]
-  },
-  {
     "timestamp": "2026-07-15T21:04:02.585367+00:00",
     "changes": [
       "'ECB': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 17-07-2026)."
