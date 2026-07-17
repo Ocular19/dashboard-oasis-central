@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T16:58:56.937192+00:00",
+  "fetched_at": "2026-07-17T20:59:49.517291+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 68,
@@ -397,10 +397,5 @@
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-07-03T07:23:24.441652+00:00",
     "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-22T16:58:35.668174+00:00"
   },
-  "avance_prev": {
-    "completition_pes": {
-      "antes": 81,
-      "changed_at": "2026-07-14T17:01:48.218115+00:00"
-    }
-  }
+  "avance_prev": {}
 }

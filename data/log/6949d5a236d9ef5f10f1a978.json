@@ -143,5 +143,54 @@
         "fecha_limite": "-"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-17T20:59:17.684008+00:00",
+    "changes": [
+      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-08-2026).",
+      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-07-2026).",
+      "'ECC': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-08-2026).",
+      "'ECC': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-07-2026).",
+      "'ESM': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-08-2026).",
+      "'ESM': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "EFP",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "07-08-2026"
+      },
+      {
+        "casilla": "EFP",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "21-07-2026"
+      },
+      {
+        "casilla": "ECC",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "07-08-2026"
+      },
+      {
+        "casilla": "ECC",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "21-07-2026"
+      },
+      {
+        "casilla": "ESM",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "07-08-2026"
+      },
+      {
+        "casilla": "ESM",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "21-07-2026"
+      }
+    ]
   }
 ]
