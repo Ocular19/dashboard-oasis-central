@@ -1,18 +1,5 @@
 [
   {
-    "timestamp": "2026-07-15T21:04:02.585367+00:00",
-    "changes": [
-      "'ECB': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 17-07-2026)."
-    ]
-  },
-  {
-    "timestamp": "2026-07-16T01:17:26.937863+00:00",
-    "changes": [
-      "'ECC': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 17-07-2026).",
-      "'EMT': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 17-07-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-07-16T06:21:04.134061+00:00",
     "changes": [
       "Casilla 'ET' cambió de estado: en_curso -> completado",
