@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-21T13:49:23.723944+00:00",
+  "fetched_at": "2026-07-21T17:06:16.484496+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 32,
-  "completition_pes": 39,
+  "completition_status": 30,
+  "completition_pes": 37,
   "service_estimate_date": "2026-12-06T00:00:00",
   "operative_estimate_date": "2027-02-22T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -20,7 +20,7 @@
     },
     "req5d4c907f36d9ef7615bf7a08": {
       "text": "DUF",
-      "state": "completado",
+      "state": "en_curso",
       "is_container": false
     },
     "req5ea9f8c136d9ef4be78ea70b": {
@@ -300,6 +300,13 @@
     }
   },
   "active_tasks": {
+    "req5d4c907f36d9ef7615bf7a08": {
+      "casilla": "DUF",
+      "parent_group": "ANIT y PLANOS",
+      "sub_panels": [
+        "Listado de Requerimientos\n80%\n'ACTUALIZACIÓN DIAGRAMA UNILINEAL FUNCIONAL\nEncargado: DAIT\nI.5\nDUF para revisión\nI.5\nDocumento Único de Observaciones al DUF\n¿Qué estoy viendo?\n\nDescripción\n\nDiagrama Unilineal Funcional de acuerdo a documento: Nomenclatura y requisitos mínimos DUF. En cada Iteración se debe cargar todos los DUF del proyecto mas la minuta con las modificaciones realizadas (aunque algunos se encuentren aprobados en iteración anterior).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n22-07-2026\n\nHistorial de movimientos"
+      ]
+    },
     "req5d4d62dd36d9ef761727f012": {
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
@@ -372,6 +379,7 @@
     }
   },
   "first_seen": {
+    "req5d4c907f36d9ef7615bf7a08|Diagrama Unilineal Funcional de acuerdo a documento: Nomenclatura y requisitos mínimos DUF. En cada Iteración se debe cargar todos los DUF del proyecto mas la minuta con las modificaciones realizadas (aunque algunos se encuentren aprobados en iteración anterior).": "2026-07-21T17:06:16.484800+00:00",
     "req5d4d62dd36d9ef761727f012|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T06:21:04.133339+00:00",
     "req5d4d80b036d9ef7615c333ec|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T06:21:04.133354+00:00",
     "req5d4d815e36d9ef7615c337b6|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-15T21:04:02.584774+00:00",
@@ -383,5 +391,14 @@
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_status": {
+      "antes": 32,
+      "changed_at": "2026-07-21T17:06:16.484893+00:00"
+    },
+    "completition_pes": {
+      "antes": 39,
+      "changed_at": "2026-07-21T17:06:16.484896+00:00"
+    }
+  }
 }
