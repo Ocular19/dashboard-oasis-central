@@ -70,5 +70,20 @@
         "fecha_limite": "17-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-21T21:14:07.521277+00:00",
+    "changes": [
+      "Casilla 'SEO' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 97% → 100%."
+    ],
+    "alerts": [
+      {
+        "casilla": "SEO",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
   }
 ]

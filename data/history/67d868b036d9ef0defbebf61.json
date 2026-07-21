@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "timestamp": "2026-07-21T21:14:07.521061+00:00",
+    "changes": [
+      "Casilla 'SEO' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 97% → 100%."
+    ]
+  }
+]
