@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T21:13:44.060733+00:00",
+  "fetched_at": "2026-07-22T01:17:18.257092+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 30,
@@ -304,7 +304,7 @@
       "casilla": "DUF",
       "parent_group": "ANIT y PLANOS",
       "sub_panels": [
-        "Listado de Requerimientos\n80%\n'ACTUALIZACIÓN DIAGRAMA UNILINEAL FUNCIONAL\nEncargado: DAIT\nI.5\nDUF para revisión\nI.5\nDocumento Único de Observaciones al DUF\n¿Qué estoy viendo?\n\nDescripción\n\nDiagrama Unilineal Funcional de acuerdo a documento: Nomenclatura y requisitos mínimos DUF. En cada Iteración se debe cargar todos los DUF del proyecto mas la minuta con las modificaciones realizadas (aunque algunos se encuentren aprobados en iteración anterior).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n22-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n90%\n'ACTUALIZACIÓN DIAGRAMA UNILINEAL FUNCIONAL\nEncargado: DAIT\nI.5\nDUF para revisión\nI.5\nDocumento Único de Observaciones al DUF\n¿Qué estoy viendo?\n\nDescripción\n\nDocumento Único de Observaciones al Diagrama Unilineal Funcional\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n30-07-2026\n\nDepende de\n\nDUF para revisión\nHistorial de movimientos"
       ]
     },
     "req5d4d62dd36d9ef761727f012": {
@@ -379,7 +379,7 @@
     }
   },
   "first_seen": {
-    "req5d4c907f36d9ef7615bf7a08|Diagrama Unilineal Funcional de acuerdo a documento: Nomenclatura y requisitos mínimos DUF. En cada Iteración se debe cargar todos los DUF del proyecto mas la minuta con las modificaciones realizadas (aunque algunos se encuentren aprobados en iteración anterior).": "2026-07-21T17:06:16.484800+00:00",
+    "req5d4c907f36d9ef7615bf7a08|Documento Único de Observaciones al Diagrama Unilineal Funcional": "2026-07-22T01:17:18.257530+00:00",
     "req5d4d62dd36d9ef761727f012|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T06:21:04.133339+00:00",
     "req5d4d80b036d9ef7615c333ec|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T06:21:04.133354+00:00",
     "req5d4d815e36d9ef7615c337b6|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-15T21:04:02.584774+00:00",
