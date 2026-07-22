@@ -345,5 +345,26 @@
         "fecha_limite": "-"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-22T17:08:47.732498+00:00",
+    "changes": [
+      "Casilla 'Enlace' cambió de estado: pendiente -> en_curso",
+      "'Enlace': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Enlace",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "29-07-2026"
+      },
+      {
+        "casilla": "Enlace",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "29-07-2026"
+      }
+    ]
   }
 ]

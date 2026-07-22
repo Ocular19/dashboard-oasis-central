@@ -19,5 +19,12 @@
     "changes": [
       "Casilla 'Enlace' cambió de estado: en_curso -> pendiente"
     ]
+  },
+  {
+    "timestamp": "2026-07-22T17:08:47.732224+00:00",
+    "changes": [
+      "Casilla 'Enlace' cambió de estado: pendiente -> en_curso",
+      "'Enlace': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-07-2026)."
+    ]
   }
 ]

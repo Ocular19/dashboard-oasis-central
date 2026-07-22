@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-22T13:53:09.897553+00:00",
+  "fetched_at": "2026-07-22T17:09:10.947013+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 68,
-  "completition_pes": 82,
+  "completition_pes": 81,
   "service_estimate_date": "2026-06-30T00:00:00",
   "operative_estimate_date": "2026-11-15T00:00:00",
   "reception_date": "2025-08-11T00:00:00",
@@ -35,7 +35,7 @@
     },
     "req60ad0d0d36d9ef44f12350ef": {
       "text": "Cronograma",
-      "state": "completado",
+      "state": "en_curso",
       "is_container": false
     },
     "req60ca060536d9ef1ee6b43b49": {
@@ -330,6 +330,13 @@
     }
   },
   "active_tasks": {
+    "req60ad0d0d36d9ef44f12350ef": {
+      "casilla": "Cronograma",
+      "parent_group": null,
+      "sub_panels": [
+        "Listado de Requerimientos\n75%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.4\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n23-07-2026\n\nHistorial de movimientos"
+      ]
+    },
     "req606a6bc436d9ef1a2254fc9b": {
       "casilla": "Fecha Pruebas",
       "parent_group": "SITR",
@@ -388,6 +395,7 @@
     }
   },
   "first_seen": {
+    "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-07-22T17:09:10.947260+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T16:58:35.668120+00:00",
     "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-06-22T16:58:35.668146+00:00",
     "req5d4da0b036d9ef76163e2e6d|Observaciones a los protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-07-14T17:01:48.218056+00:00",
@@ -397,5 +405,10 @@
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-07-03T07:23:24.441652+00:00",
     "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-22T16:58:35.668174+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_pes": {
+      "antes": 82,
+      "changed_at": "2026-07-22T17:09:10.947348+00:00"
+    }
+  }
 }
