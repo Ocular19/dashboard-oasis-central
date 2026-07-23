@@ -192,5 +192,26 @@
         "fecha_limite": "21-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-23T17:08:03.365689+00:00",
+    "changes": [
+      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 27-07-2026).",
+      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 13-08-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECAP",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "27-07-2026"
+      },
+      {
+        "casilla": "ECAP",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "13-08-2026"
+      }
+    ]
   }
 ]

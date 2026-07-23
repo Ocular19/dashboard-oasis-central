@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T13:58:40.554530+00:00",
+  "fetched_at": "2026-07-23T17:08:03.364178+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 36,
@@ -339,7 +339,8 @@
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n10-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n62%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador envía estudio completo a las Empresas Involucradas\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n27-07-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos",
+        "Listado de Requerimientos\n62%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n13-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
     "req5d4d80b036d9ef7615c333ec": {
@@ -417,7 +418,8 @@
     }
   },
   "first_seen": {
-    "req5d4d62dd36d9ef761727f012|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-10T01:24:41.464963+00:00",
+    "req5d4d62dd36d9ef761727f012|El Coordinador envía estudio completo a las Empresas Involucradas": "2026-07-23T17:08:03.364539+00:00",
+    "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-23T17:08:03.364550+00:00",
     "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-17T20:59:17.682655+00:00",
     "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-17T20:59:17.682673+00:00",
     "req5d4d81f636d9ef7617294770|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-17T20:59:17.682693+00:00",
