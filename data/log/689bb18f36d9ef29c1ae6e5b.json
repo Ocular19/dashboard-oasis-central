@@ -380,5 +380,19 @@
       "Fecha estimada de Entrada en Operación: 2026-11-15T00:00:00 → 2026-12-16T00:00:00."
     ],
     "alerts": []
+  },
+  {
+    "timestamp": "2026-07-24T13:45:28.378681+00:00",
+    "changes": [
+      "'Fecha Pruebas': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 29-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "29-07-2026"
+      }
+    ]
   }
 ]

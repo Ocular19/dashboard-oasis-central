@@ -13,5 +13,11 @@
       "Fecha estimada de Puesta en Servicio: 2026-06-30T00:00:00 → 2026-09-01T00:00:00.",
       "Fecha estimada de Entrada en Operación: 2026-11-15T00:00:00 → 2026-12-16T00:00:00."
     ]
+  },
+  {
+    "timestamp": "2026-07-24T13:45:28.378202+00:00",
+    "changes": [
+      "'Fecha Pruebas': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 29-07-2026)."
+    ]
   }
 ]
