@@ -394,5 +394,20 @@
         "fecha_limite": "29-07-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-24T21:07:40.250835+00:00",
+    "changes": [
+      "Casilla 'Carta SEC' cambió de estado: en_curso -> completado",
+      "Avance de requisitos para inicio de PES: 81% → 82%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Carta SEC",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
   }
 ]
