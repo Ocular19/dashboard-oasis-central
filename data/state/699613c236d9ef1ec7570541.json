@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T09:58:50.127975+00:00",
+  "fetched_at": "2026-07-26T13:21:35.495780+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 30,
@@ -332,7 +332,7 @@
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n23-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n23-07-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4d821236d9ef7615c3554c": {
