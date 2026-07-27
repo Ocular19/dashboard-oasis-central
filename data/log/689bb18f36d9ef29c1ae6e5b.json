@@ -1,17 +1,5 @@
 [
   {
-    "timestamp": "2026-06-22T16:58:35.669207+00:00",
-    "changes": [
-      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 01-07-2026).",
-      "'Fecha Pruebas': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-05-2026).",
-      "'Prot E': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-06-2026).",
-      "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-11-2025).",
-      "'Prog P': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-06-2026).",
-      "'Neomante': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 23-01-2026)."
-    ],
-    "alerts": []
-  },
-  {
     "timestamp": "2026-06-23T17:48:53.822454+00:00",
     "changes": [
       "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 28-11-2025).",
@@ -407,6 +395,27 @@
         "evento": "Cambió de estado (en_curso → completado)",
         "quien": "Sin acción pendiente (completada)",
         "fecha_limite": "-"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-27T21:15:26.460406+00:00",
+    "changes": [
+      "'Prot E': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 10-08-2026).",
+      "'Prog P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prot E",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "10-08-2026"
+      },
+      {
+        "casilla": "Prog P",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "17-08-2026"
       }
     ]
   }
