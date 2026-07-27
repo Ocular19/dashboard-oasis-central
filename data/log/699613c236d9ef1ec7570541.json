@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": "2026-06-22T16:58:19.594860+00:00",
-    "changes": [
-      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ET': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ECB': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ECC': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'ECA': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-07-2026).",
-      "'SCADA Y MEDIDAS': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 05-01-2027).",
-      "'DIR/TAG': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 22-06-2026).",
-      "'EME': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 10-07-2026).",
-      "'GM': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-07-2026).",
-      "'Plan Ener Gx': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 03-06-2026).",
-      "'Prog P': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 03-06-2026)."
-    ],
-    "alerts": []
-  },
-  {
     "timestamp": "2026-06-23T00:45:49.177223+00:00",
     "changes": [
       "'GM': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-07-2026)."
@@ -364,6 +345,41 @@
         "evento": "Nuevo pendiente",
         "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
         "fecha_limite": "29-07-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-27T17:28:55.648614+00:00",
+    "changes": [
+      "'EFP': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
+      "'ECB': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
+      "'ECC': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
+      "'EMT': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "EFP",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "17-08-2026"
+      },
+      {
+        "casilla": "ECB",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "17-08-2026"
+      },
+      {
+        "casilla": "ECC",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "17-08-2026"
+      },
+      {
+        "casilla": "EMT",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "17-08-2026"
       }
     ]
   }
