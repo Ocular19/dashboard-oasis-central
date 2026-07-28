@@ -418,5 +418,19 @@
         "fecha_limite": "17-08-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-28T17:17:53.414001+00:00",
+    "changes": [
+      "'Fecha Pruebas': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 30-07-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "30-07-2026"
+      }
+    ]
   }
 ]

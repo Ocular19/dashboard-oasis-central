@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T14:06:48.287261+00:00",
+  "fetched_at": "2026-07-28T17:17:53.412926+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 68,
@@ -341,7 +341,7 @@
       "casilla": "Fecha Pruebas",
       "parent_group": "SITR",
       "sub_panels": [
-        "Listado de Requerimientos\n33%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador debe confirmar la fecha propuesta por la Empresa Solicitante o proponer una nueva fecha para las pruebas punto a punto.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n3 días hábiles\n\nFecha límite\n\n29-07-2026\n\nDepende de\n\nSolicitud de fecha de pruebas SITR\nHistorial de movimientos"
+        "Listado de Requerimientos\n66%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe indicar en el listado de señales SITR los resultados de las pruebas internas y debe enviar un documento firmado por el responsable de la Puesta en Servicio que las pruebas fueron satisfactorias. Debe enviarlo al menos 2 días hábiles antes de las pruebas punto a punto.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n30-07-2026\n\nDepende de\n\nConfirmación de fecha de pruebas SITR\nHistorial de movimientos"
       ]
     },
     "req5d4da05136d9ef7615c4d9bd": {
@@ -389,7 +389,7 @@
   },
   "first_seen": {
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-07-22T17:09:10.947260+00:00",
-    "req606a6bc436d9ef1a2254fc9b|El Coordinador debe confirmar la fecha propuesta por la Empresa Solicitante o proponer una nueva fecha para las pruebas punto a punto.": "2026-07-24T13:45:28.377479+00:00",
+    "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe indicar en el listado de señales SITR los resultados de las pruebas internas y debe enviar un documento firmado por el responsable de la Puesta en Servicio que las pruebas fueron satisfactorias. Debe enviarlo al menos 2 días hábiles antes de las pruebas punto a punto.": "2026-07-28T17:17:53.413186+00:00",
     "req5d4da05136d9ef7615c4d9bd|Observaciones a los protocolos SAT de Equipos Primarios.": "2026-07-27T21:15:26.459376+00:00",
     "req5d4da0b036d9ef76163e2e6d|Observaciones a los protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-07-14T17:01:48.218056+00:00",
     "req5d4da10d36d9ef7615c50d5d|Observaciones a los Print Out de los nuevos Relés.": "2026-07-14T17:01:48.218065+00:00",
