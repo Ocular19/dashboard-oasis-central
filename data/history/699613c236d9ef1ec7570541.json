@@ -7,5 +7,13 @@
       "'ECC': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
       "'EMT': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026)."
     ]
+  },
+  {
+    "timestamp": "2026-07-29T01:18:50.412468+00:00",
+    "changes": [
+      "Casilla 'DUF' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 30% → 32%.",
+      "Avance de requisitos para inicio de PES: 37% → 39%."
+    ]
   }
 ]

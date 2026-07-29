@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-28T21:11:51.078151+00:00",
+  "fetched_at": "2026-07-29T01:18:50.408755+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 30,
-  "completition_pes": 37,
+  "completition_status": 32,
+  "completition_pes": 39,
   "service_estimate_date": "2026-12-06T00:00:00",
   "operative_estimate_date": "2027-02-22T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -20,7 +20,7 @@
     },
     "req5d4c907f36d9ef7615bf7a08": {
       "text": "DUF",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5ea9f8c136d9ef4be78ea70b": {
@@ -300,13 +300,6 @@
     }
   },
   "active_tasks": {
-    "req5d4c907f36d9ef7615bf7a08": {
-      "casilla": "DUF",
-      "parent_group": "ANIT y PLANOS",
-      "sub_panels": [
-        "Listado de Requerimientos\n90%\n'ACTUALIZACIÓN DIAGRAMA UNILINEAL FUNCIONAL\nEncargado: DAIT\nI.5\nDUF para revisión\nI.5\nDocumento Único de Observaciones al DUF\n¿Qué estoy viendo?\n\nDescripción\n\nDocumento Único de Observaciones al Diagrama Unilineal Funcional\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n30-07-2026\n\nDepende de\n\nDUF para revisión\nHistorial de movimientos"
-      ]
-    },
     "req5d4d62dd36d9ef761727f012": {
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
@@ -383,7 +376,6 @@
     }
   },
   "first_seen": {
-    "req5d4c907f36d9ef7615bf7a08|Documento Único de Observaciones al Diagrama Unilineal Funcional": "2026-07-22T01:17:18.257530+00:00",
     "req5d4d62dd36d9ef761727f012|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-07-16T06:21:04.133339+00:00",
     "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-27T17:28:55.600006+00:00",
     "req5d4d815e36d9ef7615c337b6|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-27T17:28:55.600023+00:00",
@@ -395,5 +387,14 @@
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_status": {
+      "antes": 30,
+      "changed_at": "2026-07-29T01:18:50.409413+00:00"
+    },
+    "completition_pes": {
+      "antes": 37,
+      "changed_at": "2026-07-29T01:18:50.409418+00:00"
+    }
+  }
 }
