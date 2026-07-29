@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T17:03:14.164340+00:00",
+  "fetched_at": "2026-07-29T21:00:41.721322+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 32,
@@ -357,7 +357,7 @@
       "casilla": "Prot E",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos SAT\nI.1\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nProtocolos de pruebas SAT a equipos primarios\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n23-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos SAT\nI.1\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nObservaciones a los protocolos SAT de Equipos Primarios.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n12-08-2026\n\nDepende de\n\nSolicitud de revisión de Protocolos SAT\nHistorial de movimientos"
       ]
     },
     "req665604b236d9ef441648202b": {
@@ -383,7 +383,7 @@
     "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-27T17:28:55.600042+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-30T17:47:02.000131+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-22T17:08:47.731552+00:00",
-    "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-07-09T17:46:58.579585+00:00",
+    "req5d4da05136d9ef7615c4d9bd|Observaciones a los protocolos SAT de Equipos Primarios.": "2026-07-29T21:00:41.721743+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"
   },
