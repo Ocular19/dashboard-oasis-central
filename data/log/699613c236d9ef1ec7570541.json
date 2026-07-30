@@ -384,5 +384,19 @@
         "fecha_limite": "12-08-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-30T17:14:06.853435+00:00",
+    "changes": [
+      "'ECAP': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 20-08-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECAP",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "20-08-2026"
+      }
+    ]
   }
 ]
