@@ -1,14 +1,5 @@
 [
   {
-    "timestamp": "2026-07-27T17:28:55.648239+00:00",
-    "changes": [
-      "'EFP': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
-      "'ECB': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
-      "'ECC': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
-      "'EMT': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-07-29T01:18:50.412468+00:00",
     "changes": [
       "Casilla 'DUF' cambió de estado: en_curso -> completado",
