@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T17:17:31.820798+00:00",
+  "fetched_at": "2026-07-31T21:08:59.156807+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 32,
@@ -336,7 +336,7 @@
       "casilla": "EMT",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n05-08-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n75%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nminuta_de_revision_-_no_aplica.docx\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n05-08-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n75%\n'ESTUDIO DE VERIFICACIÓN DE MALLA A TIERRA\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n17-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
