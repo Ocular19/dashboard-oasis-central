@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T21:08:59.156807+00:00",
+  "fetched_at": "2026-08-01T01:26:50.830753+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 32,
@@ -388,14 +388,5 @@
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 30,
-      "changed_at": "2026-07-29T01:18:50.409413+00:00"
-    },
-    "completition_pes": {
-      "antes": 37,
-      "changed_at": "2026-07-29T01:18:50.409418+00:00"
-    }
-  }
+  "avance_prev": {}
 }
