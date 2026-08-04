@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T17:29:21.346634+00:00",
+  "fetched_at": "2026-08-04T21:15:34.346126+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 73,
@@ -348,7 +348,7 @@
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n14-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nEl coordinador emitirá su aprobación u observaciones al documento\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n18-08-2026\n\nDepende de\n\nRecepción plan de energización Generación\nHistorial de movimientos"
       ]
     },
     "req5d4da2bc36d9ef761836f1eb": {
@@ -383,7 +383,7 @@
   "first_seen": {
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-07-22T17:09:10.947260+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe indicar en el listado de señales SITR los resultados de las pruebas internas y debe enviar un documento firmado por el responsable de la Puesta en Servicio que las pruebas fueron satisfactorias. Debe enviarlo al menos 2 días hábiles antes de las pruebas punto a punto.": "2026-07-28T17:17:53.413186+00:00",
-    "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T17:48:53.821415+00:00",
+    "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-08-04T21:15:34.346387+00:00",
     "req5d4da2bc36d9ef761836f1eb|El Coordinador revisa el Programa de Pruebas": "2026-07-27T21:15:26.459413+00:00",
     "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-22T16:58:35.668174+00:00",
     "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-08-03T21:07:05.567877+00:00"

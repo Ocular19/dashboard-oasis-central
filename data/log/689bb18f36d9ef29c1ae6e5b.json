@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-06-30T17:47:19.962274+00:00",
-    "changes": [
-      "Casilla 'Pruebas' cambió de estado: en_curso -> completado"
-    ],
-    "alerts": [
-      {
-        "casilla": "Pruebas",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-02T01:58:48.124628+00:00",
     "changes": [
       "Casilla 'ECAP' cambió de estado: en_curso -> completado",
@@ -377,6 +363,20 @@
         "evento": "Nuevo pendiente",
         "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
         "fecha_limite": "04-08-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-04T21:15:34.347454+00:00",
+    "changes": [
+      "'Plan Ener Gx': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 18-08-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Plan Ener Gx",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "18-08-2026"
       }
     ]
   }
