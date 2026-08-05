@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T01:16:52.724946+00:00",
+  "fetched_at": "2026-08-05T06:29:59.943462+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 32,
@@ -312,7 +312,7 @@
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n05-08-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n75%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-efp-027-2026_nup_6092_bess_tamango_v2.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n05-08-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n75%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n17-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -328,7 +328,7 @@
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n05-08-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n75%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-ecc-049-2026_nup_6092_bess_tamango_v2.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n05-08-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n75%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n17-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
