@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-08-04T21:15:34.346126+00:00",
+  "fetched_at": "2026-08-05T01:17:14.454128+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
-  "completition_status": 73,
-  "completition_pes": 88,
+  "completition_status": 74,
+  "completition_pes": 89,
   "service_estimate_date": "2026-09-01T00:00:00",
   "operative_estimate_date": "2026-12-16T00:00:00",
   "reception_date": "2025-08-11T00:00:00",
@@ -170,7 +170,7 @@
     },
     "req5d4d985736d9ef76163d61b6": {
       "text": "OTROS PES",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": true
     },
     "req5d4da28736d9ef7615c57207": {
@@ -391,11 +391,11 @@
   "avance_prev": {
     "completition_status": {
       "antes": 68,
-      "changed_at": "2026-08-03T21:07:05.567894+00:00"
+      "changed_at": "2026-08-05T01:17:14.454468+00:00"
     },
     "completition_pes": {
       "antes": 82,
-      "changed_at": "2026-08-03T21:07:05.567899+00:00"
+      "changed_at": "2026-08-05T01:17:14.454474+00:00"
     }
   }
 }

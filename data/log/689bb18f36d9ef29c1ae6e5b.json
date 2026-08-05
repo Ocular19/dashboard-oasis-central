@@ -379,5 +379,13 @@
         "fecha_limite": "18-08-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-05T01:17:14.455299+00:00",
+    "changes": [
+      "Avance general del proyecto: 73% → 74%.",
+      "Avance de requisitos para inicio de PES: 88% → 89%."
+    ],
+    "alerts": []
   }
 ]
