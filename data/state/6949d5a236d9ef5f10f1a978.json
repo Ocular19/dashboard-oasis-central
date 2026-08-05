@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T14:08:16.249881+00:00",
+  "fetched_at": "2026-08-05T17:18:02.523388+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 36,
@@ -339,24 +339,21 @@
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-ecap-204-2026_nup_5442_pfv_bess_planchon_v2.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n04-08-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n13-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+        "Listado de Requerimientos\n87%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n13-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
     "req5d4d80b036d9ef7615c333ec": {
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-efp-26-2026_pfvbess_planchon_v2.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n29-07-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n07-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+        "Listado de Requerimientos\n87%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n07-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
     "req5d4d811736d9ef76163c4333": {
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-ecc-048-2026_nup_5442_pfvbess_planchon_v2.pdf\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n29-07-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n75%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n07-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+        "Listado de Requerimientos\n87%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n07-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
     "req5d4d81f636d9ef7617294770": {
