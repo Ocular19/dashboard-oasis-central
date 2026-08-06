@@ -331,5 +331,26 @@
         "fecha_limite": "06-08-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-06T06:32:46.278711+00:00",
+    "changes": [
+      "'ECC': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 26-08-2026).",
+      "'ECC': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-08-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECC",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "26-08-2026"
+      },
+      {
+        "casilla": "ECC",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "07-08-2026"
+      }
+    ]
   }
 ]
