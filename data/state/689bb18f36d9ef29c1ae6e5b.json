@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T00:40:41.314589+00:00",
+  "fetched_at": "2026-08-08T04:58:47.160573+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 74,
@@ -388,14 +388,5 @@
     "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-22T16:58:35.668174+00:00",
     "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-08-03T21:07:05.567877+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 68,
-      "changed_at": "2026-08-05T01:17:14.454468+00:00"
-    },
-    "completition_pes": {
-      "antes": 82,
-      "changed_at": "2026-08-05T01:17:14.454474+00:00"
-    }
-  }
+  "avance_prev": {}
 }
