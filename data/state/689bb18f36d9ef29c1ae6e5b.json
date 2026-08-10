@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-10T13:06:51.612119+00:00",
+  "fetched_at": "2026-08-10T16:42:12.629880+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 74,
@@ -218,11 +218,6 @@
       "state": "pendiente",
       "is_container": false
     },
-    "req604791af36d9ef530b47bbd7": {
-      "text": "Pronósticos",
-      "state": "pendiente",
-      "is_container": false
-    },
     "req60612e2236d9ef1fc3814a92": {
       "text": "Neomante",
       "state": "en_curso",
@@ -250,12 +245,12 @@
     },
     "req5d4c9a3d36d9ef7615c07cfb": {
       "text": "IT PES",
-      "state": "en_curso",
+      "state": "pendiente",
       "is_container": false
     },
     "req606a67e336d9ef1a2254f2f7": {
       "text": "IT PES (inv)",
-      "state": "en_curso",
+      "state": "pendiente",
       "is_container": false
     },
     "req5d4da9c336d9ef761837419c": {
@@ -334,7 +329,7 @@
       "casilla": "Cronograma",
       "parent_group": null,
       "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.4\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n23-07-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n75%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.4\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-08-2026\n\nHistorial de movimientos"
       ]
     },
     "req606a6bc436d9ef1a2254fc9b": {
@@ -362,21 +357,7 @@
       "casilla": "Neomante",
       "parent_group": "PLATAFORMAS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'NEOMANTE\nEncargado: Departamento Conexiones\nI.1\nGeneración de Usuario en Plataforma Neomante\n¿Qué estoy viendo?\n\nDescripción\n\nCreación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n21-07-2026\n\nHistorial de movimientos"
-      ]
-    },
-    "req5d4c9a3d36d9ef7615c07cfb": {
-      "casilla": "IT PES",
-      "parent_group": "OTROS EO",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'INFOTÉCNICA PARA PES\nEncargado: DAIT\nI.1\nSolicitud de revisión de información técnica\nI.1\nRevisión de Información Técnica\n¿Qué estoy viendo?\n\nDescripción\n\nPara solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n04-08-2026\n\nHistorial de movimientos"
-      ]
-    },
-    "req606a67e336d9ef1a2254f2f7": {
-      "casilla": "IT PES (inv)",
-      "parent_group": "OTROS EO",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'INFOTÉCNICA PES INVOLUCRADA\nEncargado: DAIT\nI.1\nSoliciitud de Información Técnica Empresa Involucrada\nI.1\nRevisión de Información Técnica\n¿Qué estoy viendo?\n\nDescripción\n\nRevisión de información técnica de la empresa involucrada cargada en la plataforma de IT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nTSSCECVSCTSGSTS\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n24-08-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'NEOMANTE\nEncargado: Departamento Conexiones\nI.1\nGeneración de Usuario en Plataforma Neomante\n¿Qué estoy viendo?\n\nDescripción\n\nCreación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n17-08-2026\n\nHistorial de movimientos"
       ]
     }
   },
@@ -385,8 +366,7 @@
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe indicar en el listado de señales SITR los resultados de las pruebas internas y debe enviar un documento firmado por el responsable de la Puesta en Servicio que las pruebas fueron satisfactorias. Debe enviarlo al menos 2 días hábiles antes de las pruebas punto a punto.": "2026-07-28T17:17:53.413186+00:00",
     "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-08-04T21:15:34.346387+00:00",
     "req5d4da2bc36d9ef761836f1eb|El Coordinador revisa el Programa de Pruebas": "2026-07-27T21:15:26.459413+00:00",
-    "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-22T16:58:35.668174+00:00",
-    "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-08-03T21:07:05.567877+00:00"
+    "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-22T16:58:35.668174+00:00"
   },
   "avance_prev": {}
 }

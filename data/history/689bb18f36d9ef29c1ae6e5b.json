@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "timestamp": "2026-08-10T16:42:12.630663+00:00",
+    "changes": [
+      "Casilla 'IT PES' cambió de estado: en_curso -> pendiente",
+      "Casilla 'IT PES (inv)' cambió de estado: en_curso -> pendiente"
+    ]
+  }
+]

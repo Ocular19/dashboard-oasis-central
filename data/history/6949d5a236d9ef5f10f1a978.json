@@ -6,5 +6,13 @@
       "Avance general del proyecto: 36% → 40%.",
       "Avance de requisitos para inicio de PES: 44% → 49%."
     ]
+  },
+  {
+    "timestamp": "2026-08-10T16:41:39.173970+00:00",
+    "changes": [
+      "Casilla 'ESM' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 40% → 43%.",
+      "Avance de requisitos para inicio de PES: 49% → 53%."
+    ]
   }
 ]
