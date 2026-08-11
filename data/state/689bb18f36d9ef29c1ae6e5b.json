@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-11T16:45:41.585424+00:00",
+  "fetched_at": "2026-08-11T20:50:08.793060+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 79,
@@ -35,7 +35,7 @@
     },
     "req60ad0d0d36d9ef44f12350ef": {
       "text": "Cronograma",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req60ca060536d9ef1ee6b43b49": {
@@ -325,13 +325,6 @@
     }
   },
   "active_tasks": {
-    "req60ad0d0d36d9ef44f12350ef": {
-      "casilla": "Cronograma",
-      "parent_group": null,
-      "sub_panels": [
-        "Listado de Requerimientos\n75%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.4\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-08-2026\n\nHistorial de movimientos"
-      ]
-    },
     "req5d4d8e6c36d9ef7615c3ecd3": {
       "casilla": "Pruebas",
       "parent_group": "SITR",
@@ -355,7 +348,6 @@
     }
   },
   "first_seen": {
-    "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-07-22T17:09:10.947260+00:00",
     "req5d4d8e6c36d9ef7615c3ecd3|El proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-08-11T00:44:13.219184+00:00",
     "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-08-04T21:15:34.346387+00:00",
     "req6047918036d9ef2de309723d|Confirmación de la creación de la central a la Plataforma Opreal": "2026-08-11T16:45:41.585646+00:00"
