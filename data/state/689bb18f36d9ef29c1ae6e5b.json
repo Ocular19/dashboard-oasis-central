@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-08-10T20:45:48.198773+00:00",
+  "fetched_at": "2026-08-11T00:44:13.218869+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
-  "completition_status": 76,
-  "completition_pes": 92,
+  "completition_status": 78,
+  "completition_pes": 93,
   "service_estimate_date": "2026-09-01T00:00:00",
   "operative_estimate_date": "2026-12-16T00:00:00",
   "reception_date": "2025-08-11T00:00:00",
@@ -140,12 +140,12 @@
     },
     "req606a6bc436d9ef1a2254fc9b": {
       "text": "Fecha Pruebas",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4d8e6c36d9ef7615c3ecd3": {
       "text": "Pruebas",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": false
     },
     "req5d4d8acf36d9ef761835aef5": {
@@ -332,11 +332,11 @@
         "Listado de Requerimientos\n75%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.4\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-08-2026\n\nHistorial de movimientos"
       ]
     },
-    "req606a6bc436d9ef1a2254fc9b": {
-      "casilla": "Fecha Pruebas",
+    "req5d4d8e6c36d9ef7615c3ecd3": {
+      "casilla": "Pruebas",
       "parent_group": "SITR",
       "sub_panels": [
-        "Listado de Requerimientos\n66%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe indicar en el listado de señales SITR los resultados de las pruebas internas y debe enviar un documento firmado por el responsable de la Puesta en Servicio que las pruebas fueron satisfactorias. Debe enviarlo al menos 2 días hábiles antes de las pruebas punto a punto.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n30-07-2026\n\nDepende de\n\nConfirmación de fecha de pruebas SITR\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'PRUEBAS PUNTO A PUNTO DE SEÑALES SITR\nEncargado: SCADA\nI.1\nSolicitud de resultados de pruebas SITR\nI.1\nResultados de las pruebas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-08-2026\n\nHistorial de movimientos"
       ]
     },
     "req665604b236d9ef441648202b": {
@@ -356,18 +356,18 @@
   },
   "first_seen": {
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-07-22T17:09:10.947260+00:00",
-    "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe indicar en el listado de señales SITR los resultados de las pruebas internas y debe enviar un documento firmado por el responsable de la Puesta en Servicio que las pruebas fueron satisfactorias. Debe enviarlo al menos 2 días hábiles antes de las pruebas punto a punto.": "2026-07-28T17:17:53.413186+00:00",
+    "req5d4d8e6c36d9ef7615c3ecd3|El proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-08-11T00:44:13.219184+00:00",
     "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-08-04T21:15:34.346387+00:00",
     "req60612e2236d9ef1fc3814a92|Creación de Usuario a la Empresa en la Plataforma Neomante (Solo si no es Coordinada)": "2026-06-22T16:58:35.668174+00:00"
   },
   "avance_prev": {
     "completition_status": {
       "antes": 74,
-      "changed_at": "2026-08-10T20:45:48.199006+00:00"
+      "changed_at": "2026-08-11T00:44:13.219234+00:00"
     },
     "completition_pes": {
       "antes": 89,
-      "changed_at": "2026-08-10T20:45:48.199011+00:00"
+      "changed_at": "2026-08-11T00:44:13.219241+00:00"
     }
   }
 }
