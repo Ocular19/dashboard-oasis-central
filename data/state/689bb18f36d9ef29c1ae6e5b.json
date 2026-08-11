@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-11T13:07:30.604219+00:00",
+  "fetched_at": "2026-08-11T16:45:41.585424+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 79,
@@ -350,7 +350,7 @@
       "casilla": "Opreal",
       "parent_group": "PLATAFORMAS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'OPERACIÓN REAL\nEncargado: OpReal\nI.1\nRecepción Antecedentes Opreal\nI.1\nCreación Usuario Opreal\n¿Qué estoy viendo?\n\nDescripción\n\nRecepción de Formulario para creación de la Central en la Plataforma Opreal\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-08-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'OPERACIÓN REAL\nEncargado: OpReal\nI.1\nRecepción Antecedentes Opreal\nI.1\nCreación Usuario Opreal\n¿Qué estoy viendo?\n\nDescripción\n\nConfirmación de la creación de la central a la Plataforma Opreal\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n01-09-2026\n\nDepende de\n\nRecepción Antecedentes Opreal\nHistorial de movimientos"
       ]
     }
   },
@@ -358,7 +358,7 @@
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-07-22T17:09:10.947260+00:00",
     "req5d4d8e6c36d9ef7615c3ecd3|El proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-08-11T00:44:13.219184+00:00",
     "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-08-04T21:15:34.346387+00:00",
-    "req6047918036d9ef2de309723d|Recepción de Formulario para creación de la Central en la Plataforma Opreal": "2026-08-11T05:10:59.848706+00:00"
+    "req6047918036d9ef2de309723d|Confirmación de la creación de la central a la Plataforma Opreal": "2026-08-11T16:45:41.585646+00:00"
   },
   "avance_prev": {
     "completition_status": {
