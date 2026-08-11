@@ -331,5 +331,35 @@
         "fecha_limite": "11-08-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-11T05:10:59.849714+00:00",
+    "changes": [
+      "Casilla 'Opreal' cambió de estado: pendiente -> en_curso",
+      "Casilla 'Neomante' cambió de estado: en_curso -> completado",
+      "'Opreal': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 11-08-2026).",
+      "Avance general del proyecto: 78% → 79%.",
+      "Avance de requisitos para inicio de PES: 93% → 95%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Opreal",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "11-08-2026"
+      },
+      {
+        "casilla": "Neomante",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      },
+      {
+        "casilla": "Opreal",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "11-08-2026"
+      }
+    ]
   }
 ]
