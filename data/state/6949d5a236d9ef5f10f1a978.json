@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-13T13:08:55.732891+00:00",
+  "fetched_at": "2026-08-13T16:43:45.587283+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 43,
@@ -410,14 +410,5 @@
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
     "req6047918036d9ef2de309723d|Recepción de Formulario para creación de la Central en la Plataforma Opreal": "2026-06-20T14:55:50.778288+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 36,
-      "changed_at": "2026-08-10T16:41:39.173288+00:00"
-    },
-    "completition_pes": {
-      "antes": 44,
-      "changed_at": "2026-08-10T16:41:39.173291+00:00"
-    }
-  }
+  "avance_prev": {}
 }
