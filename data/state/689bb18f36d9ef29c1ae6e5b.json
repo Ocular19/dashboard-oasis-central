@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-14T00:52:54.490877+00:00",
+  "fetched_at": "2026-08-14T05:39:36.847504+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 79,
@@ -352,14 +352,5 @@
     "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-08-04T21:15:34.346387+00:00",
     "req6047918036d9ef2de309723d|Confirmación de la creación de la central a la Plataforma Opreal": "2026-08-11T16:45:41.585646+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 74,
-      "changed_at": "2026-08-11T05:10:59.848719+00:00"
-    },
-    "completition_pes": {
-      "antes": 89,
-      "changed_at": "2026-08-11T05:10:59.848725+00:00"
-    }
-  }
+  "avance_prev": {}
 }
