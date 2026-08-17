@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-08-17T16:14:29.894123+00:00",
+  "fetched_at": "2026-08-17T20:30:30.830099+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 32,
-  "completition_pes": 39,
+  "completition_status": 36,
+  "completition_pes": 44,
   "service_estimate_date": "2026-12-06T00:00:00",
   "operative_estimate_date": "2027-02-22T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -90,7 +90,7 @@
     },
     "req5d4d815e36d9ef7615c337b6": {
       "text": "ECB",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4d811736d9ef76163c4333": {
@@ -314,18 +314,11 @@
         "Listado de Requerimientos\n87%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n17-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
-    "req5d4d815e36d9ef7615c337b6": {
-      "casilla": "ECB",
-      "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
-      "sub_panels": [
-        "Listado de Requerimientos\n87%\n'ESTUDIO DE CAPACIDAD DE BARRAS\nEncargado: Dpto. Estándares y Normativa\nI.2\nRecepción de estudio\nI.2\nEnvío de estudio a Empresa Involucrada\nI.2\nObservaciones al estudio de la Empresa Involucrada\nI.2\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n17-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
-      ]
-    },
     "req5d4d811736d9ef76163c4333": {
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n83%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n17-08-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n83%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-ecc-053-2026_nup_6092_bess_tamango_v3.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n17-08-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n83%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n26-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
@@ -375,7 +368,6 @@
   "first_seen": {
     "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-30T17:14:06.852176+00:00",
     "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-27T17:28:55.600006+00:00",
-    "req5d4d815e36d9ef7615c337b6|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-27T17:28:55.600023+00:00",
     "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-08-06T06:32:46.277390+00:00",
     "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-07-27T17:28:55.600042+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-30T17:47:02.000131+00:00",
@@ -384,5 +376,14 @@
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-22T16:58:19.593872+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_status": {
+      "antes": 32,
+      "changed_at": "2026-08-17T20:30:30.830455+00:00"
+    },
+    "completition_pes": {
+      "antes": 39,
+      "changed_at": "2026-08-17T20:30:30.830458+00:00"
+    }
+  }
 }
