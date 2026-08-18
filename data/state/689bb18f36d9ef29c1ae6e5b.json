@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-08-18T16:20:01.477435+00:00",
+  "fetched_at": "2026-08-18T20:38:11.883755+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
-  "completition_status": 80,
-  "completition_pes": 96,
-  "service_estimate_date": "2026-09-01T00:00:00",
+  "completition_status": 81,
+  "completition_pes": 97,
+  "service_estimate_date": "2026-09-07T00:00:00",
   "operative_estimate_date": "2026-12-16T00:00:00",
   "reception_date": "2025-08-11T00:00:00",
   "boxes": {
@@ -145,7 +145,7 @@
     },
     "req5d4d8e6c36d9ef7615c3ecd3": {
       "text": "Pruebas",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4d8acf36d9ef761835aef5": {
@@ -325,13 +325,6 @@
     }
   },
   "active_tasks": {
-    "req5d4d8e6c36d9ef7615c3ecd3": {
-      "casilla": "Pruebas",
-      "parent_group": "SITR",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'PRUEBAS PUNTO A PUNTO DE SEÑALES SITR\nEncargado: SCADA\nI.1\nSolicitud de resultados de pruebas SITR\nI.1\nResultados de las pruebas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador enviará los resultados de las pruebas SITR donde se verificará el correcto envío de la magnitud, estado, calidad y edad del dato de cada una de las variables a incluir en el SITR del Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n19-08-2026\n\nDepende de\n\nSolicitud de resultados de pruebas SITR\nHistorial de movimientos"
-      ]
-    },
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
@@ -341,17 +334,16 @@
     }
   },
   "first_seen": {
-    "req5d4d8e6c36d9ef7615c3ecd3|El Coordinador enviará los resultados de las pruebas SITR donde se verificará el correcto envío de la magnitud, estado, calidad y edad del dato de cada una de las variables a incluir en el SITR del Coordinador.": "2026-08-18T00:28:52.771118+00:00",
     "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-08-04T21:15:34.346387+00:00"
   },
   "avance_prev": {
     "completition_status": {
       "antes": 79,
-      "changed_at": "2026-08-18T16:20:01.477625+00:00"
+      "changed_at": "2026-08-18T20:38:11.883876+00:00"
     },
     "completition_pes": {
       "antes": 95,
-      "changed_at": "2026-08-18T16:20:01.477630+00:00"
+      "changed_at": "2026-08-18T20:38:11.883881+00:00"
     }
   }
 }

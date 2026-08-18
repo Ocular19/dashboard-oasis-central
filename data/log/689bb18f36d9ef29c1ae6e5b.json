@@ -1,34 +1,5 @@
 [
   {
-    "timestamp": "2026-07-14T17:01:48.219130+00:00",
-    "changes": [
-      "Casilla 'Cronograma' cambió de estado: en_curso -> completado",
-      "'Prot P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-07-2026).",
-      "'PO N': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-07-2026).",
-      "Avance de requisitos para inicio de PES: 81% → 82%."
-    ],
-    "alerts": [
-      {
-        "casilla": "Cronograma",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "Prot P",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "29-07-2026"
-      },
-      {
-        "casilla": "PO N",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "29-07-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-22T17:09:10.948216+00:00",
     "changes": [
       "Casilla 'Cronograma' cambió de estado: completado -> en_curso",
@@ -344,6 +315,23 @@
     "alerts": [
       {
         "casilla": "Opreal",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-18T20:38:11.884831+00:00",
+    "changes": [
+      "Casilla 'Pruebas' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 80% → 81%.",
+      "Avance de requisitos para inicio de PES: 96% → 97%.",
+      "Fecha estimada de Puesta en Servicio: 2026-09-01T00:00:00 → 2026-09-07T00:00:00."
+    ],
+    "alerts": [
+      {
+        "casilla": "Pruebas",
         "evento": "Cambió de estado (en_curso → completado)",
         "quien": "Sin acción pendiente (completada)",
         "fecha_limite": "-"
