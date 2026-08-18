@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T20:30:48.566317+00:00",
+  "fetched_at": "2026-08-18T00:28:52.770914+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 79,
@@ -329,7 +329,7 @@
       "casilla": "Pruebas",
       "parent_group": "SITR",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PRUEBAS PUNTO A PUNTO DE SEÑALES SITR\nEncargado: SCADA\nI.1\nSolicitud de resultados de pruebas SITR\nI.1\nResultados de las pruebas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-08-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'PRUEBAS PUNTO A PUNTO DE SEÑALES SITR\nEncargado: SCADA\nI.1\nSolicitud de resultados de pruebas SITR\nI.1\nResultados de las pruebas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador enviará los resultados de las pruebas SITR donde se verificará el correcto envío de la magnitud, estado, calidad y edad del dato de cada una de las variables a incluir en el SITR del Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n19-08-2026\n\nDepende de\n\nSolicitud de resultados de pruebas SITR\nHistorial de movimientos"
       ]
     },
     "req665604b236d9ef441648202b": {
@@ -348,7 +348,7 @@
     }
   },
   "first_seen": {
-    "req5d4d8e6c36d9ef7615c3ecd3|El proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-08-11T00:44:13.219184+00:00",
+    "req5d4d8e6c36d9ef7615c3ecd3|El Coordinador enviará los resultados de las pruebas SITR donde se verificará el correcto envío de la magnitud, estado, calidad y edad del dato de cada una de las variables a incluir en el SITR del Coordinador.": "2026-08-18T00:28:52.771118+00:00",
     "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-08-04T21:15:34.346387+00:00",
     "req6047918036d9ef2de309723d|Confirmación de la creación de la central a la Plataforma Opreal": "2026-08-11T16:45:41.585646+00:00"
   },
