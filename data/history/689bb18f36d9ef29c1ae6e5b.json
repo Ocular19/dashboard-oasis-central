@@ -4,5 +4,13 @@
     "changes": [
       "'Pruebas': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 19-08-2026)."
     ]
+  },
+  {
+    "timestamp": "2026-08-18T16:20:01.478248+00:00",
+    "changes": [
+      "Casilla 'Opreal' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 79% → 80%.",
+      "Avance de requisitos para inicio de PES: 95% → 96%."
+    ]
   }
 ]
