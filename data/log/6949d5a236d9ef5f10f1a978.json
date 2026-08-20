@@ -1,72 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10T01:24:41.466066+00:00",
-    "changes": [
-      "Casilla 'ET' cambió de estado: en_curso -> completado",
-      "Casilla 'ECA' cambió de estado: en_curso -> completado",
-      "'ECAP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 10-07-2026).",
-      "'EFP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 10-07-2026).",
-      "'ECC': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 10-07-2026).",
-      "'ESM': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 10-07-2026).",
-      "Avance general del proyecto: 26% → 33%.",
-      "Avance de requisitos para inicio de PES: 32% → 40%."
-    ],
-    "alerts": [
-      {
-        "casilla": "ET",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "ECA",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "ECAP",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "10-07-2026"
-      },
-      {
-        "casilla": "EFP",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "10-07-2026"
-      },
-      {
-        "casilla": "ECC",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "10-07-2026"
-      },
-      {
-        "casilla": "ESM",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "10-07-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-07-10T07:38:07.626633+00:00",
-    "changes": [
-      "Casilla 'EMT' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 33% → 36%.",
-      "Avance de requisitos para inicio de PES: 40% → 44%."
-    ],
-    "alerts": [
-      {
-        "casilla": "EMT",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-17T20:59:17.684008+00:00",
     "changes": [
       "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-08-2026).",
@@ -186,6 +119,27 @@
         "evento": "Avanzó de etapa",
         "quien": "Esperando que Grenergy cargue un documento",
         "fecha_limite": "14-08-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-20T16:21:01.590314+00:00",
+    "changes": [
+      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 24-08-2026).",
+      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 10-09-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECAP",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "24-08-2026"
+      },
+      {
+        "casilla": "ECAP",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "10-09-2026"
       }
     ]
   }

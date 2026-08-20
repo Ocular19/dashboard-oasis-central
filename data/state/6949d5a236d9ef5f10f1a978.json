@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-20T12:48:13.848485+00:00",
+  "fetched_at": "2026-08-20T16:21:01.588933+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 43,
@@ -339,7 +339,8 @@
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n66%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n14-08-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n75%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador envía estudio completo a las Empresas Involucradas\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n24-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos",
+        "Listado de Requerimientos\n75%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n10-09-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
     "req5d4d80b036d9ef7615c333ec": {
@@ -400,7 +401,8 @@
     }
   },
   "first_seen": {
-    "req5d4d62dd36d9ef761727f012|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-08-14T00:52:15.218277+00:00",
+    "req5d4d62dd36d9ef761727f012|El Coordinador envía estudio completo a las Empresas Involucradas": "2026-08-20T16:21:01.589238+00:00",
+    "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-08-20T16:21:01.589252+00:00",
     "req5d4d80b036d9ef7615c333ec|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-08-14T00:52:15.218286+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T19:19:18.121668+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-08T17:18:21.918260+00:00",
