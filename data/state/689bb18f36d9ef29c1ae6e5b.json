@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T20:28:50.651463+00:00",
+  "fetched_at": "2026-08-22T00:28:37.206262+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 81,
@@ -336,14 +336,5 @@
   "first_seen": {
     "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-08-04T21:15:34.346387+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 79,
-      "changed_at": "2026-08-18T20:38:11.883876+00:00"
-    },
-    "completition_pes": {
-      "antes": 95,
-      "changed_at": "2026-08-18T20:38:11.883881+00:00"
-    }
-  }
+  "avance_prev": {}
 }
