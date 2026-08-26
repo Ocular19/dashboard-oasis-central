@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T20:32:23.084351+00:00",
+  "fetched_at": "2026-08-26T00:30:36.712328+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 43,
@@ -347,8 +347,8 @@
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n83%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n02-09-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
-        "Listado de Requerimientos\n83%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n14-09-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+        "Listado de Requerimientos\n81%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.4\nRecepción de estudio\nI.4\nEnvío de estudio a Empresa Involucrada\nI.4\nObservaciones al estudio de la Empresa Involucrada\nI.4\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador envía estudio completo a las Empresas Involucradas\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n27-08-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos",
+        "Listado de Requerimientos\n81%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.4\nRecepción de estudio\nI.4\nEnvío de estudio a Empresa Involucrada\nI.4\nObservaciones al estudio de la Empresa Involucrada\nI.4\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n15-09-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
     "req606a6bc436d9ef1a2254fc9b": {
@@ -369,7 +369,7 @@
       "casilla": "Prot E",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos SAT\nI.1\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nProtocolos de pruebas SAT a equipos primarios\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos SAT\nI.1\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nObservaciones a los protocolos SAT de Equipos Primarios.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n08-09-2026\n\nDepende de\n\nSolicitud de revisión de Protocolos SAT\nHistorial de movimientos"
       ]
     },
     "req665604b236d9ef441648202b": {
@@ -403,10 +403,11 @@
   },
   "first_seen": {
     "req5d4d62dd36d9ef761727f012|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-08-20T16:21:01.589252+00:00",
+    "req5d4d80b036d9ef7615c333ec|El Coordinador envía estudio completo a las Empresas Involucradas": "2026-08-26T00:30:36.712756+00:00",
     "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-08-24T16:22:50.195562+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T19:19:18.121668+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-08T17:18:21.918260+00:00",
-    "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-06-20T14:55:50.778232+00:00",
+    "req5d4da05136d9ef7615c4d9bd|Observaciones a los protocolos SAT de Equipos Primarios.": "2026-08-26T00:30:36.712814+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",
     "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-06-20T14:55:50.778252+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
