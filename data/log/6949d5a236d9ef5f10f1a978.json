@@ -1,26 +1,5 @@
 [
   {
-    "timestamp": "2026-07-23T17:08:03.365689+00:00",
-    "changes": [
-      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 27-07-2026).",
-      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 13-08-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "ECAP",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "27-07-2026"
-      },
-      {
-        "casilla": "ECAP",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "13-08-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-07T20:43:49.194035+00:00",
     "changes": [
       "Casilla 'ECC' cambió de estado: en_curso -> completado",
@@ -126,6 +105,20 @@
         "evento": "Avanzó de etapa",
         "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
         "fecha_limite": "08-09-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-27T18:52:55.177055+00:00",
+    "changes": [
+      "'Prog P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-09-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prog P",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "17-09-2026"
       }
     ]
   }

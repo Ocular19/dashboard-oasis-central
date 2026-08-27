@@ -191,5 +191,19 @@
         "fecha_limite": "27-08-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-27T18:53:10.479715+00:00",
+    "changes": [
+      "'Prog P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-09-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prog P",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "17-09-2026"
+      }
+    ]
   }
 ]
