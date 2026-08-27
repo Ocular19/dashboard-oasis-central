@@ -1,77 +1,5 @@
 [
   {
-    "timestamp": "2026-07-21T17:06:16.485895+00:00",
-    "changes": [
-      "Casilla 'DUF' cambió de estado: completado -> en_curso",
-      "'DUF': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 22-07-2026).",
-      "Avance general del proyecto: 32% → 30%.",
-      "Avance de requisitos para inicio de PES: 39% → 37%."
-    ],
-    "alerts": [
-      {
-        "casilla": "DUF",
-        "evento": "Cambió de estado (completado → en_curso)",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "22-07-2026"
-      },
-      {
-        "casilla": "DUF",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "22-07-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-07-22T01:17:18.259265+00:00",
-    "changes": [
-      "'DUF': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 30-07-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "DUF",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "30-07-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-07-22T13:52:55.834439+00:00",
-    "changes": [
-      "Casilla 'Enlace' cambió de estado: en_curso -> pendiente"
-    ],
-    "alerts": [
-      {
-        "casilla": "Enlace",
-        "evento": "Cambió de estado (en_curso → pendiente)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-07-22T17:08:47.732498+00:00",
-    "changes": [
-      "Casilla 'Enlace' cambió de estado: pendiente -> en_curso",
-      "'Enlace': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-07-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Enlace",
-        "evento": "Cambió de estado (pendiente → en_curso)",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "29-07-2026"
-      },
-      {
-        "casilla": "Enlace",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "29-07-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-27T17:28:55.648614+00:00",
     "changes": [
       "'EFP': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
@@ -247,6 +175,20 @@
         "evento": "Avanzó de etapa",
         "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
         "fecha_limite": "04-09-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-27T05:17:04.359555+00:00",
+    "changes": [
+      "'ECC': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 27-08-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECC",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "27-08-2026"
       }
     ]
   }
