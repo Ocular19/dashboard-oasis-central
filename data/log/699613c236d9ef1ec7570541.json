@@ -205,5 +205,19 @@
         "fecha_limite": "17-09-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-28T15:58:41.613857+00:00",
+    "changes": [
+      "'ECAP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 31-08-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECAP",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "31-08-2026"
+      }
+    ]
   }
 ]
