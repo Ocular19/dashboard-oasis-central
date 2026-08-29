@@ -219,5 +219,26 @@
         "fecha_limite": "31-08-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-29T04:27:15.742780+00:00",
+    "changes": [
+      "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 01-09-2026).",
+      "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-09-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "EMT",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "01-09-2026"
+      },
+      {
+        "casilla": "EMT",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "21-09-2026"
+      }
+    ]
   }
 ]

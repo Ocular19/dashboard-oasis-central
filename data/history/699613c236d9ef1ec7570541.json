@@ -16,5 +16,12 @@
     "changes": [
       "'ECAP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 31-08-2026)."
     ]
+  },
+  {
+    "timestamp": "2026-08-29T04:27:15.742521+00:00",
+    "changes": [
+      "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 01-09-2026).",
+      "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-09-2026)."
+    ]
   }
 ]
