@@ -11,5 +11,11 @@
       "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 01-09-2026).",
       "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-09-2026)."
     ]
+  },
+  {
+    "timestamp": "2026-08-31T15:53:04.063671+00:00",
+    "changes": [
+      "'ECC': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 22-09-2026)."
+    ]
   }
 ]

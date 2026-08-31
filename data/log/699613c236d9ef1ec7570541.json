@@ -240,5 +240,19 @@
         "fecha_limite": "21-09-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-31T15:53:04.064155+00:00",
+    "changes": [
+      "'ECC': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 22-09-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECC",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "22-09-2026"
+      }
+    ]
   }
 ]
