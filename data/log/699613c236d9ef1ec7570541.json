@@ -1,84 +1,5 @@
 [
   {
-    "timestamp": "2026-07-27T17:28:55.648614+00:00",
-    "changes": [
-      "'EFP': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
-      "'ECB': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
-      "'ECC': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026).",
-      "'EMT': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-08-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "EFP",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "17-08-2026"
-      },
-      {
-        "casilla": "ECB",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "17-08-2026"
-      },
-      {
-        "casilla": "ECC",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "17-08-2026"
-      },
-      {
-        "casilla": "EMT",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "17-08-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-07-29T01:18:50.412855+00:00",
-    "changes": [
-      "Casilla 'DUF' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 30% → 32%.",
-      "Avance de requisitos para inicio de PES: 37% → 39%."
-    ],
-    "alerts": [
-      {
-        "casilla": "DUF",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-07-29T21:00:41.722743+00:00",
-    "changes": [
-      "'Prot E': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 12-08-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Prot E",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "12-08-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-07-30T17:14:06.853435+00:00",
-    "changes": [
-      "'ECAP': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 20-08-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "ECAP",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "20-08-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-05T21:14:09.127345+00:00",
     "changes": [
       "'ECC': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 06-08-2026)."
@@ -252,6 +173,20 @@
         "evento": "Avanzó de etapa",
         "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
         "fecha_limite": "22-09-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-03T22:24:45.444992+00:00",
+    "changes": [
+      "'Prot E': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 04-09-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prot E",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "04-09-2026"
       }
     ]
   }
