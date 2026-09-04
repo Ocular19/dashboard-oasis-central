@@ -4,5 +4,11 @@
     "changes": [
       "'Prot E': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 04-09-2026)."
     ]
+  },
+  {
+    "timestamp": "2026-09-04T15:50:31.103422+00:00",
+    "changes": [
+      "'Prot E': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-09-2026)."
+    ]
   }
 ]

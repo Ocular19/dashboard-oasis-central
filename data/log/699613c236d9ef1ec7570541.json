@@ -189,5 +189,19 @@
         "fecha_limite": "04-09-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-04T15:50:31.103633+00:00",
+    "changes": [
+      "'Prot E': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-09-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prot E",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "21-09-2026"
+      }
+    ]
   }
 ]
