@@ -1,8 +1,12 @@
 [
   {
-    "timestamp": "2026-09-04T15:50:31.103422+00:00",
+    "timestamp": "2026-09-07T17:20:30.118760+00:00",
     "changes": [
-      "'Prot E': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-09-2026)."
+      "Casilla 'Prot E' cambió de estado: en_curso -> completado",
+      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 09-09-2026).",
+      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-09-2026).",
+      "Avance general del proyecto: 36% → 38%.",
+      "Avance de requisitos para inicio de PES: 44% → 47%."
     ]
   }
 ]

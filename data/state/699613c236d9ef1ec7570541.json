@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-07T14:00:59.740489+00:00",
+  "fetched_at": "2026-09-07T17:20:30.117887+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 36,
-  "completition_pes": 44,
+  "completition_status": 38,
+  "completition_pes": 47,
   "service_estimate_date": "2026-12-06T00:00:00",
   "operative_estimate_date": "2027-02-22T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -170,7 +170,7 @@
     },
     "req5d4da05136d9ef7615c4d9bd": {
       "text": "Prot E",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4da0b036d9ef76163e2e6d": {
@@ -311,7 +311,8 @@
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n66%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n24-08-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n75%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador envía estudio completo a las Empresas Involucradas\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n09-09-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos",
+        "Listado de Requerimientos\n75%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n29-09-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
     "req5d4d811736d9ef76163c4333": {
@@ -344,13 +345,6 @@
         "Listado de Requerimientos\n0%\n'PRUEBAS DEL ENLACE DE COMUNICACIONES EME\nEncargado: Departamento Conexiones\nI.1\nDefinición y Prueba del Enlace\n¿Qué estoy viendo?\n\nDescripción\n\nDefinición y Pruebas del enlace de comunicaciones para los medidores del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n29-07-2026\n\nHistorial de movimientos"
       ]
     },
-    "req5d4da05136d9ef7615c4d9bd": {
-      "casilla": "Prot E",
-      "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n83%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.3\nSolicitud de revisión de Protocolos SAT\nI.3\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nObservaciones a los protocolos SAT de Equipos Primarios.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n21-09-2026\n\nDepende de\n\nSolicitud de revisión de Protocolos SAT\nHistorial de movimientos"
-      ]
-    },
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
@@ -368,14 +362,23 @@
   },
   "first_seen": {
     "req5d4d62dd36d9ef761727f012|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-08-28T15:58:41.613161+00:00",
-    "req5d4d80b036d9ef7615c333ec|La Empresa Solicitante adjunta un archivo comprimido que incluye: Estudio + Base de Datos + Minuta de respuesta a observaciones": "2026-08-21T16:19:36.152967+00:00",
+    "req5d4d80b036d9ef7615c333ec|El Coordinador envía estudio completo a las Empresas Involucradas": "2026-09-07T17:20:30.118128+00:00",
+    "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-09-07T17:20:30.118135+00:00",
     "req5d4d811736d9ef76163c4333|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-08-31T15:53:04.062963+00:00",
     "req5d4d821236d9ef7615c3554c|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-08-29T04:27:15.741783+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-30T17:47:02.000131+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-22T17:08:47.731552+00:00",
-    "req5d4da05136d9ef7615c4d9bd|Observaciones a los protocolos SAT de Equipos Primarios.": "2026-09-04T15:50:31.102736+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4da2bc36d9ef761836f1eb|El Coordinador revisa el Programa de Pruebas": "2026-08-27T18:53:10.478513+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_status": {
+      "antes": 36,
+      "changed_at": "2026-09-07T17:20:30.118191+00:00"
+    },
+    "completition_pes": {
+      "antes": 44,
+      "changed_at": "2026-09-07T17:20:30.118194+00:00"
+    }
+  }
 }
