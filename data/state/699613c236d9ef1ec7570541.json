@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-09T16:00:06.177040+00:00",
+  "fetched_at": "2026-09-09T18:55:41.463071+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 38,
@@ -319,7 +319,7 @@
       "casilla": "ECC",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n87%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.4\nRecepción de estudio\nI.4\nEnvío de estudio a Empresa Involucrada\nI.4\nObservaciones al estudio de la Empresa Involucrada\nI.4\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-ei-2026-092-r5_ecc.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n09-09-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n87%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.4\nRecepción de estudio\nI.4\nEnvío de estudio a Empresa Involucrada\nI.4\nObservaciones al estudio de la Empresa Involucrada\nI.4\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-ei-2026-092-r5_ecc.pdf\n\n\nrr-ecc-061-2026_nup_6092_bess_tamango_v4.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n09-09-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n87%\n'ESTUDIO DE CORTOCIRCUITOS Y VERIFICACIÓN DE CAPACIDAD DE RUPTURA DE INTERRUPTORES\nEncargado: Dpto. Estándares y Normativa\nI.4\nRecepción de estudio\nI.4\nEnvío de estudio a Empresa Involucrada\nI.4\nObservaciones al estudio de la Empresa Involucrada\nI.4\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n22-09-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
