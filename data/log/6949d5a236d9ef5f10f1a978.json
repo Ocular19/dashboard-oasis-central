@@ -135,5 +135,49 @@
         "fecha_limite": "10-09-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-10T22:20:38.880902+00:00",
+    "changes": [
+      "Casilla 'ECAP' cambió de estado: en_curso -> completado",
+      "Casilla 'Prot P' cambió de estado: pendiente -> en_curso",
+      "Casilla 'PO N' cambió de estado: pendiente -> en_curso",
+      "'Prot P': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 11-09-2026).",
+      "'PO N': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 11-09-2026).",
+      "Avance general del proyecto: 43% → 60%.",
+      "Avance de requisitos para inicio de PES: 53% → 72%."
+    ],
+    "alerts": [
+      {
+        "casilla": "ECAP",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      },
+      {
+        "casilla": "Prot P",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "11-09-2026"
+      },
+      {
+        "casilla": "PO N",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "11-09-2026"
+      },
+      {
+        "casilla": "Prot P",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "11-09-2026"
+      },
+      {
+        "casilla": "PO N",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "11-09-2026"
+      }
+    ]
   }
 ]
