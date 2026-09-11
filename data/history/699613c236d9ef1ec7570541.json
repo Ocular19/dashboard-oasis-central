@@ -4,5 +4,13 @@
     "changes": [
       "'Prog P': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 09-09-2026)."
     ]
+  },
+  {
+    "timestamp": "2026-09-11T15:57:35.706861+00:00",
+    "changes": [
+      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 05-10-2026).",
+      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-09-2026).",
+      "'Prog P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 05-10-2026)."
+    ]
   }
 ]
