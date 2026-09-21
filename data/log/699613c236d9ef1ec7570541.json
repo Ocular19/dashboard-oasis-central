@@ -240,5 +240,34 @@
         "fecha_limite": "05-10-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-21T17:57:06.111145+00:00",
+    "changes": [
+      "Casilla 'Enlace' cambió de estado: en_curso -> completado",
+      "Casilla 'Fecha Pruebas' cambió de estado: pendiente -> en_curso",
+      "'Fecha Pruebas': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 22-09-2026).",
+      "Avance general del proyecto: 38% → 39%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Enlace",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      },
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "22-09-2026"
+      },
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "22-09-2026"
+      }
+    ]
   }
 ]
