@@ -1,26 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T00:52:15.219304+00:00",
-    "changes": [
-      "'ECAP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 14-08-2026).",
-      "'EFP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 14-08-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "ECAP",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "14-08-2026"
-      },
-      {
-        "casilla": "EFP",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "14-08-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-20T16:21:01.590314+00:00",
     "changes": [
       "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 24-08-2026).",
@@ -159,6 +138,27 @@
         "evento": "Avanzó de etapa",
         "quien": "Esperando que Grenergy cargue un documento",
         "fecha_limite": "15-09-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-23T16:12:50.737421+00:00",
+    "changes": [
+      "'Prot P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-10-2026).",
+      "'PO N': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-10-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prot P",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "07-10-2026"
+      },
+      {
+        "casilla": "PO N",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "07-10-2026"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T13:24:04.275207+00:00",
+  "fetched_at": "2026-09-23T16:12:50.735972+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 60,
@@ -367,14 +367,14 @@
       "casilla": "Prot P",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PROTOCOLOS SAT PROTECCIONES\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos de Protecciones\nI.1\nRevisión de Protocolos de Protecciones\n¿Qué estoy viendo?\n\nDescripción\n\nSolicitud de revisión de protocolos de prueba de inyección secundaria de los nuevos relés.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'PROTOCOLOS SAT PROTECCIONES\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos de Protecciones\nI.1\nRevisión de Protocolos de Protecciones\n¿Qué estoy viendo?\n\nDescripción\n\nObservaciones a los protocolos de prueba de inyección secundaria de los nuevos relés.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n07-10-2026\n\nDepende de\n\nSolicitud de revisión de Protocolos de Protecciones\nHistorial de movimientos"
       ]
     },
     "req5d4da10d36d9ef7615c50d5d": {
       "casilla": "PO N",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PRINT OUT DE RELÉS NUEVOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Print Out nuevo\nI.1\nRevisión de Print Out nuevos\n¿Qué estoy viendo?\n\nDescripción\n\nSolicitud de revisión de Print Out de los nuevos Relés.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'PRINT OUT DE RELÉS NUEVOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Print Out nuevo\nI.1\nRevisión de Print Out nuevos\n¿Qué estoy viendo?\n\nDescripción\n\nObservaciones a los Print Out de los nuevos Relés.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n07-10-2026\n\nDepende de\n\nSolicitud de revisión de Print Out nuevo\nHistorial de movimientos"
       ]
     },
     "req665604b236d9ef441648202b": {
@@ -411,8 +411,8 @@
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T19:19:18.121668+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-08T17:18:21.918260+00:00",
     "req5d4da05136d9ef7615c4d9bd|Protocolos de pruebas SAT a equipos primarios": "2026-09-09T22:21:16.940844+00:00",
-    "req5d4da0b036d9ef76163e2e6d|Solicitud de revisión de protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-09-10T22:20:38.879929+00:00",
-    "req5d4da10d36d9ef7615c50d5d|Solicitud de revisión de Print Out de los nuevos Relés.": "2026-09-10T22:20:38.879936+00:00",
+    "req5d4da0b036d9ef76163e2e6d|Observaciones a los protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-09-23T16:12:50.736425+00:00",
+    "req5d4da10d36d9ef7615c50d5d|Observaciones a los Print Out de los nuevos Relés.": "2026-09-23T16:12:50.736436+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",
     "req5d4da2bc36d9ef761836f1eb|El Coordinador revisa el Programa de Pruebas": "2026-08-27T18:52:55.175599+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
