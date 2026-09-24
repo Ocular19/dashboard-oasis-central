@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-24T01:49:13.235419+00:00",
+  "fetched_at": "2026-09-24T09:05:09.100677+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 47,
@@ -304,7 +304,7 @@
       "casilla": "ECAP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n83%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n24-09-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n83%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\nrr-ecap-255-2026_nup_6092_bess_tamango_v3.pdf\n\n\n\nResponsable\n\nLTSCTSTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n24-09-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
         "Listado de Requerimientos\n83%\n'ESTUDIO DE COORDINACIÓN Y AJUSTE DE PROTECCIONES\nEncargado: DAOP\nI.3\nRecepción de estudio\nI.3\nEnvío de estudio a Empresa Involucrada\nI.3\nObservaciones al estudio de la Empresa Involucrada\nI.3\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n05-10-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
