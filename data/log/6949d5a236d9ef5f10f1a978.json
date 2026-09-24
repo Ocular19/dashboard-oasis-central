@@ -161,5 +161,19 @@
         "fecha_limite": "07-10-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-24T01:48:51.747136+00:00",
+    "changes": [
+      "'Prog P': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 24-09-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prog P",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "24-09-2026"
+      }
+    ]
   }
 ]

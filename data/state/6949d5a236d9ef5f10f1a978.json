@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T22:48:57.097339+00:00",
+  "fetched_at": "2026-09-24T01:48:51.745766+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 60,
@@ -388,7 +388,7 @@
       "casilla": "Prog P",
       "parent_group": "OTROS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'PROGRAMA DE PRUEBAS\nEncargado: Programacion\nI.1\nRecepción del Programa de Pruebas\nI.1\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el Programa de Pruebas\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n17-09-2026\n\nDepende de\n\nRecepción del Programa de Pruebas\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'PROGRAMA DE PRUEBAS\nEncargado: Programacion\nI.2\nRecepción del Programa de Pruebas\nI.2\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante envía un Programa de Pruebas para revisión\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n24-09-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4d9fe036d9ef7615c4a7d9": {
@@ -414,7 +414,7 @@
     "req5d4da0b036d9ef76163e2e6d|Observaciones a los protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-09-23T16:12:50.736425+00:00",
     "req5d4da10d36d9ef7615c50d5d|Observaciones a los Print Out de los nuevos Relés.": "2026-09-23T16:12:50.736436+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",
-    "req5d4da2bc36d9ef761836f1eb|El Coordinador revisa el Programa de Pruebas": "2026-08-27T18:52:55.175599+00:00",
+    "req5d4da2bc36d9ef761836f1eb|La Empresa Solicitante envía un Programa de Pruebas para revisión": "2026-09-24T01:48:51.746069+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
     "req6047918036d9ef2de309723d|Recepción de Formulario para creación de la Central en la Plataforma Opreal": "2026-06-20T14:55:50.778288+00:00"
   },
