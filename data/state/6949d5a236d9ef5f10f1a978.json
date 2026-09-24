@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-24T19:36:22.362642+00:00",
+  "fetched_at": "2026-09-24T23:06:06.554971+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 60,
@@ -339,8 +339,8 @@
       "casilla": "EFP",
       "parent_group": "ESTUDIOS DE INTERCONEXIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n85%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.5\nRecepción de estudio\nI.5\nEnvío de estudio a Empresa Involucrada\nI.5\nObservaciones al estudio de la Empresa Involucrada\nI.5\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador envía estudio completo a las Empresas Involucradas\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n28-09-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos",
-        "Listado de Requerimientos\n85%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.5\nRecepción de estudio\nI.5\nEnvío de estudio a Empresa Involucrada\nI.5\nObservaciones al estudio de la Empresa Involucrada\nI.5\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n16-10-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
+        "Listado de Requerimientos\n90%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.5\nRecepción de estudio\nI.5\nEnvío de estudio a Empresa Involucrada\nI.5\nObservaciones al estudio de la Empresa Involucrada\nI.5\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Involucrada envía sus observaciones al estudio\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n7 días hábiles\n\nFecha límite\n\n05-10-2026\n\nDepende de\n\nEnvío de estudio a Empresa Involucrada\nHistorial de movimientos",
+        "Listado de Requerimientos\n90%\n'ESTUDIO DE FLUJO DE POTENCIA\nEncargado: DAOP\nI.5\nRecepción de estudio\nI.5\nEnvío de estudio a Empresa Involucrada\nI.5\nObservaciones al estudio de la Empresa Involucrada\nI.5\nRevisión de estudio\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n16-10-2026\n\nDepende de\n\nRecepción de estudio\nHistorial de movimientos"
       ]
     },
     "req606a6bc436d9ef1a2254fc9b": {
@@ -408,7 +408,6 @@
     }
   },
   "first_seen": {
-    "req5d4d80b036d9ef7615c333ec|El Coordinador envía estudio completo a las Empresas Involucradas": "2026-09-24T16:35:40.159767+00:00",
     "req5d4d80b036d9ef7615c333ec|El Coordinador revisa el estudio y emite el Documento Unico de Observaciones (DUO).": "2026-09-24T16:35:40.159778+00:00",
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T19:19:18.121668+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-08T17:18:21.918260+00:00",
