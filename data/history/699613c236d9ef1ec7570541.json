@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "timestamp": "2026-09-28T16:29:35.860938+00:00",
+    "changes": [
+      "Casilla 'Pruebas' cambió de estado: en_curso -> completado",
+      "Avance de requisitos para inicio de PES: 58% → 59%."
+    ]
+  }
+]
