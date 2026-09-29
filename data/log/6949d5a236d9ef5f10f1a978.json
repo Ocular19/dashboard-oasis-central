@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-08-24T16:22:50.196322+00:00",
-    "changes": [
-      "'EFP': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 14-09-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "EFP",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "14-09-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-26T00:30:36.716269+00:00",
     "changes": [
       "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 27-08-2026).",
@@ -173,6 +159,27 @@
         "evento": "Nuevo pendiente",
         "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
         "fecha_limite": "16-10-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-29T17:43:58.825810+00:00",
+    "changes": [
+      "'Prot E': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 14-10-2026).",
+      "'Prog P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-10-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prot E",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "14-10-2026"
+      },
+      {
+        "casilla": "Prog P",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "21-10-2026"
       }
     ]
   }
