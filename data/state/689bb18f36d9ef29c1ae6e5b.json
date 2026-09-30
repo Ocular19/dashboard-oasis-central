@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T14:40:18.920403+00:00",
+  "fetched_at": "2026-09-30T17:41:41.600287+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 81,
@@ -399,7 +399,7 @@
       "casilla": "CPF",
       "parent_group": "SERVICIOS COMPLEMENTARIOS",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\nCONTROL PRIMARIO DE FRECUENCIA\nEncargado: Departamento Conexiones\nI.1\nRecepción carta y constancia de envío de SSCC\nI.1\nRevisión de carta y constancia de envío de SSCC\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'INFORME DE DETERMINACIÓN DE MÍNIMOS TÉCNICOS EN UNIDADES GENERADORAS\nEncargado: Departamento Conexiones\nI.1\nCarta de envío al Coordinador del Informe MT\nI.1\nCarta de Admisibilidad Informe\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Determinación de Mínimos Técnicos en unidades generadoras\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
       ]
     },
     "req66aa9e5b36d9ef1e1621a92d": {
@@ -448,7 +448,7 @@
     "req5d4da5d136d9ef761837315b|La Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Potencia Máxima en unidades generadoras.": "2026-09-24T19:37:42.965196+00:00",
     "req5d4da62e36d9ef76172b6c08|La Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Parámetros procesos de Partida y Detención de unidades generadoras.": "2026-09-24T19:37:42.965205+00:00",
     "req5d4da56936d9ef7615c580e4|La Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Determinación de Mínimos Técnicos en unidades generadoras": "2026-09-24T19:37:42.965214+00:00",
-    "req66a1293a36d9ef1e87f16cb7|La Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.": "2026-09-24T19:37:42.965223+00:00",
+    "req66a1293a36d9ef1e87f16cb7|La Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Determinación de Mínimos Técnicos en unidades generadoras": "2026-09-30T17:41:41.600715+00:00",
     "req66aa9e5b36d9ef1e1621a92d|La Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.": "2026-09-24T19:37:42.965232+00:00",
     "req66aa9e7a36d9ef2cbc86bb1b|La Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.": "2026-09-24T19:37:42.965241+00:00",
     "req66aa9eb736d9ef1e8786a646|La Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.": "2026-09-24T19:37:42.965249+00:00",
