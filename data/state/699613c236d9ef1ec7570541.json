@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T20:38:18.288624+00:00",
+  "fetched_at": "2026-10-01T23:46:31.310872+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 51,
@@ -335,14 +335,5 @@
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe indicar en el listado de señales SITR los resultados de las pruebas internas y debe enviar un documento firmado por el responsable de la Puesta en Servicio que las pruebas fueron satisfactorias. Debe enviarlo al menos 2 días hábiles antes de las pruebas punto a punto.": "2026-09-30T14:39:46.026918+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 48,
-      "changed_at": "2026-09-28T21:27:47.733911+00:00"
-    },
-    "completition_pes": {
-      "antes": 58,
-      "changed_at": "2026-09-28T21:27:47.733919+00:00"
-    }
-  }
+  "avance_prev": {}
 }
