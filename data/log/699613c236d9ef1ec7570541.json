@@ -1,82 +1,5 @@
 [
   {
-    "timestamp": "2026-08-27T05:17:04.359555+00:00",
-    "changes": [
-      "'ECC': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 27-08-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "ECC",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "27-08-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-08-27T18:53:10.479715+00:00",
-    "changes": [
-      "'Prog P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 17-09-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Prog P",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "17-09-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-08-28T15:58:41.613857+00:00",
-    "changes": [
-      "'ECAP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 31-08-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "ECAP",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "31-08-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-08-29T04:27:15.742780+00:00",
-    "changes": [
-      "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 01-09-2026).",
-      "'EMT': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-09-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "EMT",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "01-09-2026"
-      },
-      {
-        "casilla": "EMT",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "21-09-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-08-31T15:53:04.064155+00:00",
-    "changes": [
-      "'ECC': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 22-09-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "ECC",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "22-09-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-03T22:24:45.444992+00:00",
     "changes": [
       "'Prot E': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 04-09-2026)."
@@ -323,6 +246,36 @@
         "evento": "Avanzó de etapa",
         "quien": "Esperando que Grenergy cargue un documento",
         "fecha_limite": "02-10-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-05T20:16:09.608664+00:00",
+    "changes": [
+      "Casilla 'Fecha Pruebas' cambió de estado: en_curso -> completado",
+      "Casilla 'Pruebas' cambió de estado: pendiente -> en_curso",
+      "'Pruebas': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 06-10-2026).",
+      "Avance general del proyecto: 51% → 52%.",
+      "Avance de requisitos para inicio de PES: 62% → 63%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      },
+      {
+        "casilla": "Pruebas",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "06-10-2026"
+      },
+      {
+        "casilla": "Pruebas",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "06-10-2026"
       }
     ]
   }
