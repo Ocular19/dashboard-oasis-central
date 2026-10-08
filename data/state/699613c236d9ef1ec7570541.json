@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-08T18:29:05.434090+00:00",
+  "fetched_at": "2026-10-08T20:54:42.563980+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 52,
@@ -335,14 +335,5 @@
     "req5d4d8e6c36d9ef7615c3ecd3|El proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-10-05T20:16:09.607640+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 51,
-      "changed_at": "2026-10-05T20:16:09.607660+00:00"
-    },
-    "completition_pes": {
-      "antes": 62,
-      "changed_at": "2026-10-05T20:16:09.607663+00:00"
-    }
-  }
+  "avance_prev": {}
 }
