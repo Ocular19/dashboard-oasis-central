@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T18:00:45.601394+00:00",
+  "fetched_at": "2026-10-09T20:23:44.020747+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 60,
@@ -403,7 +403,7 @@
       "casilla": "Opreal",
       "parent_group": "PLATAFORMAS PES",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'OPERACIÓN REAL\nEncargado: OpReal\nI.1\nRecepción Antecedentes Opreal\nI.1\nCreación Usuario Opreal\n¿Qué estoy viendo?\n\nDescripción\n\nConfirmación de la creación de la central a la Plataforma Opreal\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n30-10-2026\n\nDepende de\n\nRecepción Antecedentes Opreal\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'OPERACIÓN REAL\nEncargado: OpReal\nI.2\nRecepción Antecedentes Opreal\nI.2\nCreación Usuario Opreal\n¿Qué estoy viendo?\n\nDescripción\n\nRecepción de Formulario para creación de la Central en la Plataforma Opreal\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n13-10-2026\n\nHistorial de movimientos"
       ]
     }
   },
@@ -417,7 +417,7 @@
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",
     "req5d4da2bc36d9ef761836f1eb|El Coordinador revisa el Programa de Pruebas": "2026-09-29T17:43:58.824330+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
-    "req6047918036d9ef2de309723d|Confirmación de la creación de la central a la Plataforma Opreal": "2026-10-08T18:28:55.651820+00:00"
+    "req6047918036d9ef2de309723d|Recepción de Formulario para creación de la Central en la Plataforma Opreal": "2026-10-09T20:23:44.021176+00:00"
   },
   "avance_prev": {}
 }

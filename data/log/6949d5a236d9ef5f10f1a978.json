@@ -161,5 +161,19 @@
         "fecha_limite": "30-10-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-09T20:23:44.022479+00:00",
+    "changes": [
+      "'Opreal': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 13-10-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Opreal",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "13-10-2026"
+      }
+    ]
   }
 ]
