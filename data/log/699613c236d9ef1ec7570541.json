@@ -1,35 +1,5 @@
 [
   {
-    "timestamp": "2026-09-07T17:20:30.119016+00:00",
-    "changes": [
-      "Casilla 'Prot E' cambió de estado: en_curso -> completado",
-      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 09-09-2026).",
-      "'EFP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-09-2026).",
-      "Avance general del proyecto: 36% → 38%.",
-      "Avance de requisitos para inicio de PES: 44% → 47%."
-    ],
-    "alerts": [
-      {
-        "casilla": "Prot E",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "EFP",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "09-09-2026"
-      },
-      {
-        "casilla": "EFP",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "29-09-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-08T16:05:02.534744+00:00",
     "changes": [
       "'Prog P': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 09-09-2026)."
@@ -347,6 +317,22 @@
     "alerts": [
       {
         "casilla": "Opreal",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-13T15:37:21.575468+00:00",
+    "changes": [
+      "Casilla 'PLATAFORMAS PES' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 75% → 77%.",
+      "Avance de requisitos para inicio de PES: 91% → 93%."
+    ],
+    "alerts": [
+      {
+        "casilla": "PLATAFORMAS PES",
         "evento": "Cambió de estado (en_curso → completado)",
         "quien": "Sin acción pendiente (completada)",
         "fecha_limite": "-"

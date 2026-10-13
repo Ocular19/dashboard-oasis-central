@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-13T11:29:51.693079+00:00",
+  "fetched_at": "2026-10-13T15:37:21.574251+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 75,
-  "completition_pes": 91,
+  "completition_status": 77,
+  "completition_pes": 93,
   "service_estimate_date": "2026-12-06T00:00:00",
   "operative_estimate_date": "2027-02-22T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -41,7 +41,7 @@
     "req60ca060536d9ef1ee6b43b49": {
       "text": "INFORMACIÓN TÉCNICA",
       "state": "completado",
-      "is_container": true
+      "is_container": false
     },
     "req60ca075236d9ef2b9316e203": {
       "text": "INFOTÉCNICA PARA ESTUDIOS",
@@ -51,21 +51,6 @@
     "req5d4c9a0536d9ef7615c07b9a": {
       "text": "IT E",
       "state": "completado",
-      "is_container": false
-    },
-    "req5fb1bc5236d9ef6c9002c548": {
-      "text": "IT NO DISPONIBLE",
-      "state": "pendiente",
-      "is_container": true
-    },
-    "req5fb1ba3336d9ef6c925390f1": {
-      "text": "PO no disponibles",
-      "state": "pendiente",
-      "is_container": false
-    },
-    "req5fb1bb6936d9ef6c9002c1d7": {
-      "text": "IT no disponible",
-      "state": "pendiente",
       "is_container": false
     },
     "req60ca06b836d9ef38d7c4be4e": {
@@ -200,7 +185,7 @@
     },
     "req604792ec36d9ef3b4fd75707": {
       "text": "PLATAFORMAS PES",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req6047918036d9ef2de309723d": {
@@ -220,11 +205,6 @@
     },
     "req5d4da16b36d9ef76172b5bc4": {
       "text": "PO E",
-      "state": "pendiente",
-      "is_container": false
-    },
-    "req64e3afeb36d9ef23190ab0a4": {
-      "text": "Pruebas End to End",
       "state": "pendiente",
       "is_container": false
     },
@@ -334,13 +314,6 @@
       "sub_panels": [
         "Listado de Requerimientos\n0%\n'COMUNICACIÓN A LA SEC\nEncargado: Departamento Conexiones\nI.1\nCarta a la SEC\n¿Qué estoy viendo?\n\nDescripción\n\nComunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n13-10-2026\n\nHistorial de movimientos"
       ]
-    },
-    "req604792ec36d9ef3b4fd75707": {
-      "casilla": "PLATAFORMAS PES",
-      "parent_group": null,
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n*PLATAFORMAS PES\nEncargado: Por definir\nI.1\nGrupo de Requerimientos\n¿Qué estoy viendo?\n\nDescripción\n\nGrupo de Requerimientos\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n150 días hábiles\n\nFecha límite\n\n14-05-2027\n\nHistorial de movimientos"
-      ]
     }
   },
   "first_seen": {
@@ -350,5 +323,14 @@
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-10-09T15:00:54.332250+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_status": {
+      "antes": 75,
+      "changed_at": "2026-10-13T15:37:21.574480+00:00"
+    },
+    "completition_pes": {
+      "antes": 91,
+      "changed_at": "2026-10-13T15:37:21.574483+00:00"
+    }
+  }
 }
