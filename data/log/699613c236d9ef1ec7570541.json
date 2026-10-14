@@ -346,5 +346,19 @@
         "fecha_limite": "15-10-2026"
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-14T23:03:30.006597+00:00",
+    "changes": [
+      "'Pruebas': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 16-10-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Pruebas",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "16-10-2026"
+      }
+    ]
   }
 ]

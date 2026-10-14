@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T19:49:04.777942+00:00",
+  "fetched_at": "2026-10-14T23:03:30.004995+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 76,
@@ -291,7 +291,7 @@
       "casilla": "Pruebas",
       "parent_group": "SITR",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PRUEBAS PUNTO A PUNTO DE SEÑALES SITR\nEncargado: SCADA\nI.1\nSolicitud de resultados de pruebas SITR\nI.1\nResultados de las pruebas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n06-10-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'PRUEBAS PUNTO A PUNTO DE SEÑALES SITR\nEncargado: SCADA\nI.1\nSolicitud de resultados de pruebas SITR\nI.1\nResultados de las pruebas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador enviará los resultados de las pruebas SITR donde se verificará el correcto envío de la magnitud, estado, calidad y edad del dato de cada una de las variables a incluir en el SITR del Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n16-10-2026\n\nDepende de\n\nSolicitud de resultados de pruebas SITR\nHistorial de movimientos"
       ]
     },
     "req5d4da0b036d9ef76163e2e6d": {
@@ -325,7 +325,7 @@
   },
   "first_seen": {
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-10-14T19:49:04.778202+00:00",
-    "req5d4d8e6c36d9ef7615c3ecd3|El proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-10-05T20:16:09.607640+00:00",
+    "req5d4d8e6c36d9ef7615c3ecd3|El Coordinador enviará los resultados de las pruebas SITR donde se verificará el correcto envío de la magnitud, estado, calidad y edad del dato de cada una de las variables a incluir en el SITR del Coordinador.": "2026-10-14T23:03:30.005226+00:00",
     "req5d4da0b036d9ef76163e2e6d|Solicitud de revisión de protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-10-09T15:00:54.332233+00:00",
     "req5d4da10d36d9ef7615c50d5d|Solicitud de revisión de Print Out de los nuevos Relés.": "2026-10-09T15:00:54.332240+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
