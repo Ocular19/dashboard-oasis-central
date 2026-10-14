@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-14T16:39:13.685017+00:00",
+  "fetched_at": "2026-10-14T19:49:04.777942+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 77,
+  "completition_status": 76,
   "completition_pes": 93,
   "service_estimate_date": "2026-12-06T00:00:00",
   "operative_estimate_date": "2027-02-22T00:00:00",
@@ -35,7 +35,7 @@
     },
     "req60ad0d0d36d9ef44f12350ef": {
       "text": "Cronograma",
-      "state": "completado",
+      "state": "en_curso",
       "is_container": false
     },
     "req60ca060536d9ef1ee6b43b49": {
@@ -280,6 +280,13 @@
     }
   },
   "active_tasks": {
+    "req60ad0d0d36d9ef44f12350ef": {
+      "casilla": "Cronograma",
+      "parent_group": null,
+      "sub_panels": [
+        "Listado de Requerimientos\n50%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.2\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n15-10-2026\n\nHistorial de movimientos"
+      ]
+    },
     "req5d4d8e6c36d9ef7615c3ecd3": {
       "casilla": "Pruebas",
       "parent_group": "SITR",
@@ -317,6 +324,7 @@
     }
   },
   "first_seen": {
+    "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-10-14T19:49:04.778202+00:00",
     "req5d4d8e6c36d9ef7615c3ecd3|El proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-10-05T20:16:09.607640+00:00",
     "req5d4da0b036d9ef76163e2e6d|Solicitud de revisión de protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-10-09T15:00:54.332233+00:00",
     "req5d4da10d36d9ef7615c50d5d|Solicitud de revisión de Print Out de los nuevos Relés.": "2026-10-09T15:00:54.332240+00:00",
@@ -326,7 +334,7 @@
   "avance_prev": {
     "completition_status": {
       "antes": 75,
-      "changed_at": "2026-10-13T15:37:21.574480+00:00"
+      "changed_at": "2026-10-14T19:49:04.778269+00:00"
     },
     "completition_pes": {
       "antes": 91,
