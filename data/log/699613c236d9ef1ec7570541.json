@@ -377,5 +377,20 @@
         "fecha_limite": "-"
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-16T08:49:11.495649+00:00",
+    "changes": [
+      "Casilla 'Pruebas' cambió de estado: en_curso -> completado",
+      "Avance de requisitos para inicio de PES: 93% → 94%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Pruebas",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
   }
 ]
