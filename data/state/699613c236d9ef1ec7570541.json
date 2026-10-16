@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-16T08:49:11.494400+00:00",
+  "fetched_at": "2026-10-16T13:02:49.034832+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 77,
-  "completition_pes": 94,
+  "completition_status": 78,
+  "completition_pes": 95,
   "service_estimate_date": "2026-11-02T00:00:00",
   "operative_estimate_date": "2027-02-05T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -95,7 +95,7 @@
     },
     "req5d4d852636d9ef76183532d7": {
       "text": "SCADA Y MEDIDAS",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": true
     },
     "req5d4d8b9e36d9ef76163cb2cf": {
@@ -318,11 +318,11 @@
   "avance_prev": {
     "completition_status": {
       "antes": 75,
-      "changed_at": "2026-10-15T16:24:01.604267+00:00"
+      "changed_at": "2026-10-16T13:02:49.035031+00:00"
     },
     "completition_pes": {
       "antes": 91,
-      "changed_at": "2026-10-16T08:49:11.494638+00:00"
+      "changed_at": "2026-10-16T13:02:49.035034+00:00"
     }
   }
 }
