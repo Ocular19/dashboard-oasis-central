@@ -1,13 +1,5 @@
 [
   {
-    "timestamp": "2026-10-14T19:49:04.780747+00:00",
-    "changes": [
-      "Casilla 'Cronograma' cambió de estado: completado -> en_curso",
-      "'Cronograma': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 15-10-2026).",
-      "Avance general del proyecto: 77% → 76%."
-    ]
-  },
-  {
     "timestamp": "2026-10-14T23:03:30.006013+00:00",
     "changes": [
       "'Pruebas': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 16-10-2026)."
