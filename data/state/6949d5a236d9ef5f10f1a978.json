@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-19T09:40:57.645235+00:00",
+  "fetched_at": "2026-10-19T15:18:41.649260+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
-  "completition_status": 66,
-  "completition_pes": 80,
+  "completition_status": 68,
+  "completition_pes": 83,
   "service_estimate_date": "2026-12-15T00:00:00",
   "operative_estimate_date": "2027-03-03T00:00:00",
   "reception_date": "2025-12-18T00:00:00",
@@ -45,42 +45,22 @@
     },
     "req60ca060536d9ef1ee6b43b49": {
       "text": "INFORMACIÓN TÉCNICA",
-      "state": "pendiente",
-      "is_container": true
+      "state": "completado",
+      "is_container": false
     },
     "req60ca075236d9ef2b9316e203": {
       "text": "INFOTÉCNICA PARA ESTUDIOS",
-      "state": "en_curso",
-      "is_container": true
+      "state": "completado",
+      "is_container": false
     },
     "req5d4c9a0536d9ef7615c07b9a": {
       "text": "IT E",
       "state": "completado",
       "is_container": false
     },
-    "req663e555536d9ef0e1713e378": {
-      "text": "RevITEInv",
-      "state": "pendiente",
-      "is_container": false
-    },
-    "req5fb1bc5236d9ef6c9002c548": {
-      "text": "IT NO DISPONIBLE",
-      "state": "pendiente",
-      "is_container": true
-    },
-    "req5fb1ba3336d9ef6c925390f1": {
-      "text": "PO no disponibles",
-      "state": "pendiente",
-      "is_container": false
-    },
-    "req5fb1bb6936d9ef6c9002c1d7": {
-      "text": "IT no disponible",
-      "state": "pendiente",
-      "is_container": false
-    },
     "req60ca06b836d9ef38d7c4be4e": {
       "text": "ESTUDIOS DE INTERCONEXIÓN",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": true
     },
     "req5d4d62dd36d9ef761727f012": {
@@ -250,7 +230,7 @@
     },
     "req60478dea36d9ef42935ee7d1": {
       "text": "OTROS EO",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": true
     },
     "req5d4c9a3d36d9ef7615c07cfb": {
@@ -412,11 +392,11 @@
   "avance_prev": {
     "completition_status": {
       "antes": 60,
-      "changed_at": "2026-10-16T22:40:42.716260+00:00"
+      "changed_at": "2026-10-19T15:18:41.649710+00:00"
     },
     "completition_pes": {
       "antes": 72,
-      "changed_at": "2026-10-16T22:40:42.716262+00:00"
+      "changed_at": "2026-10-19T15:18:41.649713+00:00"
     }
   }
 }

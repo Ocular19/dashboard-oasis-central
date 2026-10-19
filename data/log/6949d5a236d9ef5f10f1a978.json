@@ -198,5 +198,28 @@
         "fecha_limite": "-"
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-19T15:18:41.652074+00:00",
+    "changes": [
+      "Casilla 'INFORMACIÓN TÉCNICA' cambió de estado: pendiente -> completado",
+      "Casilla 'INFOTÉCNICA PARA ESTUDIOS' cambió de estado: en_curso -> completado",
+      "Avance general del proyecto: 66% → 68%.",
+      "Avance de requisitos para inicio de PES: 80% → 83%."
+    ],
+    "alerts": [
+      {
+        "casilla": "INFORMACIÓN TÉCNICA",
+        "evento": "Cambió de estado (pendiente → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      },
+      {
+        "casilla": "INFOTÉCNICA PARA ESTUDIOS",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
   }
 ]

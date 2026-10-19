@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T09:41:06.495616+00:00",
+  "fetched_at": "2026-10-19T15:18:50.684508+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 78,
@@ -315,14 +315,5 @@
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-10-09T15:00:54.332250+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 75,
-      "changed_at": "2026-10-16T13:02:49.035031+00:00"
-    },
-    "completition_pes": {
-      "antes": 91,
-      "changed_at": "2026-10-16T13:02:49.035034+00:00"
-    }
-  }
+  "avance_prev": {}
 }
