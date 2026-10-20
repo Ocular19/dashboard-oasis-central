@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T16:25:25.427748+00:00",
+  "fetched_at": "2026-10-20T19:42:35.408064+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 68,
@@ -240,7 +240,7 @@
     },
     "req606a67e336d9ef1a2254f2f7": {
       "text": "IT PES (inv)",
-      "state": "en_curso",
+      "state": "pendiente",
       "is_container": false
     },
     "req5d4da16b36d9ef76172b5bc4": {
@@ -369,13 +369,6 @@
       "parent_group": "OTROS EO",
       "sub_panels": [
         "Listado de Requerimientos\n0%\n'INFOTÉCNICA PARA PES\nEncargado: DAIT\nI.1\nSolicitud de revisión de información técnica\nI.1\nRevisión de Información Técnica\n¿Qué estoy viendo?\n\nDescripción\n\nPara solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n15-10-2026\n\nHistorial de movimientos"
-      ]
-    },
-    "req606a67e336d9ef1a2254f2f7": {
-      "casilla": "IT PES (inv)",
-      "parent_group": "OTROS EO",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'INFOTÉCNICA PES INVOLUCRADA\nEncargado: DAIT\nI.1\nSoliciitud de Información Técnica Empresa Involucrada\nI.1\nRevisión de Información Técnica\n¿Qué estoy viendo?\n\nDescripción\n\nRevisión de información técnica de la empresa involucrada cargada en la plataforma de IT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGASTSSCECVSCTS\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n04-11-2026\n\nHistorial de movimientos"
       ]
     }
   },

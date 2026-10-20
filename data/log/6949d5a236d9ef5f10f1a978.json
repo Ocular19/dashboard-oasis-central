@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-09-14T23:00:21.339482+00:00",
-    "changes": [
-      "'EFP': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 15-09-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "EFP",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "15-09-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-23T16:12:50.737421+00:00",
     "changes": [
       "'Prot P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 07-10-2026).",
@@ -217,6 +203,20 @@
       {
         "casilla": "INFOTÉCNICA PARA ESTUDIOS",
         "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-20T19:42:35.409532+00:00",
+    "changes": [
+      "Casilla 'IT PES (inv)' cambió de estado: en_curso -> pendiente"
+    ],
+    "alerts": [
+      {
+        "casilla": "IT PES (inv)",
+        "evento": "Cambió de estado (en_curso → pendiente)",
         "quien": "Sin acción pendiente (completada)",
         "fecha_limite": "-"
       }
