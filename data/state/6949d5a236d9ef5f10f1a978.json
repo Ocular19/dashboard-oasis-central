@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-21T13:28:28.057112+00:00",
+  "fetched_at": "2026-10-21T16:41:51.839298+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
-  "completition_status": 68,
-  "completition_pes": 83,
+  "completition_status": 71,
+  "completition_pes": 87,
   "service_estimate_date": "2026-12-15T00:00:00",
   "operative_estimate_date": "2027-03-03T00:00:00",
   "reception_date": "2025-12-18T00:00:00",
@@ -185,7 +185,7 @@
     },
     "req5d4da2bc36d9ef761836f1eb": {
       "text": "Prog P",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4d9fe036d9ef7615c4a7d9": {
@@ -210,7 +210,7 @@
     },
     "req60612e2236d9ef1fc3814a92": {
       "text": "Neomante",
-      "state": "pendiente",
+      "state": "completado",
       "is_container": false
     },
     "req60ca07ce36d9ef38d7c4e6bc": {
@@ -343,13 +343,6 @@
         "Listado de Requerimientos\n0%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n19-05-2026\n\nHistorial de movimientos"
       ]
     },
-    "req5d4da2bc36d9ef761836f1eb": {
-      "casilla": "Prog P",
-      "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n75%\n'PROGRAMA DE PRUEBAS\nEncargado: Programacion\nI.2\nRecepción del Programa de Pruebas\nI.2\nRevisión del Programa de Pruebas\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador revisa el Programa de Pruebas\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n21-10-2026\n\nDepende de\n\nRecepción del Programa de Pruebas\nHistorial de movimientos"
-      ]
-    },
     "req5d4d9fe036d9ef7615c4a7d9": {
       "casilla": "Carta SEC",
       "parent_group": "OTROS PES",
@@ -377,7 +370,6 @@
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-08T17:18:21.918260+00:00",
     "req5d4da05136d9ef7615c4d9bd|Observaciones a los protocolos SAT de Equipos Primarios.": "2026-10-15T19:32:34.055692+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",
-    "req5d4da2bc36d9ef761836f1eb|El Coordinador revisa el Programa de Pruebas": "2026-09-29T17:43:58.824330+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
     "req6047918036d9ef2de309723d|Recepción de Formulario para creación de la Central en la Plataforma Opreal": "2026-10-09T20:23:44.021176+00:00",
     "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-10-15T02:01:00.810069+00:00"
@@ -385,11 +377,11 @@
   "avance_prev": {
     "completition_status": {
       "antes": 60,
-      "changed_at": "2026-10-19T15:18:41.649710+00:00"
+      "changed_at": "2026-10-21T16:41:51.839605+00:00"
     },
     "completition_pes": {
       "antes": 72,
-      "changed_at": "2026-10-19T15:18:41.649713+00:00"
+      "changed_at": "2026-10-21T16:41:51.839608+00:00"
     }
   }
 }
