@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T13:29:48.472923+00:00",
+  "fetched_at": "2026-10-22T16:42:49.192573+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 71,
@@ -319,7 +319,7 @@
       "casilla": "Fecha Pruebas",
       "parent_group": "SITR",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n23-06-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n33%\n'COORDINACIÓN FECHA PRUEBAS SITR\nEncargado: SCADA\nI.1\nSolicitud de fecha de pruebas SITR\nI.1\nConfirmación de fecha de pruebas SITR\nI.1\nResultados de pruebas internas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador debe confirmar la fecha propuesta por la Empresa Solicitante o proponer una nueva fecha para las pruebas punto a punto.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n3 días hábiles\n\nFecha límite\n\n27-10-2026\n\nDepende de\n\nSolicitud de fecha de pruebas SITR\nHistorial de movimientos"
       ]
     },
     "req6076676d36d9ef7d11ba2199": {
@@ -366,7 +366,7 @@
     }
   },
   "first_seen": {
-    "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe proponer una fecha para la realización de pruebas punto a punto, al menos 7 días hábiles antes de las pruebas. Los formatos de solicitud se pueden encontrar en material de ayuda de la PGP o en el sitio web http://www.coordinador.cl/conexion.proyectos.": "2026-06-22T19:19:18.121668+00:00",
+    "req606a6bc436d9ef1a2254fc9b|El Coordinador debe confirmar la fecha propuesta por la Empresa Solicitante o proponer una nueva fecha para las pruebas punto a punto.": "2026-10-22T16:42:49.192907+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-08T17:18:21.918260+00:00",
     "req5d4da05136d9ef7615c4d9bd|Observaciones a los protocolos SAT de Equipos Primarios.": "2026-10-15T19:32:34.055692+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",

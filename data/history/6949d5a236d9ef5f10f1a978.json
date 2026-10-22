@@ -1,14 +1,5 @@
 [
   {
-    "timestamp": "2026-10-19T15:18:41.651679+00:00",
-    "changes": [
-      "Casilla 'INFORMACIÓN TÉCNICA' cambió de estado: pendiente -> completado",
-      "Casilla 'INFOTÉCNICA PARA ESTUDIOS' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 66% → 68%.",
-      "Avance de requisitos para inicio de PES: 80% → 83%."
-    ]
-  },
-  {
     "timestamp": "2026-10-20T19:42:35.409191+00:00",
     "changes": [
       "Casilla 'IT PES (inv)' cambió de estado: en_curso -> pendiente"
@@ -21,6 +12,12 @@
       "Casilla 'Neomante' cambió de estado: pendiente -> completado",
       "Avance general del proyecto: 68% → 71%.",
       "Avance de requisitos para inicio de PES: 83% → 87%."
+    ]
+  },
+  {
+    "timestamp": "2026-10-22T16:42:49.193869+00:00",
+    "changes": [
+      "'Fecha Pruebas': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 27-10-2026)."
     ]
   }
 ]
