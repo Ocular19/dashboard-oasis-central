@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T15:32:58.281157+00:00",
+  "fetched_at": "2026-10-24T18:25:56.586624+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 71,
@@ -374,14 +374,5 @@
     "req6047918036d9ef2de309723d|Recepción de Formulario para creación de la Central en la Plataforma Opreal": "2026-10-09T20:23:44.021176+00:00",
     "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-10-15T02:01:00.810069+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 60,
-      "changed_at": "2026-10-21T16:41:51.839605+00:00"
-    },
-    "completition_pes": {
-      "antes": 72,
-      "changed_at": "2026-10-21T16:41:51.839608+00:00"
-    }
-  }
+  "avance_prev": {}
 }
