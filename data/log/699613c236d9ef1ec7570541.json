@@ -1,33 +1,5 @@
 [
   {
-    "timestamp": "2026-09-11T15:57:35.707240+00:00",
-    "changes": [
-      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 05-10-2026).",
-      "'ECAP': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-09-2026).",
-      "'Prog P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 05-10-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "ECAP",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "05-10-2026"
-      },
-      {
-        "casilla": "ECAP",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "15-09-2026"
-      },
-      {
-        "casilla": "Prog P",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "05-10-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-21T17:57:06.111145+00:00",
     "changes": [
       "Casilla 'Enlace' cambió de estado: en_curso -> completado",
@@ -400,5 +372,19 @@
       "Avance de requisitos para inicio de PES: 94% → 95%."
     ],
     "alerts": []
+  },
+  {
+    "timestamp": "2026-10-26T14:53:14.262284+00:00",
+    "changes": [
+      "'PO N': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 09-11-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "PO N",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "09-11-2026"
+      }
+    ]
   }
 ]
