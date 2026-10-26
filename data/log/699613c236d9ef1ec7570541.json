@@ -1,50 +1,5 @@
 [
   {
-    "timestamp": "2026-09-21T17:57:06.111145+00:00",
-    "changes": [
-      "Casilla 'Enlace' cambió de estado: en_curso -> completado",
-      "Casilla 'Fecha Pruebas' cambió de estado: pendiente -> en_curso",
-      "'Fecha Pruebas': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 22-09-2026).",
-      "Avance general del proyecto: 38% → 39%."
-    ],
-    "alerts": [
-      {
-        "casilla": "Enlace",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "Fecha Pruebas",
-        "evento": "Cambió de estado (pendiente → en_curso)",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "22-09-2026"
-      },
-      {
-        "casilla": "Fecha Pruebas",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "22-09-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-09-21T20:12:28.060712+00:00",
-    "changes": [
-      "Casilla 'EMT' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 39% → 43%.",
-      "Avance de requisitos para inicio de PES: 47% → 53%."
-    ],
-    "alerts": [
-      {
-        "casilla": "EMT",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-22T22:48:54.939825+00:00",
     "changes": [
       "Casilla 'ECC' cambió de estado: en_curso -> completado",
@@ -381,6 +336,20 @@
     "alerts": [
       {
         "casilla": "PO N",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "09-11-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-26T20:48:25.262039+00:00",
+    "changes": [
+      "'Prot P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 09-11-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Prot P",
         "evento": "Avanzó de etapa",
         "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
         "fecha_limite": "09-11-2026"
