@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-29T20:43:45.911993+00:00",
+  "fetched_at": "2026-10-29T23:50:54.830952+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
-  "completition_status": 71,
-  "completition_pes": 87,
+  "completition_status": 73,
+  "completition_pes": 90,
   "service_estimate_date": "2026-12-15T00:00:00",
   "operative_estimate_date": "2027-03-03T00:00:00",
   "reception_date": "2025-12-18T00:00:00",
@@ -165,7 +165,7 @@
     },
     "req5d4da05136d9ef7615c4d9bd": {
       "text": "Prot E",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4da0b036d9ef76163e2e6d": {
@@ -329,13 +329,6 @@
         "Listado de Requerimientos\n0%\n'PRUEBAS DEL ENLACE DE COMUNICACIONES EME\nEncargado: Departamento Conexiones\nI.1\nDefinición y Prueba del Enlace\n¿Qué estoy viendo?\n\nDescripción\n\nDefinición y Pruebas del enlace de comunicaciones para los medidores del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n5 días hábiles\n\nFecha límite\n\n15-07-2026\n\nHistorial de movimientos"
       ]
     },
-    "req5d4da05136d9ef7615c4d9bd": {
-      "casilla": "Prot E",
-      "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n83%\n'PROTOCOLOS SAT EQUIPOS PRIMARIOS\nEncargado: DAOP\nI.3\nSolicitud de revisión de Protocolos SAT\nI.3\nRevisión de Protocolos SAT\n¿Qué estoy viendo?\n\nDescripción\n\nObservaciones a los protocolos SAT de Equipos Primarios.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n29-10-2026\n\nDepende de\n\nSolicitud de revisión de Protocolos SAT\nHistorial de movimientos"
-      ]
-    },
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
@@ -368,11 +361,19 @@
   "first_seen": {
     "req606a6bc436d9ef1a2254fc9b|La Empresa Solicitante debe indicar en el listado de señales SITR los resultados de las pruebas internas y debe enviar un documento firmado por el responsable de la Puesta en Servicio que las pruebas fueron satisfactorias. Debe enviarlo al menos 2 días hábiles antes de las pruebas punto a punto.": "2026-10-26T14:53:05.537926+00:00",
     "req6076676d36d9ef7d11ba2199|Definición y Pruebas del enlace de comunicaciones para los medidores del proyecto.": "2026-07-08T17:18:21.918260+00:00",
-    "req5d4da05136d9ef7615c4d9bd|Observaciones a los protocolos SAT de Equipos Primarios.": "2026-10-15T19:32:34.055692+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
     "req6047918036d9ef2de309723d|Recepción de Formulario para creación de la Central en la Plataforma Opreal": "2026-10-09T20:23:44.021176+00:00",
     "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-10-15T02:01:00.810069+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_status": {
+      "antes": 71,
+      "changed_at": "2026-10-29T23:50:54.831424+00:00"
+    },
+    "completition_pes": {
+      "antes": 87,
+      "changed_at": "2026-10-29T23:50:54.831431+00:00"
+    }
+  }
 }
