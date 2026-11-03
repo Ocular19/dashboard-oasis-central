@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T11:41:57.380375+00:00",
+  "fetched_at": "2026-11-03T15:51:55.556812+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 81,
@@ -378,28 +378,28 @@
       "casilla": "PMax",
       "parent_group": "PARÁMETROS DE GENERACIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'INFORME DE POTENCIA MÁXIMA EN UNIDADES GENERADORAS\nEncargado: Departamento Conexiones\nI.1\nCarta de envío al Coordinador del Informe Pmax\nI.1\nCarta de Admisibilidad Informe\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Potencia Máxima en unidades generadoras.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'INFORME DE POTENCIA MÁXIMA EN UNIDADES GENERADORAS\nEncargado: DCO\nI.1\nCarta de envío al Coordinador del Informe Pmax\nI.1\nCarta de Admisibilidad Informe\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Potencia Máxima en unidades generadoras.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4da62e36d9ef76172b6c08": {
       "casilla": "PPyD",
       "parent_group": "PARÁMETROS DE GENERACIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'INFORME DE PARÁMETROS PROCESOS DE PARTIDA Y DETENCIÓN DE UNIDADES GENERADORAS\nEncargado: Departamento Conexiones\nI.1\nCarta de envío al Coordinador del Informe PPyD\nI.1\nCarta de admisibilidad del informe\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Parámetros procesos de Partida y Detención de unidades generadoras.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'INFORME DE PARÁMETROS PROCESOS DE PARTIDA Y DETENCIÓN DE UNIDADES GENERADORAS\nEncargado: DCO\nI.1\nCarta de envío al Coordinador del Informe PPyD\nI.1\nCarta de admisibilidad del informe\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Parámetros procesos de Partida y Detención de unidades generadoras.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
       ]
     },
     "req5d4da56936d9ef7615c580e4": {
       "casilla": "MT",
       "parent_group": "PARÁMETROS DE GENERACIÓN",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'INFORME DE DETERMINACIÓN DE MÍNIMOS TÉCNICOS EN UNIDADES GENERADORAS\nEncargado: Departamento Conexiones\nI.1\nCarta de envío al Coordinador del Informe MT\nI.1\nCarta de Admisibilidad Informe\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Determinación de Mínimos Técnicos en unidades generadoras\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'INFORME DE DETERMINACIÓN DE MÍNIMOS TÉCNICOS EN UNIDADES GENERADORAS\nEncargado: DCO\nI.1\nCarta de envío al Coordinador del Informe MT\nI.1\nCarta de Admisibilidad Informe\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Determinación de Mínimos Técnicos en unidades generadoras\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
       ]
     },
     "req66a1293a36d9ef1e87f16cb7": {
       "casilla": "CPF",
       "parent_group": "SERVICIOS COMPLEMENTARIOS",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\nCONTROL PRIMARIO DE FRECUENCIA\nEncargado: Departamento Conexiones\nI.1\nRecepción carta y constancia de envío de SSCC\nI.1\nRevisión de carta y constancia de envío de SSCC\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\nCONTROL PRIMARIO DE FRECUENCIA\nEncargado: DCO\nI.1\nRecepción carta y constancia de envío de SSCC\nI.1\nRevisión de carta y constancia de envío de SSCC\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
       ]
     },
     "req66aa9e5b36d9ef1e1621a92d": {
@@ -413,14 +413,14 @@
       "casilla": "CTF",
       "parent_group": "SERVICIOS COMPLEMENTARIOS",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\nCONTROL TERCIARIO DE FRECUENCIA\nEncargado: Departamento Conexiones\nI.1\nRecepción carta y constancia de envío de SSCC\nI.1\nRevisión de carta y constancia de envío de SSCC\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\nCONTROL TERCIARIO DE FRECUENCIA\nEncargado: DCO\nI.1\nRecepción carta y constancia de envío de SSCC\nI.1\nRevisión de carta y constancia de envío de SSCC\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
       ]
     },
     "req66aa9eb736d9ef1e8786a646": {
       "casilla": "CT",
       "parent_group": "SERVICIOS COMPLEMENTARIOS",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\nCONTROL DE TENSIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción carta y constancia de envío de SSCC\nI.1\nRevisión de carta y constancia de envío de SSCC\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\nCONTROL DE TENSIÓN\nEncargado: DCO\nI.1\nRecepción carta y constancia de envío de SSCC\nI.1\nRevisión de carta y constancia de envío de SSCC\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe Técnico de Verificación de Prestación de SSCC de la instalación.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
       ]
     },
     "req6a173dcf36d9ef4dfd2e68fc": {
