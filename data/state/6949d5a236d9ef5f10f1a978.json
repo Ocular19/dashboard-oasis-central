@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-04T19:27:19.624401+00:00",
+  "fetched_at": "2026-11-04T21:36:42.439326+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
-  "completition_status": 75,
-  "completition_pes": 92,
+  "completition_status": 76,
+  "completition_pes": 93,
   "service_estimate_date": "2026-12-15T00:00:00",
   "operative_estimate_date": "2027-03-03T00:00:00",
   "reception_date": "2025-12-18T00:00:00",
@@ -145,12 +145,12 @@
     },
     "req606a6c0436d9ef51933e5e93": {
       "text": "Fecha Pruebas",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5e4d4b5a36d9ef2cd9aa1241": {
       "text": "Pruebas",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": false
     },
     "req5d4d985736d9ef76163d61b6": {
@@ -322,11 +322,11 @@
         "Listado de Requerimientos\n0%\n'PRUEBAS PUNTO A PUNTO DE SEÑALES SITR\nEncargado: SCADA\nI.1\nSolicitud de resultados de pruebas SITR\nI.1\nResultados de las pruebas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n04-11-2026\n\nHistorial de movimientos"
       ]
     },
-    "req606a6c0436d9ef51933e5e93": {
-      "casilla": "Fecha Pruebas",
+    "req5e4d4b5a36d9ef2cd9aa1241": {
+      "casilla": "Pruebas",
       "parent_group": "EME",
       "sub_panels": [
-        "Listado de Requerimientos\n50%\n'COORDINACIÓN PRUEBAS PRMTE\nEncargado: EME\nI.1\nSolicitud de fecha de pruebas PRMTE\nI.1\nConfirmación de fecha de pruebas PRMTE\n¿Qué estoy viendo?\n\nDescripción\n\nConfirmación de fecha para realizar las pruebas PRMTE.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n3 días hábiles\n\nFecha límite\n\n09-11-2026\n\nDepende de\n\nSolicitud de fecha de pruebas PRMTE\nHistorial de movimientos"
+        "Listado de Requerimientos\n0%\n'PRUEBAS PRMTE\nEncargado: EME\nI.1\nResultado de Pruebas PRMTE\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador entrega resultados de las pruebas PRMTE.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n18-11-2026\n\nHistorial de movimientos"
       ]
     },
     "req665604b236d9ef441648202b": {
@@ -360,7 +360,7 @@
   },
   "first_seen": {
     "req5d4d8e6c36d9ef7615c3ecd3|El proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-11-03T15:51:18.126861+00:00",
-    "req606a6c0436d9ef51933e5e93|Confirmación de fecha para realizar las pruebas PRMTE.": "2026-11-04T15:58:36.967221+00:00",
+    "req5e4d4b5a36d9ef2cd9aa1241|El Coordinador entrega resultados de las pruebas PRMTE.": "2026-11-04T21:36:42.439591+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
     "req6047918036d9ef2de309723d|Confirmación de la creación de la central a la Plataforma Opreal": "2026-11-02T17:51:48.921851+00:00",
@@ -369,11 +369,11 @@
   "avance_prev": {
     "completition_status": {
       "antes": 73,
-      "changed_at": "2026-11-03T15:51:18.126969+00:00"
+      "changed_at": "2026-11-04T21:36:42.439655+00:00"
     },
     "completition_pes": {
       "antes": 90,
-      "changed_at": "2026-11-04T15:58:36.967285+00:00"
+      "changed_at": "2026-11-04T21:36:42.439659+00:00"
     }
   }
 }
