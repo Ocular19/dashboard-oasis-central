@@ -1,26 +1,5 @@
 [
   {
-    "timestamp": "2026-09-29T17:43:58.825810+00:00",
-    "changes": [
-      "'Prot E': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 14-10-2026).",
-      "'Prog P': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 21-10-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Prot E",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "14-10-2026"
-      },
-      {
-        "casilla": "Prog P",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "21-10-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-08T18:28:55.653347+00:00",
     "changes": [
       "'Opreal': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 30-10-2026)."
@@ -274,6 +253,35 @@
         "evento": "Nuevo pendiente",
         "quien": "Esperando que Grenergy cargue un documento",
         "fecha_limite": "04-11-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T15:58:36.968607+00:00",
+    "changes": [
+      "Casilla 'Enlace' cambió de estado: en_curso -> completado",
+      "Casilla 'Fecha Pruebas' cambió de estado: pendiente -> en_curso",
+      "'Fecha Pruebas': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 09-11-2026).",
+      "Avance de requisitos para inicio de PES: 91% → 92%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Enlace",
+        "evento": "Cambió de estado (en_curso → completado)",
+        "quien": "Sin acción pendiente (completada)",
+        "fecha_limite": "-"
+      },
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "09-11-2026"
+      },
+      {
+        "casilla": "Fecha Pruebas",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "09-11-2026"
       }
     ]
   }
