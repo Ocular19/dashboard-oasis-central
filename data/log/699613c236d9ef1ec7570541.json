@@ -1,110 +1,5 @@
 [
   {
-    "timestamp": "2026-09-22T22:48:54.939825+00:00",
-    "changes": [
-      "Casilla 'ECC' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 43% → 47%.",
-      "Avance de requisitos para inicio de PES: 53% → 57%."
-    ],
-    "alerts": [
-      {
-        "casilla": "ECC",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-09-24T19:36:46.582306+00:00",
-    "changes": [
-      "Casilla 'Fecha Pruebas' cambió de estado: en_curso -> completado",
-      "Casilla 'Pruebas' cambió de estado: pendiente -> en_curso",
-      "'Pruebas': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 08-10-2026).",
-      "Avance general del proyecto: 47% → 48%.",
-      "Avance de requisitos para inicio de PES: 57% → 58%."
-    ],
-    "alerts": [
-      {
-        "casilla": "Fecha Pruebas",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "Pruebas",
-        "evento": "Cambió de estado (pendiente → en_curso)",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "08-10-2026"
-      },
-      {
-        "casilla": "Pruebas",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "08-10-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-09-28T16:29:35.861301+00:00",
-    "changes": [
-      "Casilla 'Pruebas' cambió de estado: en_curso -> completado",
-      "Avance de requisitos para inicio de PES: 58% → 59%."
-    ],
-    "alerts": [
-      {
-        "casilla": "Pruebas",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-09-28T21:27:47.735084+00:00",
-    "changes": [
-      "Casilla 'Prog P' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 48% → 51%.",
-      "Avance de requisitos para inicio de PES: 59% → 62%."
-    ],
-    "alerts": [
-      {
-        "casilla": "Prog P",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-09-29T17:44:09.878157+00:00",
-    "changes": [
-      "'Fecha Pruebas': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 02-10-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Fecha Pruebas",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "02-10-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-09-30T14:39:46.028390+00:00",
-    "changes": [
-      "'Fecha Pruebas': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 02-10-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Fecha Pruebas",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "02-10-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-05T20:16:09.608664+00:00",
     "changes": [
       "Casilla 'Fecha Pruebas' cambió de estado: en_curso -> completado",
@@ -353,6 +248,29 @@
         "evento": "Avanzó de etapa",
         "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
         "fecha_limite": "09-11-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T19:27:36.952972+00:00",
+    "changes": [
+      "Casilla 'Cronograma' cambió de estado: completado -> en_curso",
+      "'Cronograma': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 05-11-2026).",
+      "Avance general del proyecto: 78% → 77%.",
+      "Avance de requisitos para inicio de PES: 95% → 94%."
+    ],
+    "alerts": [
+      {
+        "casilla": "Cronograma",
+        "evento": "Cambió de estado (completado → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "05-11-2026"
+      },
+      {
+        "casilla": "Cronograma",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "05-11-2026"
       }
     ]
   }

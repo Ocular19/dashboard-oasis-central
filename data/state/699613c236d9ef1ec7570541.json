@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-04T15:58:45.823587+00:00",
+  "fetched_at": "2026-11-04T19:27:36.951798+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 78,
-  "completition_pes": 95,
+  "completition_status": 77,
+  "completition_pes": 94,
   "service_estimate_date": "2026-11-02T00:00:00",
   "operative_estimate_date": "2027-02-05T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -35,7 +35,7 @@
     },
     "req60ad0d0d36d9ef44f12350ef": {
       "text": "Cronograma",
-      "state": "completado",
+      "state": "en_curso",
       "is_container": false
     },
     "req60ca060536d9ef1ee6b43b49": {
@@ -280,6 +280,13 @@
     }
   },
   "active_tasks": {
+    "req60ad0d0d36d9ef44f12350ef": {
+      "casilla": "Cronograma",
+      "parent_group": null,
+      "sub_panels": [
+        "Listado de Requerimientos\n66%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.3\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n05-11-2026\n\nHistorial de movimientos"
+      ]
+    },
     "req5d4da0b036d9ef76163e2e6d": {
       "casilla": "Prot P",
       "parent_group": "OTROS PES",
@@ -310,10 +317,20 @@
     }
   },
   "first_seen": {
+    "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-11-04T19:27:36.951987+00:00",
     "req5d4da0b036d9ef76163e2e6d|Observaciones a los protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-10-26T20:48:25.260993+00:00",
     "req5d4da10d36d9ef7615c50d5d|Observaciones a los Print Out de los nuevos Relés.": "2026-10-26T14:53:14.261164+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-10-09T15:00:54.332250+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_status": {
+      "antes": 78,
+      "changed_at": "2026-11-04T19:27:36.952037+00:00"
+    },
+    "completition_pes": {
+      "antes": 95,
+      "changed_at": "2026-11-04T19:27:36.952039+00:00"
+    }
+  }
 }
