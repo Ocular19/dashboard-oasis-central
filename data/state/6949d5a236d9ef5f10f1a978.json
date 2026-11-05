@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T16:10:41.375281+00:00",
+  "fetched_at": "2026-11-05T19:42:26.647501+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 76,
@@ -319,7 +319,7 @@
       "casilla": "Pruebas",
       "parent_group": "SITR",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'PRUEBAS PUNTO A PUNTO DE SEÑALES SITR\nEncargado: SCADA\nI.1\nSolicitud de resultados de pruebas SITR\nI.1\nResultados de las pruebas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n04-11-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'PRUEBAS PUNTO A PUNTO DE SEÑALES SITR\nEncargado: SCADA\nI.1\nSolicitud de resultados de pruebas SITR\nI.1\nResultados de las pruebas SITR\n¿Qué estoy viendo?\n\nDescripción\n\nEl Coordinador enviará los resultados de las pruebas SITR donde se verificará el correcto envío de la magnitud, estado, calidad y edad del dato de cada una de las variables a incluir en el SITR del Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n2 días hábiles\n\nFecha límite\n\n09-11-2026\n\nDepende de\n\nSolicitud de resultados de pruebas SITR\nHistorial de movimientos"
       ]
     },
     "req5e4d4b5a36d9ef2cd9aa1241": {
@@ -359,7 +359,7 @@
     }
   },
   "first_seen": {
-    "req5d4d8e6c36d9ef7615c3ecd3|El proyecto debe solicitar los resultados de las pruebas SITR realizadas. De acuerdo al Artículo 19, letra c) del A.T., la incorporación al SITR deberá estar habilitada, al menos, 5 días hábiles antes del inicio del período de Puesta en Servicio.": "2026-11-03T15:51:18.126861+00:00",
+    "req5d4d8e6c36d9ef7615c3ecd3|El Coordinador enviará los resultados de las pruebas SITR donde se verificará el correcto envío de la magnitud, estado, calidad y edad del dato de cada una de las variables a incluir en el SITR del Coordinador.": "2026-11-05T19:42:26.647697+00:00",
     "req5e4d4b5a36d9ef2cd9aa1241|El Coordinador entrega resultados de las pruebas PRMTE.": "2026-11-04T21:36:42.439591+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-23T01:56:05.016354+00:00",
     "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-06-20T14:55:50.778270+00:00",
