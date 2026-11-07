@@ -1,14 +1,5 @@
 [
   {
-    "timestamp": "2026-11-04T15:58:36.968021+00:00",
-    "changes": [
-      "Casilla 'Enlace' cambió de estado: en_curso -> completado",
-      "Casilla 'Fecha Pruebas' cambió de estado: pendiente -> en_curso",
-      "'Fecha Pruebas': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 09-11-2026).",
-      "Avance de requisitos para inicio de PES: 91% → 92%."
-    ]
-  },
-  {
     "timestamp": "2026-11-04T21:36:42.440454+00:00",
     "changes": [
       "Casilla 'Fecha Pruebas' cambió de estado: en_curso -> completado",
