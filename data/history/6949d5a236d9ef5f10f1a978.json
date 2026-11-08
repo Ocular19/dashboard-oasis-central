@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2026-11-05T19:42:26.648448+00:00",
-    "changes": [
-      "'Pruebas': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 09-11-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-11-06T15:41:13.310236+00:00",
     "changes": [
       "Casilla 'Pruebas' cambió de estado: en_curso -> completado",
