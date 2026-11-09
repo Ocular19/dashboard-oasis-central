@@ -1,11 +1,12 @@
 [
   {
-    "timestamp": "2026-11-06T15:41:13.310236+00:00",
+    "timestamp": "2026-11-09T21:58:39.271821+00:00",
     "changes": [
-      "Casilla 'Pruebas' cambió de estado: en_curso -> completado",
-      "Casilla 'Pruebas' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 76% → 77%.",
-      "Avance de requisitos para inicio de PES: 93% → 94%."
+      "Casilla 'Opreal' cambió de estado: en_curso -> completado",
+      "Casilla 'Pronósticos' cambió de estado: pendiente -> en_curso",
+      "'Pronósticos': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 16-11-2026).",
+      "Avance general del proyecto: 77% → 79%.",
+      "Avance de requisitos para inicio de PES: 94% → 96%."
     ]
   }
 ]
