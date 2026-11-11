@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-10T21:32:34.419008+00:00",
+  "fetched_at": "2026-11-11T00:28:26.282537+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 77,
-  "completition_pes": 94,
+  "completition_status": 80,
+  "completition_pes": 97,
   "service_estimate_date": "2026-11-02T00:00:00",
   "operative_estimate_date": "2027-02-05T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -160,12 +160,12 @@
     },
     "req5d4da0b036d9ef76163e2e6d": {
       "text": "Prot P",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req5d4da10d36d9ef7615c50d5d": {
       "text": "PO N",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req665604b236d9ef441648202b": {
@@ -200,7 +200,7 @@
     },
     "req5d4c9a3d36d9ef7615c07cfb": {
       "text": "IT PES",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": false
     },
     "req5d4da16b36d9ef76172b5bc4": {
@@ -287,20 +287,6 @@
         "Listado de Requerimientos\n66%\n'ACTUALIZACIÓN DE CRONOGRAMA\nEncargado: Departamento Conexiones\nI.3\nActualización de Cronograma\n¿Qué estoy viendo?\n\nDescripción\n\nDe acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.\n\nEstado: Esta tarea está pendiente.\n\nArchivo(s):\n\n\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n05-11-2026\n\nHistorial de movimientos"
       ]
     },
-    "req5d4da0b036d9ef76163e2e6d": {
-      "casilla": "Prot P",
-      "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'PROTOCOLOS SAT PROTECCIONES\nEncargado: DAOP\nI.1\nSolicitud de revisión de Protocolos de Protecciones\nI.1\nRevisión de Protocolos de Protecciones\n¿Qué estoy viendo?\n\nDescripción\n\nObservaciones a los protocolos de prueba de inyección secundaria de los nuevos relés.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n09-11-2026\n\nDepende de\n\nSolicitud de revisión de Protocolos de Protecciones\nHistorial de movimientos"
-      ]
-    },
-    "req5d4da10d36d9ef7615c50d5d": {
-      "casilla": "PO N",
-      "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n50%\n'PRINT OUT DE RELÉS NUEVOS\nEncargado: DAOP\nI.1\nSolicitud de revisión de Print Out nuevo\nI.1\nRevisión de Print Out nuevos\n¿Qué estoy viendo?\n\nDescripción\n\nObservaciones a los Print Out de los nuevos Relés.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n09-11-2026\n\nDepende de\n\nSolicitud de revisión de Print Out nuevo\nHistorial de movimientos"
-      ]
-    },
     "req665604b236d9ef441648202b": {
       "casilla": "Plan Ener Gx",
       "parent_group": "OTROS PES",
@@ -314,14 +300,29 @@
       "sub_panels": [
         "Listado de Requerimientos\n0%\n'COMUNICACIÓN A LA SEC\nEncargado: Departamento Conexiones\nI.1\nCarta a la SEC\n¿Qué estoy viendo?\n\nDescripción\n\nComunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n13-10-2026\n\nHistorial de movimientos"
       ]
+    },
+    "req5d4c9a3d36d9ef7615c07cfb": {
+      "casilla": "IT PES",
+      "parent_group": "OTROS EO",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'INFOTÉCNICA PARA PES\nEncargado: DAIT\nI.1\nSolicitud de revisión de información técnica\nI.1\nRevisión de Información Técnica\n¿Qué estoy viendo?\n\nDescripción\n\nPara solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-11-2026\n\nHistorial de movimientos"
+      ]
     }
   },
   "first_seen": {
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-11-04T19:27:36.951987+00:00",
-    "req5d4da0b036d9ef76163e2e6d|Observaciones a los protocolos de prueba de inyección secundaria de los nuevos relés.": "2026-10-26T20:48:25.260993+00:00",
-    "req5d4da10d36d9ef7615c50d5d|Observaciones a los Print Out de los nuevos Relés.": "2026-10-26T14:53:14.261164+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
-    "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-10-09T15:00:54.332250+00:00"
+    "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-10-09T15:00:54.332250+00:00",
+    "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-11-11T00:28:26.282735+00:00"
   },
-  "avance_prev": {}
+  "avance_prev": {
+    "completition_status": {
+      "antes": 77,
+      "changed_at": "2026-11-11T00:28:26.282745+00:00"
+    },
+    "completition_pes": {
+      "antes": 94,
+      "changed_at": "2026-11-11T00:28:26.282747+00:00"
+    }
+  }
 }
