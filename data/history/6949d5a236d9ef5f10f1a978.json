@@ -15,5 +15,11 @@
       "Casilla 'Carta SEC' cambió de estado: en_curso -> completado",
       "Avance de requisitos para inicio de PES: 96% → 97%."
     ]
+  },
+  {
+    "timestamp": "2026-11-11T19:17:17.699353+00:00",
+    "changes": [
+      "'Plan Ener Gx': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 25-11-2026)."
+    ]
   }
 ]

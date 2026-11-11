@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-11T11:43:40.197326+00:00",
+  "fetched_at": "2026-11-11T19:18:26.835487+00:00",
   "name": "BESS Gran Teno",
   "correlativo": 5692,
   "completition_status": 81,
@@ -350,7 +350,7 @@
       "casilla": "IT PES",
       "parent_group": "OTROS EO",
       "sub_panels": [
-        "Listado de Requerimientos\n0%\n'INFOTÉCNICA PARA PES\nEncargado: DAIT\nI.1\nSolicitud de revisión de información técnica\nI.1\nRevisión de Información Técnica\n¿Qué estoy viendo?\n\nDescripción\n\nPara solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGAS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n25-09-2026\n\nHistorial de movimientos"
+        "Listado de Requerimientos\n50%\n'INFOTÉCNICA PARA PES\nEncargado: DAIT\nI.1\nSolicitud de revisión de información técnica\nI.1\nRevisión de Información Técnica\n¿Qué estoy viendo?\n\nDescripción\n\nRevisión de información técnica cargada en la plataforma de IT\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n15 días hábiles\n\nFecha límite\n\n02-12-2026\n\nDepende de\n\nSolicitud de revisión de información técnica\nHistorial de movimientos"
       ]
     },
     "req606a67e336d9ef1a2254f2f7": {
@@ -442,7 +442,7 @@
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-09-03T08:40:23.433263+00:00",
     "req60612d9936d9ef0e9752226b|Incorporación de la Empresa a la Plataforma REUC (Solo si no es Coordinada)": "2026-09-24T19:37:42.965141+00:00",
     "req60612e0736d9ef1fc3814808|Incorporación de la Empresa a la Plataforma Portal de Pagos (Solo si no es Coordinada)": "2026-09-24T19:37:42.965152+00:00",
-    "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-09-24T19:37:42.965165+00:00",
+    "req5d4c9a3d36d9ef7615c07cfb|Revisión de información técnica cargada en la plataforma de IT": "2026-11-11T19:18:26.835967+00:00",
     "req5d4da9c336d9ef761837419c|La Empresa Solicitante debe enviar antecedentes para la declaración de Costos Variables Combustibles y No Combustibles": "2026-09-24T19:37:42.965179+00:00",
     "req5d4da87e36d9ef76183739c3|La Empresa Solicitante debe enviar un informe y la base de datos para la Validación del Modelo Dinámico": "2026-09-24T19:37:42.965187+00:00",
     "req5d4da5d136d9ef761837315b|La Empresa Solicitante debe cargar la carta y constancia de envío del sistema de correspondencia del Coordinador, mediante la cual envían el Informe de Potencia Máxima en unidades generadoras.": "2026-09-24T19:37:42.965196+00:00",
