@@ -9,5 +9,11 @@
       "Avance general del proyecto: 77% → 80%.",
       "Avance de requisitos para inicio de PES: 94% → 97%."
     ]
+  },
+  {
+    "timestamp": "2026-11-12T16:36:37.633966+00:00",
+    "changes": [
+      "Casilla 'IT PES' cambió de estado: en_curso -> pendiente"
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T12:17:25.067995+00:00",
+  "fetched_at": "2026-11-12T16:36:37.632911+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 80,
@@ -200,7 +200,7 @@
     },
     "req5d4c9a3d36d9ef7615c07cfb": {
       "text": "IT PES",
-      "state": "en_curso",
+      "state": "pendiente",
       "is_container": false
     },
     "req5d4da16b36d9ef76172b5bc4": {
@@ -300,20 +300,12 @@
       "sub_panels": [
         "Listado de Requerimientos\n0%\n'COMUNICACIÓN A LA SEC\nEncargado: Departamento Conexiones\nI.1\nCarta a la SEC\n¿Qué estoy viendo?\n\nDescripción\n\nComunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n13-10-2026\n\nHistorial de movimientos"
       ]
-    },
-    "req5d4c9a3d36d9ef7615c07cfb": {
-      "casilla": "IT PES",
-      "parent_group": "OTROS EO",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'INFOTÉCNICA PARA PES\nEncargado: DAIT\nI.1\nSolicitud de revisión de información técnica\nI.1\nRevisión de Información Técnica\n¿Qué estoy viendo?\n\nDescripción\n\nPara solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n11-11-2026\n\nHistorial de movimientos"
-      ]
     }
   },
   "first_seen": {
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-11-04T19:27:36.951987+00:00",
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-06-22T16:58:19.593865+00:00",
-    "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-10-09T15:00:54.332250+00:00",
-    "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-11-11T00:28:26.282735+00:00"
+    "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-10-09T15:00:54.332250+00:00"
   },
   "avance_prev": {
     "completition_status": {
