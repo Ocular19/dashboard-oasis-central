@@ -15,5 +15,11 @@
     "changes": [
       "Casilla 'IT PES' cambió de estado: en_curso -> pendiente"
     ]
+  },
+  {
+    "timestamp": "2026-11-12T19:35:40.509696+00:00",
+    "changes": [
+      "'Plan Ener Gx': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 26-11-2026)."
+    ]
   }
 ]
