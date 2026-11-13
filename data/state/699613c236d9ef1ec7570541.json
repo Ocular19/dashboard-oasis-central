@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-13T11:56:01.726689+00:00",
+  "fetched_at": "2026-11-13T15:56:13.769722+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
-  "completition_status": 80,
-  "completition_pes": 97,
+  "completition_status": 81,
+  "completition_pes": 98,
   "service_estimate_date": "2026-11-02T00:00:00",
   "operative_estimate_date": "2027-02-05T00:00:00",
   "reception_date": "2026-02-16T00:00:00",
@@ -180,7 +180,7 @@
     },
     "req5d4d9fe036d9ef7615c4a7d9": {
       "text": "Carta SEC",
-      "state": "en_curso",
+      "state": "completado",
       "is_container": false
     },
     "req604792ec36d9ef3b4fd75707": {
@@ -293,28 +293,20 @@
       "sub_panels": [
         "Listado de Requerimientos\n50%\nPLAN DE ENERGIZACIÓN GENERACIÓN\nEncargado: Departamento Conexiones\nI.1\nRecepción plan de energización Generación\nI.1\nRevisión Plan de Energización Generación\n¿Qué estoy viendo?\n\nDescripción\n\nEl coordinador emitirá su aprobación u observaciones al documento\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nPlazo\n\n10 días hábiles\n\nFecha límite\n\n26-11-2026\n\nDepende de\n\nRecepción plan de energización Generación\nHistorial de movimientos"
       ]
-    },
-    "req5d4d9fe036d9ef7615c4a7d9": {
-      "casilla": "Carta SEC",
-      "parent_group": "OTROS PES",
-      "sub_panels": [
-        "Listado de Requerimientos\n0%\n'COMUNICACIÓN A LA SEC\nEncargado: Departamento Conexiones\nI.1\nCarta a la SEC\n¿Qué estoy viendo?\n\nDescripción\n\nComunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGLS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n13-10-2026\n\nHistorial de movimientos"
-      ]
     }
   },
   "first_seen": {
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-11-04T19:27:36.951987+00:00",
-    "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-11-12T19:35:40.509056+00:00",
-    "req5d4d9fe036d9ef7615c4a7d9|Comunicación a la SEC con 15 días de anticipación a la energización de instalaciones, según se indica en el Artículo 72°17 de la LGSE": "2026-10-09T15:00:54.332250+00:00"
+    "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-11-12T19:35:40.509056+00:00"
   },
   "avance_prev": {
     "completition_status": {
       "antes": 77,
-      "changed_at": "2026-11-11T00:28:26.282745+00:00"
+      "changed_at": "2026-11-13T15:56:13.769851+00:00"
     },
     "completition_pes": {
       "antes": 94,
-      "changed_at": "2026-11-11T00:28:26.282747+00:00"
+      "changed_at": "2026-11-13T15:56:13.769854+00:00"
     }
   }
 }
