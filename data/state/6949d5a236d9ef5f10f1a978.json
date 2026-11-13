@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T21:57:38.954297+00:00",
+  "fetched_at": "2026-11-13T00:56:45.682028+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 79,
@@ -343,10 +343,6 @@
     "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-10-15T02:01:00.810069+00:00"
   },
   "avance_prev": {
-    "completition_status": {
-      "antes": 77,
-      "changed_at": "2026-11-09T21:58:39.271109+00:00"
-    },
     "completition_pes": {
       "antes": 94,
       "changed_at": "2026-11-10T16:07:24.079269+00:00"
