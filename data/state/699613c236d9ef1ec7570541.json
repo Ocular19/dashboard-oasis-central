@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T12:30:10.865970+00:00",
+  "fetched_at": "2026-11-16T17:59:02.114864+00:00",
   "name": "NI BESS Tamango ",
   "correlativo": 6092,
   "completition_status": 81,
@@ -299,14 +299,5 @@
     "req60ad0d0d36d9ef44f12350ef|De acuerdo con el Artículo 5 letra c) del Anexo Técnico: Requisitos Técnicos Mínimos de Instalaciones que se Interconectan al SI, las empresas solicitantes deben mantener actualizado el cronograma del proyecto.": "2026-11-04T19:27:36.951987+00:00",
     "req665604b236d9ef441648202b|El coordinador emitirá su aprobación u observaciones al documento": "2026-11-12T19:35:40.509056+00:00"
   },
-  "avance_prev": {
-    "completition_status": {
-      "antes": 77,
-      "changed_at": "2026-11-13T15:56:13.769851+00:00"
-    },
-    "completition_pes": {
-      "antes": 94,
-      "changed_at": "2026-11-13T15:56:13.769854+00:00"
-    }
-  }
+  "avance_prev": {}
 }
