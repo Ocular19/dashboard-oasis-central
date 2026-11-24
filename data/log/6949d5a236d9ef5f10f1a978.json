@@ -1,137 +1,5 @@
 [
   {
-    "timestamp": "2026-10-08T18:28:55.653347+00:00",
-    "changes": [
-      "'Opreal': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 30-10-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Opreal",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "30-10-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-10-09T20:23:44.022479+00:00",
-    "changes": [
-      "'Opreal': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 13-10-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Opreal",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "13-10-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-10-15T02:01:00.811361+00:00",
-    "changes": [
-      "Casilla 'Prot P' cambió de estado: en_curso -> completado",
-      "Casilla 'PO N' cambió de estado: en_curso -> completado",
-      "Casilla 'IT PES' cambió de estado: pendiente -> en_curso",
-      "Casilla 'IT PES (inv)' cambió de estado: pendiente -> en_curso",
-      "'Prot E': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 15-10-2026).",
-      "'IT PES': nuevo pendiente — Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 15-10-2026).",
-      "Avance general del proyecto: 60% → 62%.",
-      "Avance de requisitos para inicio de PES: 72% → 75%."
-    ],
-    "alerts": [
-      {
-        "casilla": "Prot P",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "PO N",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "IT PES",
-        "evento": "Cambió de estado (pendiente → en_curso)",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "15-10-2026"
-      },
-      {
-        "casilla": "IT PES (inv)",
-        "evento": "Cambió de estado (pendiente → en_curso)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "Prot E",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "15-10-2026"
-      },
-      {
-        "casilla": "IT PES",
-        "evento": "Nuevo pendiente",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "15-10-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-10-15T19:32:34.057334+00:00",
-    "changes": [
-      "'Prot E': avanzó de etapa — ahora Esperando respuesta/revisión del Coordinador (CEN) (fecha límite 29-10-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Prot E",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
-        "fecha_limite": "29-10-2026"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-10-16T22:40:42.718056+00:00",
-    "changes": [
-      "Casilla 'EFP' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 62% → 66%.",
-      "Avance de requisitos para inicio de PES: 75% → 80%."
-    ],
-    "alerts": [
-      {
-        "casilla": "EFP",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-10-19T15:18:41.652074+00:00",
-    "changes": [
-      "Casilla 'INFORMACIÓN TÉCNICA' cambió de estado: pendiente -> completado",
-      "Casilla 'INFOTÉCNICA PARA ESTUDIOS' cambió de estado: en_curso -> completado",
-      "Avance general del proyecto: 66% → 68%.",
-      "Avance de requisitos para inicio de PES: 80% → 83%."
-    ],
-    "alerts": [
-      {
-        "casilla": "INFORMACIÓN TÉCNICA",
-        "evento": "Cambió de estado (pendiente → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "INFOTÉCNICA PARA ESTUDIOS",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-20T19:42:35.409532+00:00",
     "changes": [
       "Casilla 'IT PES (inv)' cambió de estado: en_curso -> pendiente"
@@ -407,6 +275,20 @@
         "casilla": "Plan Ener Gx",
         "evento": "Avanzó de etapa",
         "quien": "Esperando respuesta/revisión del Coordinador (CEN)",
+        "fecha_limite": "25-11-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-24T19:21:38.888301+00:00",
+    "changes": [
+      "'Plan Ener Gx': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 25-11-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "Plan Ener Gx",
+        "evento": "Avanzó de etapa",
+        "quien": "Esperando que Grenergy cargue un documento",
         "fecha_limite": "25-11-2026"
       }
     ]
