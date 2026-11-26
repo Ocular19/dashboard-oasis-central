@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-26T18:09:42.180660+00:00",
+  "fetched_at": "2026-11-26T20:58:40.019562+00:00",
   "name": "PFV BESS Planchón",
   "correlativo": 5442,
   "completition_status": 79,
@@ -215,7 +215,7 @@
     },
     "req60ca07ce36d9ef38d7c4e6bc": {
       "text": "PLATAFORMAS EO",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": true
     },
     "req60612d9936d9ef0e9752226b": {
@@ -245,17 +245,17 @@
     },
     "req5d4da16b36d9ef76172b5bc4": {
       "text": "PO E",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": false
     },
     "req64e3afeb36d9ef23190ab0a4": {
       "text": "Pruebas End to End",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": false
     },
     "req5d4da9c336d9ef761837419c": {
       "text": "CVNC",
-      "state": "pendiente",
+      "state": "en_curso",
       "is_container": false
     },
     "req5d4da87e36d9ef76183739c3": {
@@ -335,12 +335,36 @@
       "sub_panels": [
         "Listado de Requerimientos\n0%\n'INFOTÉCNICA PARA PES\nEncargado: DAIT\nI.1\nSolicitud de revisión de información técnica\nI.1\nRevisión de Información Técnica\n¿Qué estoy viendo?\n\nDescripción\n\nPara solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n15-10-2026\n\nHistorial de movimientos"
       ]
+    },
+    "req5d4da16b36d9ef76172b5bc4": {
+      "casilla": "PO E",
+      "parent_group": "OTROS EO",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'PRINT OUT DE RELÉS EXISTENTES\nEncargado: DAOP\nI.1\nSolicitud de Revisión de Print Out existentes\nI.1\nRevisión de Print Out existente\n¿Qué estoy viendo?\n\nDescripción\n\nSolicitud de revisión de Print Out de Relés existentes modificados.\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n27-11-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req64e3afeb36d9ef23190ab0a4": {
+      "casilla": "Pruebas End to End",
+      "parent_group": "OTROS EO",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\nPRUEBAS END TO END\nEncargado: DAOP\nI.1\nSolicitud de Revisión de Pruebas End to End\nI.1\nRevisión de Pruebas End to End\n¿Qué estoy viendo?\n\nDescripción\n\nSolicitud de Revisión de Pruebas End to End\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n27-11-2026\n\nHistorial de movimientos"
+      ]
+    },
+    "req5d4da9c336d9ef761837419c": {
+      "casilla": "CVNC",
+      "parent_group": "OTROS EO",
+      "sub_panels": [
+        "Listado de Requerimientos\n0%\n'DECLARACIÓN DE CVC-CVNC\nEncargado: Departamento Conexiones\nI.1\nRecepción de antecedentes para la declaración de CVC-CVNC\nI.1\nRevisión de antecedentes para la declaración de CVC-CVNC\n¿Qué estoy viendo?\n\nDescripción\n\nLa Empresa Solicitante debe enviar antecedentes para la declaración de Costos Variables Combustibles y No Combustibles\n\nEstado: Esta tarea está pendiente.\n\nResponsable\n\nGRS\n\nPlazo\n\n1 días hábiles\n\nFecha límite\n\n27-11-2026\n\nHistorial de movimientos"
+      ]
     }
   },
   "first_seen": {
     "req665604b236d9ef441648202b|La Empresa solicitante debe hacer envío del plan de Energización de acuerdo al AT.": "2026-11-24T19:21:38.886778+00:00",
     "req604791af36d9ef530b47bbd7|Confirmación del correcto envío de Pronósticos a través de la Plataforma Opreal": "2026-11-09T21:58:39.271083+00:00",
-    "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-10-15T02:01:00.810069+00:00"
+    "req5d4c9a3d36d9ef7615c07cfb|Para solicitar revisión de Información Tecnica se debe cumplir con los porcentajes de Completitud minimos solicitados en el ANIT. Una vez revisada la información se procedera de acuerdo a lo informado en los documentos de revisión de la Información Técnica. Para solicitar una nueva revisión, se debe incluir una Minuta de Respuestas a las Observaciones emitidas por el Coordinador.": "2026-10-15T02:01:00.810069+00:00",
+    "req5d4da16b36d9ef76172b5bc4|Solicitud de revisión de Print Out de Relés existentes modificados.": "2026-11-26T20:58:40.019833+00:00",
+    "req64e3afeb36d9ef23190ab0a4|Solicitud de Revisión de Pruebas End to End": "2026-11-26T20:58:40.019843+00:00",
+    "req5d4da9c336d9ef761837419c|La Empresa Solicitante debe enviar antecedentes para la declaración de Costos Variables Combustibles y No Combustibles": "2026-11-26T20:58:40.019852+00:00"
   },
   "avance_prev": {}
 }

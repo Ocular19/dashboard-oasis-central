@@ -1,56 +1,5 @@
 [
   {
-    "timestamp": "2026-10-20T19:42:35.409532+00:00",
-    "changes": [
-      "Casilla 'IT PES (inv)' cambió de estado: en_curso -> pendiente"
-    ],
-    "alerts": [
-      {
-        "casilla": "IT PES (inv)",
-        "evento": "Cambió de estado (en_curso → pendiente)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-10-21T16:41:51.841229+00:00",
-    "changes": [
-      "Casilla 'Prog P' cambió de estado: en_curso -> completado",
-      "Casilla 'Neomante' cambió de estado: pendiente -> completado",
-      "Avance general del proyecto: 68% → 71%.",
-      "Avance de requisitos para inicio de PES: 83% → 87%."
-    ],
-    "alerts": [
-      {
-        "casilla": "Prog P",
-        "evento": "Cambió de estado (en_curso → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      },
-      {
-        "casilla": "Neomante",
-        "evento": "Cambió de estado (pendiente → completado)",
-        "quien": "Sin acción pendiente (completada)",
-        "fecha_limite": "-"
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-10-22T16:42:49.194294+00:00",
-    "changes": [
-      "'Fecha Pruebas': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 27-10-2026)."
-    ],
-    "alerts": [
-      {
-        "casilla": "Fecha Pruebas",
-        "evento": "Avanzó de etapa",
-        "quien": "Esperando que Grenergy cargue un documento",
-        "fecha_limite": "27-10-2026"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-26T14:53:05.539364+00:00",
     "changes": [
       "'Fecha Pruebas': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 28-10-2026)."
@@ -290,6 +239,55 @@
         "evento": "Avanzó de etapa",
         "quien": "Esperando que Grenergy cargue un documento",
         "fecha_limite": "25-11-2026"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-26T20:58:40.021324+00:00",
+    "changes": [
+      "Casilla 'PO E' cambió de estado: pendiente -> en_curso",
+      "Casilla 'Pruebas End to End' cambió de estado: pendiente -> en_curso",
+      "Casilla 'CVNC' cambió de estado: pendiente -> en_curso",
+      "'PO E': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 27-11-2026).",
+      "'Pruebas End to End': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 27-11-2026).",
+      "'CVNC': nuevo pendiente — Esperando que Grenergy cargue un documento (fecha límite 27-11-2026)."
+    ],
+    "alerts": [
+      {
+        "casilla": "PO E",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "27-11-2026"
+      },
+      {
+        "casilla": "Pruebas End to End",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "27-11-2026"
+      },
+      {
+        "casilla": "CVNC",
+        "evento": "Cambió de estado (pendiente → en_curso)",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "27-11-2026"
+      },
+      {
+        "casilla": "PO E",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "27-11-2026"
+      },
+      {
+        "casilla": "Pruebas End to End",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "27-11-2026"
+      },
+      {
+        "casilla": "CVNC",
+        "evento": "Nuevo pendiente",
+        "quien": "Esperando que Grenergy cargue un documento",
+        "fecha_limite": "27-11-2026"
       }
     ]
   }
