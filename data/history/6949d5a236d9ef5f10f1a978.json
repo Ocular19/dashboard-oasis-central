@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2026-11-24T19:21:38.887652+00:00",
-    "changes": [
-      "'Plan Ener Gx': avanzó de etapa — ahora Esperando que Grenergy cargue un documento (fecha límite 25-11-2026)."
-    ]
-  },
-  {
     "timestamp": "2026-11-26T20:58:40.020711+00:00",
     "changes": [
       "Casilla 'PO E' cambió de estado: pendiente -> en_curso",
